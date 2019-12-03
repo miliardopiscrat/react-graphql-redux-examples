@@ -1,0 +1,13 @@
+type Query {
+  books: [Book!]!
+}
+
+type Mutation {
+  borrowBook(id: Int!): Boolean
+}
+
+type Book {
+  id: String!
+  title: String
+  author: String
+}
