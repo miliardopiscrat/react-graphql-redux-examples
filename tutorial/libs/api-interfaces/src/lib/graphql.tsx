@@ -1,7 +1,6 @@
 import gql from 'graphql-tag';
 import * as ApolloReactCommon from '@apollo/react-common';
 import * as ApolloReactHooks from '@apollo/react-hooks';
-
 export type Maybe<T> = T | null;
 /** All built-in and custom scalars, mapped to their actual values */
 export type Scalars = {
@@ -13,14 +12,19 @@ export type Scalars = {
 };
 
 export type Book = {
-  __typename?: 'Book',
-  id: Scalars['String'],
+   __typename?: 'Book',
+  id: Scalars['ID'],
   title?: Maybe<Scalars['String']>,
   author?: Maybe<Scalars['String']>,
 };
 
+export type BorrowInfo = {
+   __typename?: 'BorrowInfo',
+  id: Scalars['Int'],
+};
+
 export type Mutation = {
-  __typename?: 'Mutation',
+   __typename?: 'Mutation',
   borrowBook?: Maybe<Scalars['Boolean']>,
 };
 
@@ -30,8 +34,13 @@ export type MutationBorrowBookArgs = {
 };
 
 export type Query = {
-  __typename?: 'Query',
+   __typename?: 'Query',
   books: Array<Book>,
+};
+
+export type Subscription = {
+   __typename?: 'Subscription',
+  borrowBooksChannel?: Maybe<BorrowInfo>,
 };
 
 export type BorrowBookMutationVariables = {
@@ -42,27 +51,36 @@ export type BorrowBookMutationVariables = {
 export type BorrowBookMutation = (
   { __typename?: 'Mutation' }
   & Pick<Mutation, 'borrowBook'>
-  );
+);
 
 export type GetBooksQueryVariables = {};
 
 
 export type GetBooksQuery = (
   { __typename?: 'Query' }
-  & {
-  books: Array<(
+  & { books: Array<(
     { __typename?: 'Book' }
     & Pick<Book, 'author' | 'title'>
-    )>
-}
-  );
+  )> }
+);
+
+export type SubscribeToBorrowBooksChannelSubscriptionVariables = {};
+
+
+export type SubscribeToBorrowBooksChannelSubscription = (
+  { __typename?: 'Subscription' }
+  & { borrowBooksChannel: Maybe<(
+    { __typename?: 'BorrowInfo' }
+    & Pick<BorrowInfo, 'id'>
+  )> }
+);
 
 
 export const BorrowBookDocument = gql`
     mutation borrowBook($id: Int!) {
-        borrowBook(id: $id)
-    }
-`;
+  borrowBook(id: $id)
+}
+    `;
 export type BorrowBookMutationFn = ApolloReactCommon.MutationFunction<BorrowBookMutation, BorrowBookMutationVariables>;
 
 /**
@@ -83,26 +101,25 @@ export type BorrowBookMutationFn = ApolloReactCommon.MutationFunction<BorrowBook
  * });
  */
 export function useBorrowBookMutation(baseOptions?: ApolloReactHooks.MutationHookOptions<BorrowBookMutation, BorrowBookMutationVariables>) {
-  return ApolloReactHooks.useMutation<BorrowBookMutation, BorrowBookMutationVariables>(BorrowBookDocument, baseOptions);
-}
-
+        return ApolloReactHooks.useMutation<BorrowBookMutation, BorrowBookMutationVariables>(BorrowBookDocument, baseOptions);
+      }
 export type BorrowBookMutationHookResult = ReturnType<typeof useBorrowBookMutation>;
 export type BorrowBookMutationResult = ApolloReactCommon.MutationResult<BorrowBookMutation>;
 export type BorrowBookMutationOptions = ApolloReactCommon.BaseMutationOptions<BorrowBookMutation, BorrowBookMutationVariables>;
 export const GetBooksDocument = gql`
     query getBooks {
-        books {
-            author
-            title
-        }
-    }
-`;
+  books {
+    author
+    title
+  }
+}
+    `;
 
 /**
  * __useGetBooksQuery__
  *
  * To run a query within a React component, call `useGetBooksQuery` and pass it any options that fit your needs.
- * When your component renders, `useGetBooksQuery` returns an object from Apollo Client that contains loading, error, and data properties
+ * When your component renders, `useGetBooksQuery` returns an object from Apollo Client that contains loading, error, and data properties 
  * you can use to render your UI.
  *
  * @param baseOptions options that will be passed into the query, supported options are listed on: https://www.apollographql.com/docs/react/api/react-hooks/#options;
@@ -114,13 +131,39 @@ export const GetBooksDocument = gql`
  * });
  */
 export function useGetBooksQuery(baseOptions?: ApolloReactHooks.QueryHookOptions<GetBooksQuery, GetBooksQueryVariables>) {
-  return ApolloReactHooks.useQuery<GetBooksQuery, GetBooksQueryVariables>(GetBooksDocument, baseOptions);
-}
-
+        return ApolloReactHooks.useQuery<GetBooksQuery, GetBooksQueryVariables>(GetBooksDocument, baseOptions);
+      }
 export function useGetBooksLazyQuery(baseOptions?: ApolloReactHooks.LazyQueryHookOptions<GetBooksQuery, GetBooksQueryVariables>) {
-  return ApolloReactHooks.useLazyQuery<GetBooksQuery, GetBooksQueryVariables>(GetBooksDocument, baseOptions);
-}
-
+          return ApolloReactHooks.useLazyQuery<GetBooksQuery, GetBooksQueryVariables>(GetBooksDocument, baseOptions);
+        }
 export type GetBooksQueryHookResult = ReturnType<typeof useGetBooksQuery>;
 export type GetBooksLazyQueryHookResult = ReturnType<typeof useGetBooksLazyQuery>;
 export type GetBooksQueryResult = ApolloReactCommon.QueryResult<GetBooksQuery, GetBooksQueryVariables>;
+export const SubscribeToBorrowBooksChannelDocument = gql`
+    subscription subscribeToBorrowBooksChannel {
+  borrowBooksChannel {
+    id
+  }
+}
+    `;
+
+/**
+ * __useSubscribeToBorrowBooksChannelSubscription__
+ *
+ * To run a query within a React component, call `useSubscribeToBorrowBooksChannelSubscription` and pass it any options that fit your needs.
+ * When your component renders, `useSubscribeToBorrowBooksChannelSubscription` returns an object from Apollo Client that contains loading, error, and data properties 
+ * you can use to render your UI.
+ *
+ * @param baseOptions options that will be passed into the subscription, supported options are listed on: https://www.apollographql.com/docs/react/api/react-hooks/#options;
+ *
+ * @example
+ * const { data, loading, error } = useSubscribeToBorrowBooksChannelSubscription({
+ *   variables: {
+ *   },
+ * });
+ */
+export function useSubscribeToBorrowBooksChannelSubscription(baseOptions?: ApolloReactHooks.SubscriptionHookOptions<SubscribeToBorrowBooksChannelSubscription, SubscribeToBorrowBooksChannelSubscriptionVariables>) {
+        return ApolloReactHooks.useSubscription<SubscribeToBorrowBooksChannelSubscription, SubscribeToBorrowBooksChannelSubscriptionVariables>(SubscribeToBorrowBooksChannelDocument, baseOptions);
+      }
+export type SubscribeToBorrowBooksChannelSubscriptionHookResult = ReturnType<typeof useSubscribeToBorrowBooksChannelSubscription>;
+export type SubscribeToBorrowBooksChannelSubscriptionResult = ApolloReactCommon.SubscriptionResult<SubscribeToBorrowBooksChannelSubscription>;

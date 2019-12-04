@@ -1,6 +1,3 @@
-import { importSchema } from 'graphql-import';
+import { loader } from 'graphql.macro';
 
-export const typeDefs = importSchema('./libs/api-interfaces/src/lib/graphql/schema.graphql');
-
-
-
+export const schema =  loader('./graphql/schema.graphql');

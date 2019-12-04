@@ -1,51 +1,14 @@
-import * as express from 'express';
-import { BorrowBookMutationVariables, typeDefs } from '@tutorial/api-interfaces';
-import { json } from 'body-parser';
-import { graphqlExpress, graphiqlExpress } from 'apollo-server-express';
-import { makeExecutableSchema } from 'graphql-tools';
-import { borrowBook } from './app/mutations/borrow-book';
-import { books } from './app/repository/books';
-import { SubscriptionServer } from 'subscriptions-transport-ws';
-import { execute, subscribe } from 'graphql';
+import { ApolloServer } from 'apollo-server';
+import { resolvers } from './app/resolvers/resolvers';
 import { gql } from 'apollo-boost';
-import { PubSub } from 'graphql-subscriptions';
+import { importSchema } from 'graphql-import';
 
 const port = process.env.port || 3333;
-const pubsub = new PubSub();
-const resolvers = {
-  Query: { books: () => books },
-  Mutation: {
-    borrowBook: (_: undefined, variables: BorrowBookMutationVariables) => {
-      return borrowBook(variables);
-    }
-  }
-};
+const schema = importSchema('./libs/api-interfaces/src/lib/graphql/schema.graphql');
 
-const schema = makeExecutableSchema({
-  typeDefs,
-  resolvers
+const server = new ApolloServer({ typeDefs: gql(schema), resolvers, tracing: true });
+
+server.listen({ port }).then(({ url, subscriptionsUrl }) => {
+  console.log(`🚀  Server ready at ${url}`);
+  console.log(`🚀 Subscriptions ready at ${subscriptionsUrl}`);
 });
-
-const app = express();
-
-app.use('/graphql', json(), graphqlExpress({ schema }));
-app.use('/graphiql', graphiqlExpress({
-  endpointURL: '/graphql',
-  subscriptionsEndpoint: `ws://localhost:${port}/subscriptions`
-}));
-
-
-const server = app.listen(port, () => {
-  new SubscriptionServer({
-    execute,
-    subscribe,
-    schema: gql(typeDefs)
-  }, {
-    server: server,
-    path: '/subscriptions'
-  });
-
-  console.log(`Apollo Server is now running on http://localhost:${port}`);
-
-});
-server.on('error', console.error);

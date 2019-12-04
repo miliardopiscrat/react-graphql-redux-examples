@@ -12,3 +12,19 @@ export const books: Book[] = [
     author: 'Michael Crichton'
   }
 ];
+
+
+setInterval((() => {
+  let id = 2;
+  return () => {
+    if(id < 10) {
+
+      books.push({
+        id: `${id++}`,
+        title: 'OTHER',
+        author: 'OTHER'
+      });
+    }
+  }
+
+})(), 5000);
