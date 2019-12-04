@@ -47,8 +47,10 @@
     "redux": "^4.0.4",
     "redux-ngrx-entity": "^7.0.1",
     "redux-observable": "^1.2.0",
+    "reselect": "^4.0.0",
+    "rxjs": "^6.4.0",
     "subscriptions-transport-ws": "^0.9.16",
-    "reselect": "^4.0.0"
+    "superagent": "^5.1.2"
   },
   "devDependencies": {
     "@types/react-redux": "^7.1.5",

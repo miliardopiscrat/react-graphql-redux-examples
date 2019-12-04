@@ -4,6 +4,7 @@ import { createAction, createReducer, createSelector } from '@reduxjs/toolkit';
 import { ApplicationStore } from 'apps/tutorial-react/src/app/core/redux-store';
 
 export const loadBooksAction = createAction<Book[]>('LOAD_BOOKS');
+export const borrowBookAction = createAction<number>('BORROW_BOOK');
 
 export interface BooksState extends EntityState<Book> {
   loaded: boolean;
