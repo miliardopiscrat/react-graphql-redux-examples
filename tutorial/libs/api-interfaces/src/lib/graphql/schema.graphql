@@ -4,6 +4,10 @@ type Query {
   books: [Book!]!
 }
 
+extend type Query {
+  lastBorrowBookSuccess: Boolean
+}
+
 type Mutation {
   borrowBook(id: Int!): Boolean
 }

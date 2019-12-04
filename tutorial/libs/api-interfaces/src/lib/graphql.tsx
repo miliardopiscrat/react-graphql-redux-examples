@@ -11,6 +11,7 @@ export type Scalars = {
   Float: number,
 };
 
+
 export type Book = {
    __typename?: 'Book',
   id: Scalars['ID'],
@@ -36,6 +37,7 @@ export type MutationBorrowBookArgs = {
 export type Query = {
    __typename?: 'Query',
   books: Array<Book>,
+  lastBorrowBookSuccess?: Maybe<Scalars['Boolean']>,
 };
 
 export type Subscription = {

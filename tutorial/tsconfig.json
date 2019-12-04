@@ -24,6 +24,9 @@
     "paths": {
       "@tutorial/api-interfaces": [
         "libs/api-interfaces/src/index.ts"
+      ],
+      "@tutorial/api-interfaces/schema": [
+        "libs/api-interfaces/src/lib/graphql/schema.graphql"
       ]
     }
   },

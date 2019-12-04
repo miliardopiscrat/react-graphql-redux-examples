@@ -92,6 +92,66 @@
   dependencies:
     tslib "^1.9.0"
 
+"@apollo/protobufjs@^1.0.3":
+  version "1.0.3"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@apollo/protobufjs/-/protobufjs-1.0.3.tgz#02c655aedd4ba7c7f64cbc3d2b1dd9a000a391ba"
+  integrity sha1-AsZVrt1Lp8f2TLw9Kx3ZoACjkbo=
+  dependencies:
+    "@protobufjs/aspromise" "^1.1.2"
+    "@protobufjs/base64" "^1.1.2"
+    "@protobufjs/codegen" "^2.0.4"
+    "@protobufjs/eventemitter" "^1.1.0"
+    "@protobufjs/fetch" "^1.1.0"
+    "@protobufjs/float" "^1.0.2"
+    "@protobufjs/inquire" "^1.1.0"
+    "@protobufjs/path" "^1.1.2"
+    "@protobufjs/pool" "^1.1.0"
+    "@protobufjs/utf8" "^1.1.0"
+    "@types/long" "^4.0.0"
+    "@types/node" "^10.1.0"
+    long "^4.0.0"
+
+"@apollo/react-common@^3.1.3":
+  version "3.1.3"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@apollo/react-common/-/react-common-3.1.3.tgz#ddc34f6403f55d47c0da147fd4756dfd7c73dac5"
+  integrity sha1-3cNPZAP1XUfA2hR/1HVt/Xxz2sU=
+  dependencies:
+    ts-invariant "^0.4.4"
+    tslib "^1.10.0"
+
+"@apollo/react-components@^3.1.3":
+  version "3.1.3"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@apollo/react-components/-/react-components-3.1.3.tgz#8f6726847cd9b0eb4b22586b1a038d29aa8b1da4"
+  integrity sha1-j2cmhHzZsOtLIlhrGgONKaqLHaQ=
+  dependencies:
+    "@apollo/react-common" "^3.1.3"
+    "@apollo/react-hooks" "^3.1.3"
+    prop-types "^15.7.2"
+    ts-invariant "^0.4.4"
+    tslib "^1.10.0"
+
+"@apollo/react-hooks@^3.1.3":
+  version "3.1.3"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@apollo/react-hooks/-/react-hooks-3.1.3.tgz#ad42c7af78e81fee0f30e53242640410d5bd0293"
+  integrity sha1-rULHr3joH+4PMOUyQmQEENW9ApM=
+  dependencies:
+    "@apollo/react-common" "^3.1.3"
+    "@wry/equality" "^0.1.9"
+    ts-invariant "^0.4.4"
+    tslib "^1.10.0"
+
+"@apollographql/apollo-tools@^0.4.0":
+  version "0.4.1"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@apollographql/apollo-tools/-/apollo-tools-0.4.1.tgz#bfe582d7da4d0f9d449c059cfc983a46f331d529"
+  integrity sha1-v+WC19pND51EnAWc/Jg6RvMx1Sk=
+  dependencies:
+    apollo-env "^0.6.0"
+
+"@apollographql/graphql-playground-html@1.6.24":
+  version "1.6.24"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@apollographql/graphql-playground-html/-/graphql-playground-html-1.6.24.tgz#3ce939cb127fb8aaa3ffc1e90dff9b8af9f2e3dc"
+  integrity sha1-POk5yxJ/uKqj/8HpDf+bivny49w=
+
 "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.5.5":
   version "7.5.5"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@babel/code-frame/-/code-frame-7.5.5.tgz#bc0782f6d69f7b7d49531219699b988f669a8f9d"
@@ -119,7 +179,7 @@
     semver "^5.4.1"
     source-map "^0.5.0"
 
-"@babel/core@^7.0.1", "@babel/core@^7.1.0":
+"@babel/core@^7.0.0", "@babel/core@^7.0.1", "@babel/core@^7.1.0":
   version "7.7.4"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@babel/core/-/core-7.7.4.tgz#37e864532200cb6b50ee9a4045f5f817840166ab"
   integrity sha1-N+hkUyIAy2tQ7ppARfX4F4QBZqs=
@@ -139,7 +199,7 @@
     semver "^5.4.1"
     source-map "^0.5.0"
 
-"@babel/generator@^7.4.0", "@babel/generator@^7.5.5", "@babel/generator@^7.7.4":
+"@babel/generator@^7.0.0", "@babel/generator@^7.4.0", "@babel/generator@^7.5.5", "@babel/generator@^7.7.4":
   version "7.7.4"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@babel/generator/-/generator-7.7.4.tgz#db651e2840ca9aa66f327dcec1dc5f5fa9611369"
   integrity sha1-22UeKEDKmqZvMn3OwdxfX6lhE2k=
@@ -350,7 +410,7 @@
     esutils "^2.0.2"
     js-tokens "^4.0.0"
 
-"@babel/parser@^7.1.0", "@babel/parser@^7.4.3", "@babel/parser@^7.5.5", "@babel/parser@^7.7.4":
+"@babel/parser@7.7.4", "@babel/parser@^7.0.0", "@babel/parser@^7.1.0", "@babel/parser@^7.4.3", "@babel/parser@^7.4.4", "@babel/parser@^7.5.5", "@babel/parser@^7.7.4":
   version "7.7.4"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@babel/parser/-/parser-7.7.4.tgz#75ab2d7110c2cf2fa949959afb05fa346d2231bb"
   integrity sha1-dastcRDCzy+pSZWa+wX6NG0iMbs=
@@ -370,6 +430,14 @@
   integrity sha1-qXTPrh43wxEOcfPGouSLjnGVjNQ=
   dependencies:
     "@babel/helper-create-class-features-plugin" "^7.5.5"
+    "@babel/helper-plugin-utils" "^7.0.0"
+
+"@babel/plugin-proposal-class-properties@^7.0.0":
+  version "7.7.4"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@babel/plugin-proposal-class-properties/-/plugin-proposal-class-properties-7.7.4.tgz#2f964f0cb18b948450362742e33e15211e77c2ba"
+  integrity sha1-L5ZPDLGLlIRQNidC4z4VIR53wro=
+  dependencies:
+    "@babel/helper-create-class-features-plugin" "^7.7.4"
     "@babel/helper-plugin-utils" "^7.0.0"
 
 "@babel/plugin-proposal-decorators@7.4.4":
@@ -397,7 +465,7 @@
     "@babel/helper-plugin-utils" "^7.0.0"
     "@babel/plugin-syntax-json-strings" "^7.7.4"
 
-"@babel/plugin-proposal-object-rest-spread@^7.5.5", "@babel/plugin-proposal-object-rest-spread@^7.7.4":
+"@babel/plugin-proposal-object-rest-spread@^7.0.0", "@babel/plugin-proposal-object-rest-spread@^7.5.5", "@babel/plugin-proposal-object-rest-spread@^7.7.4":
   version "7.7.4"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@babel/plugin-proposal-object-rest-spread/-/plugin-proposal-object-rest-spread-7.7.4.tgz#cc57849894a5c774214178c8ab64f6334ec8af71"
   integrity sha1-zFeEmJSlx3QhQXjIq2T2M07Ir3E=
@@ -428,6 +496,13 @@
   dependencies:
     "@babel/helper-plugin-utils" "^7.0.0"
 
+"@babel/plugin-syntax-class-properties@^7.0.0":
+  version "7.7.4"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@babel/plugin-syntax-class-properties/-/plugin-syntax-class-properties-7.7.4.tgz#6048c129ea908a432a1ff85f1dc794dc62ddaa5e"
+  integrity sha1-YEjBKeqQikMqH/hfHceU3GLdql4=
+  dependencies:
+    "@babel/helper-plugin-utils" "^7.0.0"
+
 "@babel/plugin-syntax-decorators@^7.2.0":
   version "7.7.4"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@babel/plugin-syntax-decorators/-/plugin-syntax-decorators-7.7.4.tgz#3c91cfee2a111663ff3ac21b851140f5a52a4e0b"
@@ -442,6 +517,13 @@
   dependencies:
     "@babel/helper-plugin-utils" "^7.0.0"
 
+"@babel/plugin-syntax-flow@^7.0.0", "@babel/plugin-syntax-flow@^7.7.4":
+  version "7.7.4"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@babel/plugin-syntax-flow/-/plugin-syntax-flow-7.7.4.tgz#6d91b59e1a0e4c17f36af2e10dd64ef220919d7b"
+  integrity sha1-bZG1nhoOTBfzavLhDdZO8iCRnXs=
+  dependencies:
+    "@babel/helper-plugin-utils" "^7.0.0"
+
 "@babel/plugin-syntax-json-strings@^7.2.0", "@babel/plugin-syntax-json-strings@^7.7.4":
   version "7.7.4"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@babel/plugin-syntax-json-strings/-/plugin-syntax-json-strings-7.7.4.tgz#86e63f7d2e22f9e27129ac4e83ea989a382e86cc"
@@ -449,7 +531,7 @@
   dependencies:
     "@babel/helper-plugin-utils" "^7.0.0"
 
-"@babel/plugin-syntax-jsx@^7.7.4":
+"@babel/plugin-syntax-jsx@^7.0.0", "@babel/plugin-syntax-jsx@^7.7.4":
   version "7.7.4"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@babel/plugin-syntax-jsx/-/plugin-syntax-jsx-7.7.4.tgz#dab2b56a36fb6c3c222a1fbc71f7bf97f327a9ec"
   integrity sha1-2rK1ajb7bDwiKh+8cfe/l/Mnqew=
@@ -484,7 +566,7 @@
   dependencies:
     "@babel/helper-plugin-utils" "^7.0.0"
 
-"@babel/plugin-transform-arrow-functions@^7.2.0", "@babel/plugin-transform-arrow-functions@^7.7.4":
+"@babel/plugin-transform-arrow-functions@^7.0.0", "@babel/plugin-transform-arrow-functions@^7.2.0", "@babel/plugin-transform-arrow-functions@^7.7.4":
   version "7.7.4"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@babel/plugin-transform-arrow-functions/-/plugin-transform-arrow-functions-7.7.4.tgz#76309bd578addd8aee3b379d809c802305a98a12"
   integrity sha1-djCb1Xit3YruOzedgJyAIwWpihI=
@@ -500,14 +582,14 @@
     "@babel/helper-plugin-utils" "^7.0.0"
     "@babel/helper-remap-async-to-generator" "^7.7.4"
 
-"@babel/plugin-transform-block-scoped-functions@^7.2.0", "@babel/plugin-transform-block-scoped-functions@^7.7.4":
+"@babel/plugin-transform-block-scoped-functions@^7.0.0", "@babel/plugin-transform-block-scoped-functions@^7.2.0", "@babel/plugin-transform-block-scoped-functions@^7.7.4":
   version "7.7.4"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@babel/plugin-transform-block-scoped-functions/-/plugin-transform-block-scoped-functions-7.7.4.tgz#d0d9d5c269c78eaea76227ace214b8d01e4d837b"
   integrity sha1-0NnVwmnHjq6nYies4hS40B5Ng3s=
   dependencies:
     "@babel/helper-plugin-utils" "^7.0.0"
 
-"@babel/plugin-transform-block-scoping@^7.5.5", "@babel/plugin-transform-block-scoping@^7.7.4":
+"@babel/plugin-transform-block-scoping@^7.0.0", "@babel/plugin-transform-block-scoping@^7.5.5", "@babel/plugin-transform-block-scoping@^7.7.4":
   version "7.7.4"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@babel/plugin-transform-block-scoping/-/plugin-transform-block-scoping-7.7.4.tgz#200aad0dcd6bb80372f94d9e628ea062c58bf224"
   integrity sha1-IAqtDc1ruANy+U2eYo6gYsWL8iQ=
@@ -515,7 +597,7 @@
     "@babel/helper-plugin-utils" "^7.0.0"
     lodash "^4.17.13"
 
-"@babel/plugin-transform-classes@^7.5.5", "@babel/plugin-transform-classes@^7.7.4":
+"@babel/plugin-transform-classes@^7.0.0", "@babel/plugin-transform-classes@^7.5.5", "@babel/plugin-transform-classes@^7.7.4":
   version "7.7.4"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@babel/plugin-transform-classes/-/plugin-transform-classes-7.7.4.tgz#c92c14be0a1399e15df72667067a8f510c9400ec"
   integrity sha1-ySwUvgoTmeFd9yZnBnqPUQyUAOw=
@@ -529,14 +611,14 @@
     "@babel/helper-split-export-declaration" "^7.7.4"
     globals "^11.1.0"
 
-"@babel/plugin-transform-computed-properties@^7.2.0", "@babel/plugin-transform-computed-properties@^7.7.4":
+"@babel/plugin-transform-computed-properties@^7.0.0", "@babel/plugin-transform-computed-properties@^7.2.0", "@babel/plugin-transform-computed-properties@^7.7.4":
   version "7.7.4"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@babel/plugin-transform-computed-properties/-/plugin-transform-computed-properties-7.7.4.tgz#e856c1628d3238ffe12d668eb42559f79a81910d"
   integrity sha1-6FbBYo0yOP/hLWaOtCVZ95qBkQ0=
   dependencies:
     "@babel/helper-plugin-utils" "^7.0.0"
 
-"@babel/plugin-transform-destructuring@^7.5.0", "@babel/plugin-transform-destructuring@^7.7.4":
+"@babel/plugin-transform-destructuring@^7.0.0", "@babel/plugin-transform-destructuring@^7.5.0", "@babel/plugin-transform-destructuring@^7.7.4":
   version "7.7.4"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@babel/plugin-transform-destructuring/-/plugin-transform-destructuring-7.7.4.tgz#2b713729e5054a1135097b6a67da1b6fe8789267"
   integrity sha1-K3E3KeUFShE1CXtqZ9obb+h4kmc=
@@ -566,14 +648,22 @@
     "@babel/helper-builder-binary-assignment-operator-visitor" "^7.7.4"
     "@babel/helper-plugin-utils" "^7.0.0"
 
-"@babel/plugin-transform-for-of@^7.4.4", "@babel/plugin-transform-for-of@^7.7.4":
+"@babel/plugin-transform-flow-strip-types@^7.0.0":
+  version "7.7.4"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@babel/plugin-transform-flow-strip-types/-/plugin-transform-flow-strip-types-7.7.4.tgz#cc73f85944782df1d77d80977bc097920a8bf31a"
+  integrity sha1-zHP4WUR4LfHXfYCXe8CXkgqL8xo=
+  dependencies:
+    "@babel/helper-plugin-utils" "^7.0.0"
+    "@babel/plugin-syntax-flow" "^7.7.4"
+
+"@babel/plugin-transform-for-of@^7.0.0", "@babel/plugin-transform-for-of@^7.4.4", "@babel/plugin-transform-for-of@^7.7.4":
   version "7.7.4"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@babel/plugin-transform-for-of/-/plugin-transform-for-of-7.7.4.tgz#248800e3a5e507b1f103d8b4ca998e77c63932bc"
   integrity sha1-JIgA46XlB7HxA9i0ypmOd8Y5Mrw=
   dependencies:
     "@babel/helper-plugin-utils" "^7.0.0"
 
-"@babel/plugin-transform-function-name@^7.4.4", "@babel/plugin-transform-function-name@^7.7.4":
+"@babel/plugin-transform-function-name@^7.0.0", "@babel/plugin-transform-function-name@^7.4.4", "@babel/plugin-transform-function-name@^7.7.4":
   version "7.7.4"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@babel/plugin-transform-function-name/-/plugin-transform-function-name-7.7.4.tgz#75a6d3303d50db638ff8b5385d12451c865025b1"
   integrity sha1-dabTMD1Q22OP+LU4XRJFHIZQJbE=
@@ -581,14 +671,14 @@
     "@babel/helper-function-name" "^7.7.4"
     "@babel/helper-plugin-utils" "^7.0.0"
 
-"@babel/plugin-transform-literals@^7.2.0", "@babel/plugin-transform-literals@^7.7.4":
+"@babel/plugin-transform-literals@^7.0.0", "@babel/plugin-transform-literals@^7.2.0", "@babel/plugin-transform-literals@^7.7.4":
   version "7.7.4"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@babel/plugin-transform-literals/-/plugin-transform-literals-7.7.4.tgz#27fe87d2b5017a2a5a34d1c41a6b9f6a6262643e"
   integrity sha1-J/6H0rUBeipaNNHEGmufamJiZD4=
   dependencies:
     "@babel/helper-plugin-utils" "^7.0.0"
 
-"@babel/plugin-transform-member-expression-literals@^7.2.0", "@babel/plugin-transform-member-expression-literals@^7.7.4":
+"@babel/plugin-transform-member-expression-literals@^7.0.0", "@babel/plugin-transform-member-expression-literals@^7.2.0", "@babel/plugin-transform-member-expression-literals@^7.7.4":
   version "7.7.4"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@babel/plugin-transform-member-expression-literals/-/plugin-transform-member-expression-literals-7.7.4.tgz#aee127f2f3339fc34ce5e3055d7ffbf7aa26f19a"
   integrity sha1-ruEn8vMzn8NM5eMFXX/796om8Zo=
@@ -604,7 +694,7 @@
     "@babel/helper-plugin-utils" "^7.0.0"
     babel-plugin-dynamic-import-node "^2.3.0"
 
-"@babel/plugin-transform-modules-commonjs@^7.5.0", "@babel/plugin-transform-modules-commonjs@^7.7.4":
+"@babel/plugin-transform-modules-commonjs@^7.0.0", "@babel/plugin-transform-modules-commonjs@^7.5.0", "@babel/plugin-transform-modules-commonjs@^7.7.4":
   version "7.7.4"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@babel/plugin-transform-modules-commonjs/-/plugin-transform-modules-commonjs-7.7.4.tgz#bee4386e550446343dd52a571eda47851ff857a3"
   integrity sha1-vuQ4blUERjQ91SpXHtpHhR/4V6M=
@@ -645,7 +735,7 @@
   dependencies:
     "@babel/helper-plugin-utils" "^7.0.0"
 
-"@babel/plugin-transform-object-super@^7.5.5", "@babel/plugin-transform-object-super@^7.7.4":
+"@babel/plugin-transform-object-super@^7.0.0", "@babel/plugin-transform-object-super@^7.5.5", "@babel/plugin-transform-object-super@^7.7.4":
   version "7.7.4"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@babel/plugin-transform-object-super/-/plugin-transform-object-super-7.7.4.tgz#48488937a2d586c0148451bf51af9d7dda567262"
   integrity sha1-SEiJN6LVhsAUhFG/Ua+dfdpWcmI=
@@ -653,7 +743,7 @@
     "@babel/helper-plugin-utils" "^7.0.0"
     "@babel/helper-replace-supers" "^7.7.4"
 
-"@babel/plugin-transform-parameters@^7.4.4", "@babel/plugin-transform-parameters@^7.7.4":
+"@babel/plugin-transform-parameters@^7.0.0", "@babel/plugin-transform-parameters@^7.4.4", "@babel/plugin-transform-parameters@^7.7.4":
   version "7.7.4"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@babel/plugin-transform-parameters/-/plugin-transform-parameters-7.7.4.tgz#da4555c97f39b51ac089d31c7380f03bca4075ce"
   integrity sha1-2kVVyX85tRrAidMcc4DwO8pAdc4=
@@ -662,14 +752,14 @@
     "@babel/helper-get-function-arity" "^7.7.4"
     "@babel/helper-plugin-utils" "^7.0.0"
 
-"@babel/plugin-transform-property-literals@^7.2.0", "@babel/plugin-transform-property-literals@^7.7.4":
+"@babel/plugin-transform-property-literals@^7.0.0", "@babel/plugin-transform-property-literals@^7.2.0", "@babel/plugin-transform-property-literals@^7.7.4":
   version "7.7.4"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@babel/plugin-transform-property-literals/-/plugin-transform-property-literals-7.7.4.tgz#2388d6505ef89b266103f450f9167e6bd73f98c2"
   integrity sha1-I4jWUF74myZhA/RQ+RZ+a9c/mMI=
   dependencies:
     "@babel/helper-plugin-utils" "^7.0.0"
 
-"@babel/plugin-transform-react-display-name@^7.7.4":
+"@babel/plugin-transform-react-display-name@^7.0.0", "@babel/plugin-transform-react-display-name@^7.7.4":
   version "7.7.4"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@babel/plugin-transform-react-display-name/-/plugin-transform-react-display-name-7.7.4.tgz#9f2b80b14ebc97eef4a9b29b612c58ed9c0d10dd"
   integrity sha1-nyuAsU68l+70qbKbYSxY7ZwNEN0=
@@ -692,7 +782,7 @@
     "@babel/helper-plugin-utils" "^7.0.0"
     "@babel/plugin-syntax-jsx" "^7.7.4"
 
-"@babel/plugin-transform-react-jsx@^7.7.4":
+"@babel/plugin-transform-react-jsx@^7.0.0", "@babel/plugin-transform-react-jsx@^7.7.4":
   version "7.7.4"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@babel/plugin-transform-react-jsx/-/plugin-transform-react-jsx-7.7.4.tgz#d91205717fae4e2f84d020cd3057ec02a10f11da"
   integrity sha1-2RIFcX+uTi+E0CDNMFfsAqEPEdo=
@@ -722,14 +812,14 @@
   dependencies:
     "@babel/helper-plugin-utils" "^7.0.0"
 
-"@babel/plugin-transform-shorthand-properties@^7.2.0", "@babel/plugin-transform-shorthand-properties@^7.7.4":
+"@babel/plugin-transform-shorthand-properties@^7.0.0", "@babel/plugin-transform-shorthand-properties@^7.2.0", "@babel/plugin-transform-shorthand-properties@^7.7.4":
   version "7.7.4"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@babel/plugin-transform-shorthand-properties/-/plugin-transform-shorthand-properties-7.7.4.tgz#74a0a9b2f6d67a684c6fbfd5f0458eb7ba99891e"
   integrity sha1-dKCpsvbWemhMb7/V8EWOt7qZiR4=
   dependencies:
     "@babel/helper-plugin-utils" "^7.0.0"
 
-"@babel/plugin-transform-spread@^7.2.0", "@babel/plugin-transform-spread@^7.7.4":
+"@babel/plugin-transform-spread@^7.0.0", "@babel/plugin-transform-spread@^7.2.0", "@babel/plugin-transform-spread@^7.7.4":
   version "7.7.4"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@babel/plugin-transform-spread/-/plugin-transform-spread-7.7.4.tgz#aa673b356fe6b7e70d69b6e33a17fef641008578"
   integrity sha1-qmc7NW/mt+cNabbjOhf+9kEAhXg=
@@ -744,7 +834,7 @@
     "@babel/helper-plugin-utils" "^7.0.0"
     "@babel/helper-regex" "^7.0.0"
 
-"@babel/plugin-transform-template-literals@^7.4.4", "@babel/plugin-transform-template-literals@^7.7.4":
+"@babel/plugin-transform-template-literals@^7.0.0", "@babel/plugin-transform-template-literals@^7.4.4", "@babel/plugin-transform-template-literals@^7.7.4":
   version "7.7.4"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@babel/plugin-transform-template-literals/-/plugin-transform-template-literals-7.7.4.tgz#1eb6411736dd3fe87dbd20cc6668e5121c17d604"
   integrity sha1-HrZBFzbdP+h9vSDMZmjlEhwX1gQ=
@@ -916,7 +1006,7 @@
     core-js-pure "^3.0.0"
     regenerator-runtime "^0.13.2"
 
-"@babel/runtime@^7.4.2", "@babel/runtime@^7.4.5", "@babel/runtime@^7.6.0", "@babel/runtime@^7.6.2", "@babel/runtime@^7.7.4":
+"@babel/runtime@^7.0.0", "@babel/runtime@^7.4.2", "@babel/runtime@^7.4.5", "@babel/runtime@^7.6.0", "@babel/runtime@^7.6.2", "@babel/runtime@^7.6.3", "@babel/runtime@^7.7.4":
   version "7.7.4"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@babel/runtime/-/runtime-7.7.4.tgz#b23a856751e4bf099262f867767889c0e3fe175b"
   integrity sha1-sjqFZ1HkvwmSYvhndniJwOP+F1s=
@@ -932,7 +1022,7 @@
     "@babel/parser" "^7.7.4"
     "@babel/types" "^7.7.4"
 
-"@babel/traverse@^7.1.0", "@babel/traverse@^7.4.3", "@babel/traverse@^7.5.5", "@babel/traverse@^7.7.4":
+"@babel/traverse@7.7.4", "@babel/traverse@^7.0.0", "@babel/traverse@^7.1.0", "@babel/traverse@^7.4.3", "@babel/traverse@^7.4.4", "@babel/traverse@^7.5.5", "@babel/traverse@^7.7.4":
   version "7.7.4"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@babel/traverse/-/traverse-7.7.4.tgz#9c1e7c60fb679fe4fcfaa42500833333c2058558"
   integrity sha1-nB58YPtnn+T8+qQlAIMzM8IFhVg=
@@ -947,7 +1037,7 @@
     globals "^11.1.0"
     lodash "^4.17.13"
 
-"@babel/types@^7.0.0", "@babel/types@^7.3.0", "@babel/types@^7.4.0", "@babel/types@^7.5.5", "@babel/types@^7.7.4":
+"@babel/types@7.7.4", "@babel/types@^7.0.0", "@babel/types@^7.3.0", "@babel/types@^7.4.0", "@babel/types@^7.4.4", "@babel/types@^7.5.5", "@babel/types@^7.7.4":
   version "7.7.4"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@babel/types/-/types-7.7.4.tgz#516570d539e44ddf308c07569c258ff94fde9193"
   integrity sha1-UWVw1TnkTd8wjAdWnCWP+U/ekZM=
@@ -993,6 +1083,256 @@
   dependencies:
     debug "^3.1.0"
     lodash.once "^4.1.1"
+
+"@graphql-codegen/cli@^1.9.1":
+  version "1.9.1"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@graphql-codegen/cli/-/cli-1.9.1.tgz#23576b61c66d70ffbced108a74aaff29367bb3e8"
+  integrity sha1-I1drYcZtcP+87RCKdKr/KTZ7s+g=
+  dependencies:
+    "@babel/parser" "7.7.4"
+    "@graphql-codegen/core" "1.9.1"
+    "@graphql-codegen/plugin-helpers" "1.9.1"
+    "@graphql-toolkit/code-file-loader" "0.7.4"
+    "@graphql-toolkit/core" "0.7.4"
+    "@graphql-toolkit/git-loader" "0.7.4"
+    "@graphql-toolkit/github-loader" "0.7.4"
+    "@graphql-toolkit/graphql-file-loader" "0.7.4"
+    "@graphql-toolkit/json-file-loader" "0.7.4"
+    "@graphql-toolkit/url-loader" "0.7.4"
+    "@types/debounce" "1.2.0"
+    "@types/is-glob" "4.0.1"
+    "@types/mkdirp" "0.5.2"
+    "@types/valid-url" "1.0.2"
+    babel-types "7.0.0-beta.3"
+    chalk "3.0.0"
+    change-case "3.1.0"
+    chokidar "3.3.0"
+    commander "4.0.1"
+    common-tags "1.8.0"
+    cosmiconfig "6.0.0"
+    debounce "1.2.0"
+    detect-indent "6.0.0"
+    glob "7.1.6"
+    graphql-config "3.0.0-alpha.14"
+    graphql-import "0.7.1"
+    graphql-tag-pluck "0.8.7"
+    graphql-tools "4.0.6"
+    indent-string "4.0.0"
+    inquirer "7.0.0"
+    is-glob "4.0.1"
+    is-valid-path "0.1.1"
+    json-to-pretty-yaml "1.2.2"
+    listr "0.14.3"
+    listr-update-renderer "0.5.0"
+    log-symbols "3.0.0"
+    log-update "3.3.0"
+    mkdirp "0.5.1"
+    prettier "1.19.1"
+    request "2.88.0"
+    ts-log "2.1.4"
+    tslib "1.10.0"
+    valid-url "1.0.9"
+
+"@graphql-codegen/core@1.9.1":
+  version "1.9.1"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@graphql-codegen/core/-/core-1.9.1.tgz#aa9f063a56cf20d5cddc001dabfe18c4222f8d7b"
+  integrity sha1-qp8GOlbPINXN3AAdq/4YxCIvjXs=
+  dependencies:
+    "@graphql-codegen/plugin-helpers" "1.9.1"
+    "@graphql-toolkit/common" "0.7.4"
+    "@graphql-toolkit/schema-merging" "0.7.4"
+    tslib "1.10.0"
+
+"@graphql-codegen/plugin-helpers@1.9.1":
+  version "1.9.1"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@graphql-codegen/plugin-helpers/-/plugin-helpers-1.9.1.tgz#2be98ca17d71c7395508a8f3880bd1e5cb3e206b"
+  integrity sha1-K+mMoX1xxzlVCKjziAvR5cs+IGs=
+  dependencies:
+    "@graphql-toolkit/common" "0.7.4"
+    change-case "3.1.0"
+    common-tags "1.8.0"
+    import-from "3.0.0"
+    tslib "1.10.0"
+
+"@graphql-codegen/typescript-operations@^1.9.1":
+  version "1.9.1"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@graphql-codegen/typescript-operations/-/typescript-operations-1.9.1.tgz#35b3d4b7cc740a0af13242879fc97f06d7b37794"
+  integrity sha1-NbPUt8x0CgrxMkKHn8l/Btezd5Q=
+  dependencies:
+    "@graphql-codegen/plugin-helpers" "1.9.1"
+    "@graphql-codegen/typescript" "1.9.1"
+    "@graphql-codegen/visitor-plugin-common" "1.9.1"
+    tslib "1.10.0"
+
+"@graphql-codegen/typescript-react-apollo@^1.9.1":
+  version "1.9.1"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@graphql-codegen/typescript-react-apollo/-/typescript-react-apollo-1.9.1.tgz#87c5a0c5b6c69cc380d4f36d70d592d44744a953"
+  integrity sha1-h8WgxbbGnMOA1PNtcNWS1EdEqVM=
+  dependencies:
+    "@graphql-codegen/plugin-helpers" "1.9.1"
+    "@graphql-codegen/visitor-plugin-common" "1.9.1"
+    tslib "1.10.0"
+
+"@graphql-codegen/typescript@1.9.1", "@graphql-codegen/typescript@^1.9.1":
+  version "1.9.1"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@graphql-codegen/typescript/-/typescript-1.9.1.tgz#9bbc7fdd66885b768f2d6d3d926d6375f71de4b8"
+  integrity sha1-m7x/3WaIW3aPLW09km1jdfcd5Lg=
+  dependencies:
+    "@graphql-codegen/plugin-helpers" "1.9.1"
+    "@graphql-codegen/visitor-plugin-common" "1.9.1"
+    auto-bind "3.0.0"
+    tslib "1.10.0"
+
+"@graphql-codegen/visitor-plugin-common@1.9.1":
+  version "1.9.1"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@graphql-codegen/visitor-plugin-common/-/visitor-plugin-common-1.9.1.tgz#93b1c54e0e81c152186e01c5cf6009b5361d4c2e"
+  integrity sha1-k7HFTg6BwVIYbgHFz2AJtTYdTC4=
+  dependencies:
+    "@graphql-codegen/plugin-helpers" "1.9.1"
+    auto-bind "3.0.0"
+    dependency-graph "0.8.0"
+    graphql-tag "2.10.1"
+    relay-compiler "7.1.0"
+    tslib "1.10.0"
+
+"@graphql-toolkit/code-file-loader@0.7.4":
+  version "0.7.4"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@graphql-toolkit/code-file-loader/-/code-file-loader-0.7.4.tgz#17f508473ca97fcbd7b530d7606529b94af9cc28"
+  integrity sha1-F/UIRzypf8vXtTDXYGUpuUr5zCg=
+  dependencies:
+    "@graphql-toolkit/common" "0.7.4"
+    "@graphql-toolkit/graphql-tag-pluck" "0.7.4"
+    is-valid-path "0.1.1"
+    tslib "1.10.0"
+
+"@graphql-toolkit/common@0.6.2":
+  version "0.6.2"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@graphql-toolkit/common/-/common-0.6.2.tgz#60990c37be4aeee59469dc15f534f73b4fbcacd1"
+  integrity sha1-YJkMN75K7uWUadwV9TT3O0+8rNE=
+  dependencies:
+    "@kamilkisiela/graphql-tools" "4.0.6"
+    aggregate-error "3.0.1"
+    lodash "4.17.15"
+
+"@graphql-toolkit/common@0.7.4":
+  version "0.7.4"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@graphql-toolkit/common/-/common-0.7.4.tgz#abf995268572c83da6e093e8578a67add73d2d51"
+  integrity sha1-q/mVJoVyyD2m4JPoV4pnrdc9LVE=
+  dependencies:
+    "@kamilkisiela/graphql-tools" "4.0.6"
+    aggregate-error "3.0.1"
+    lodash "4.17.15"
+
+"@graphql-toolkit/core@0.7.4":
+  version "0.7.4"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@graphql-toolkit/core/-/core-0.7.4.tgz#aebccd6acbe504bda91f7e21b2d296efeb2b09f8"
+  integrity sha1-rrzNasvlBL2pH34hstKW7+srCfg=
+  dependencies:
+    "@graphql-toolkit/common" "0.7.4"
+    "@graphql-toolkit/schema-merging" "0.7.4"
+    aggregate-error "3.0.1"
+    globby "10.0.1"
+    graphql-import "0.7.1"
+    is-glob "4.0.1"
+    tslib "^1.9.3"
+    valid-url "1.0.9"
+
+"@graphql-toolkit/git-loader@0.7.4":
+  version "0.7.4"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@graphql-toolkit/git-loader/-/git-loader-0.7.4.tgz#24b109a9c2f2729aa3560f7fd044e3fcc02814e2"
+  integrity sha1-JLEJqcLycpqjVg9/0ETj/MAoFOI=
+  dependencies:
+    "@graphql-toolkit/common" "0.7.4"
+    simple-git "1.126.0"
+
+"@graphql-toolkit/github-loader@0.7.4":
+  version "0.7.4"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@graphql-toolkit/github-loader/-/github-loader-0.7.4.tgz#a82102e14c8a19f2928868fd26eae533e5cff57c"
+  integrity sha1-qCEC4UyKGfKSiGj9JurlM+XP9Xw=
+  dependencies:
+    "@graphql-toolkit/common" "0.7.4"
+    cross-fetch "3.0.4"
+
+"@graphql-toolkit/graphql-file-loader@0.6.2":
+  version "0.6.2"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@graphql-toolkit/graphql-file-loader/-/graphql-file-loader-0.6.2.tgz#d25ce29640c8ce6949e7bfb9976b57e3e1ec523d"
+  integrity sha1-0lzilkDIzmlJ57+5l2tX4+HsUj0=
+  dependencies:
+    "@graphql-toolkit/common" "0.6.2"
+    graphql-import "0.7.1"
+
+"@graphql-toolkit/graphql-file-loader@0.7.4":
+  version "0.7.4"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@graphql-toolkit/graphql-file-loader/-/graphql-file-loader-0.7.4.tgz#f2297b3e47611ff395489f915d7c051c2b662d3f"
+  integrity sha1-8il7PkdhH/OVSJ+RXXwFHCtmLT8=
+  dependencies:
+    "@graphql-toolkit/common" "0.7.4"
+    graphql-import "0.7.1"
+    is-valid-path "0.1.1"
+    tslib "1.10.0"
+
+"@graphql-toolkit/graphql-tag-pluck@0.7.4":
+  version "0.7.4"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@graphql-toolkit/graphql-tag-pluck/-/graphql-tag-pluck-0.7.4.tgz#a608ef067cf51fb521b9d13552b33cc5e0636df5"
+  integrity sha1-pgjvBnz1H7UhudE1UrM8xeBjbfU=
+  dependencies:
+    "@babel/parser" "7.7.4"
+    "@babel/traverse" "7.7.4"
+    "@babel/types" "7.7.4"
+
+"@graphql-toolkit/json-file-loader@0.6.2":
+  version "0.6.2"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@graphql-toolkit/json-file-loader/-/json-file-loader-0.6.2.tgz#d4c8cb42980bdbae8d979669b271ff7e0d2d1075"
+  integrity sha1-1MjLQpgL266Nl5ZpsnH/fg0tEHU=
+  dependencies:
+    "@graphql-toolkit/common" "0.6.2"
+
+"@graphql-toolkit/json-file-loader@0.7.4":
+  version "0.7.4"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@graphql-toolkit/json-file-loader/-/json-file-loader-0.7.4.tgz#85d740bd1d673d9dcf3960260d1ee9264539bab2"
+  integrity sha1-hddAvR1nPZ3POWAmDR7pJkU5urI=
+  dependencies:
+    "@graphql-toolkit/common" "0.7.4"
+    is-valid-path "0.1.1"
+    tslib "1.10.0"
+
+"@graphql-toolkit/schema-merging@0.6.2":
+  version "0.6.2"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@graphql-toolkit/schema-merging/-/schema-merging-0.6.2.tgz#c2e2442cd3db885361791757679750c6bb8179a6"
+  integrity sha1-wuJELNPbiFNheRdXZ5dQxruBeaY=
+  dependencies:
+    "@graphql-toolkit/common" "0.6.2"
+    "@kamilkisiela/graphql-tools" "4.0.6"
+    deepmerge "4.2.0"
+
+"@graphql-toolkit/schema-merging@0.7.4":
+  version "0.7.4"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@graphql-toolkit/schema-merging/-/schema-merging-0.7.4.tgz#37769a420c3456c7bfa019ad0b0c3ba5bc0a15b5"
+  integrity sha1-N3aaQgw0Vse/oBmtCww7pbwKFbU=
+  dependencies:
+    "@graphql-toolkit/common" "0.7.4"
+    "@kamilkisiela/graphql-tools" "4.0.6"
+    deepmerge "4.2.2"
+    tslib "1.10.0"
+
+"@graphql-toolkit/url-loader@0.6.2":
+  version "0.6.2"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@graphql-toolkit/url-loader/-/url-loader-0.6.2.tgz#3c7e3cd62f8a9cd2bb3e663e8f208da2cae5b9b2"
+  integrity sha1-PH481i+KnNK7PmY+jyCNosrlubI=
+  dependencies:
+    "@graphql-toolkit/common" "0.6.2"
+    cross-fetch "3.0.4"
+    valid-url "1.0.9"
+
+"@graphql-toolkit/url-loader@0.7.4":
+  version "0.7.4"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@graphql-toolkit/url-loader/-/url-loader-0.7.4.tgz#8398823c450ccf86bc5b49c62600ea38c50f19cc"
+  integrity sha1-g5iCPEUMz4a8W0nGJgDqOMUPGcw=
+  dependencies:
+    "@graphql-toolkit/common" "0.7.4"
+    cross-fetch "3.0.4"
+    tslib "1.10.0"
+    valid-url "1.0.9"
 
 "@jest/console@^24.7.1", "@jest/console@^24.9.0":
   version "24.9.0"
@@ -1142,6 +1482,25 @@
     "@types/istanbul-reports" "^1.1.1"
     "@types/yargs" "^13.0.0"
 
+"@kamilkisiela/graphql-tools@4.0.6":
+  version "4.0.6"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@kamilkisiela/graphql-tools/-/graphql-tools-4.0.6.tgz#6dcf4d18bedaf34f6ab1d5bad2414e530d0875d1"
+  integrity sha1-bc9NGL7a809qsdW60kFOUw0IddE=
+  dependencies:
+    apollo-link "^1.2.3"
+    apollo-utilities "^1.0.1"
+    deprecated-decorator "^0.1.6"
+    iterall "^1.1.3"
+    uuid "^3.1.0"
+
+"@mrmlnc/readdir-enhanced@^2.2.1":
+  version "2.2.1"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@mrmlnc/readdir-enhanced/-/readdir-enhanced-2.2.1.tgz#524af240d1a360527b730475ecfa1344aa540dde"
+  integrity sha1-UkryQNGjYFJ7cwR17PoTRKpUDd4=
+  dependencies:
+    call-me-maybe "^1.0.1"
+    glob-to-regexp "^0.3.0"
+
 "@ngtools/webpack@8.3.14":
   version "8.3.14"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@ngtools/webpack/-/webpack-8.3.14.tgz#ecac2651d2da7407f60acfb24ba03c460a79af1d"
@@ -1152,6 +1511,32 @@
     rxjs "6.4.0"
     tree-kill "1.2.1"
     webpack-sources "1.4.3"
+
+"@nodelib/fs.scandir@2.1.3":
+  version "2.1.3"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@nodelib/fs.scandir/-/fs.scandir-2.1.3.tgz#3a582bdb53804c6ba6d146579c46e52130cf4a3b"
+  integrity sha1-Olgr21OATGum0UZXnEblITDPSjs=
+  dependencies:
+    "@nodelib/fs.stat" "2.0.3"
+    run-parallel "^1.1.9"
+
+"@nodelib/fs.stat@2.0.3", "@nodelib/fs.stat@^2.0.2":
+  version "2.0.3"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@nodelib/fs.stat/-/fs.stat-2.0.3.tgz#34dc5f4cabbc720f4e60f75a747e7ecd6c175bd3"
+  integrity sha1-NNxfTKu8cg9OYPdadH5+zWwXW9M=
+
+"@nodelib/fs.stat@^1.1.2":
+  version "1.1.3"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@nodelib/fs.stat/-/fs.stat-1.1.3.tgz#2b5a3ab3f918cca48a8c754c08168e3f03eba61b"
+  integrity sha1-K1o6s/kYzKSKjHVMCBaOPwPrphs=
+
+"@nodelib/fs.walk@^1.2.3":
+  version "1.2.4"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@nodelib/fs.walk/-/fs.walk-1.2.4.tgz#011b9202a70a6366e436ca5c065844528ab04976"
+  integrity sha1-ARuSAqcKY2bkNspcBlhEUoqwSXY=
+  dependencies:
+    "@nodelib/fs.scandir" "2.1.3"
+    fastq "^1.6.0"
 
 "@nrwl/cli@8.9.0":
   version "8.9.0"
@@ -1374,6 +1759,66 @@
     yargs "^11.0.0"
     yargs-parser "10.0.0"
 
+"@protobufjs/aspromise@^1.1.1", "@protobufjs/aspromise@^1.1.2":
+  version "1.1.2"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@protobufjs/aspromise/-/aspromise-1.1.2.tgz#9b8b0cc663d669a7d8f6f5d0893a14d348f30fbf"
+  integrity sha1-m4sMxmPWaafY9vXQiToU00jzD78=
+
+"@protobufjs/base64@^1.1.2":
+  version "1.1.2"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@protobufjs/base64/-/base64-1.1.2.tgz#4c85730e59b9a1f1f349047dbf24296034bb2735"
+  integrity sha1-TIVzDlm5ofHzSQR9vyQpYDS7JzU=
+
+"@protobufjs/codegen@^2.0.4":
+  version "2.0.4"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@protobufjs/codegen/-/codegen-2.0.4.tgz#7ef37f0d010fb028ad1ad59722e506d9262815cb"
+  integrity sha1-fvN/DQEPsCitGtWXIuUG2SYoFcs=
+
+"@protobufjs/eventemitter@^1.1.0":
+  version "1.1.0"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@protobufjs/eventemitter/-/eventemitter-1.1.0.tgz#355cbc98bafad5978f9ed095f397621f1d066b70"
+  integrity sha1-NVy8mLr61ZePntCV85diHx0Ga3A=
+
+"@protobufjs/fetch@^1.1.0":
+  version "1.1.0"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@protobufjs/fetch/-/fetch-1.1.0.tgz#ba99fb598614af65700c1619ff06d454b0d84c45"
+  integrity sha1-upn7WYYUr2VwDBYZ/wbUVLDYTEU=
+  dependencies:
+    "@protobufjs/aspromise" "^1.1.1"
+    "@protobufjs/inquire" "^1.1.0"
+
+"@protobufjs/float@^1.0.2":
+  version "1.0.2"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@protobufjs/float/-/float-1.0.2.tgz#5e9e1abdcb73fc0a7cb8b291df78c8cbd97b87d1"
+  integrity sha1-Xp4avctz/Ap8uLKR33jIy9l7h9E=
+
+"@protobufjs/inquire@^1.1.0":
+  version "1.1.0"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@protobufjs/inquire/-/inquire-1.1.0.tgz#ff200e3e7cf2429e2dcafc1140828e8cc638f089"
+  integrity sha1-/yAOPnzyQp4tyvwRQIKOjMY48Ik=
+
+"@protobufjs/path@^1.1.2":
+  version "1.1.2"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@protobufjs/path/-/path-1.1.2.tgz#6cc2b20c5c9ad6ad0dccfd21ca7673d8d7fbf68d"
+  integrity sha1-bMKyDFya1q0NzP0hynZz2Nf79o0=
+
+"@protobufjs/pool@^1.1.0":
+  version "1.1.0"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@protobufjs/pool/-/pool-1.1.0.tgz#09fd15f2d6d3abfa9b65bc366506d6ad7846ff54"
+  integrity sha1-Cf0V8tbTq/qbZbw2ZQbWrXhG/1Q=
+
+"@protobufjs/utf8@^1.1.0":
+  version "1.1.0"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@protobufjs/utf8/-/utf8-1.1.0.tgz#a777360b5b39a1a2e5106f8e858f2fd2d060c570"
+  integrity sha1-p3c2C1s5oaLlEG+OhY8v0tBgxXA=
+
+"@samverschueren/stream-to-observable@^0.3.0":
+  version "0.3.0"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@samverschueren/stream-to-observable/-/stream-to-observable-0.3.0.tgz#ecdf48d532c58ea477acfcab80348424f8d0662f"
+  integrity sha1-7N9I1TLFjqR3rPyrgDSEJPjQZi8=
+  dependencies:
+    any-observable "^0.3.0"
+
 "@sheerun/mutationobserver-shim@^0.3.2":
   version "0.3.2"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@sheerun/mutationobserver-shim/-/mutationobserver-shim-0.3.2.tgz#8013f2af54a2b7d735f71560ff360d3a8176a87b"
@@ -1399,6 +1844,13 @@
     "@babel/runtime" "^7.6.0"
     "@testing-library/dom" "^6.3.0"
     "@types/testing-library__react" "^9.1.0"
+
+"@types/accepts@*", "@types/accepts@^1.3.5":
+  version "1.3.5"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@types/accepts/-/accepts-1.3.5.tgz#c34bec115cfc746e04fe5a059df4ce7e7b391575"
+  integrity sha1-w0vsEVz8dG4E/loFnfTOfns5FXU=
+  dependencies:
+    "@types/node" "*"
 
 "@types/babel__core@^7.1.0":
   version "7.1.3"
@@ -1433,7 +1885,7 @@
   dependencies:
     "@babel/types" "^7.3.0"
 
-"@types/body-parser@*":
+"@types/body-parser@*", "@types/body-parser@1.17.1":
   version "1.17.1"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@types/body-parser/-/body-parser-1.17.1.tgz#18fcf61768fb5c30ccc508c21d6fd2e8b3bf7897"
   integrity sha1-GPz2F2j7XDDMxQjCHW/S6LO/eJc=
@@ -1441,12 +1893,39 @@
     "@types/connect" "*"
     "@types/node" "*"
 
+"@types/color-name@^1.1.1":
+  version "1.1.1"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@types/color-name/-/color-name-1.1.1.tgz#1c1261bbeaa10a8055bbc5d8ab84b7b2afc846a0"
+  integrity sha1-HBJhu+qhCoBVu8XYq4S3sq/IRqA=
+
 "@types/connect@*":
   version "3.4.32"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@types/connect/-/connect-3.4.32.tgz#aa0e9616b9435ccad02bc52b5b454ffc2c70ba28"
   integrity sha1-qg6WFrlDXMrQK8UrW0VP/Cxwuig=
   dependencies:
     "@types/node" "*"
+
+"@types/cookies@*":
+  version "0.7.4"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@types/cookies/-/cookies-0.7.4.tgz#26dedf791701abc0e36b5b79a5722f40e455f87b"
+  integrity sha1-Jt7feRcBq8Dja1t5pXIvQORV+Hs=
+  dependencies:
+    "@types/connect" "*"
+    "@types/express" "*"
+    "@types/keygrip" "*"
+    "@types/node" "*"
+
+"@types/cors@^2.8.4":
+  version "2.8.6"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@types/cors/-/cors-2.8.6.tgz#cfaab33c49c15b1ded32f235111ce9123009bd02"
+  integrity sha1-z6qzPEnBWx3tMvI1ERzpEjAJvQI=
+  dependencies:
+    "@types/express" "*"
+
+"@types/debounce@1.2.0":
+  version "1.2.0"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@types/debounce/-/debounce-1.2.0.tgz#9ee99259f41018c640b3929e1bb32c3dcecdb192"
+  integrity sha1-numSWfQQGMZAs5KeG7MsPc7NsZI=
 
 "@types/eslint-visitor-keys@^1.0.0":
   version "1.0.0"
@@ -1471,6 +1950,15 @@
     "@types/node" "*"
     "@types/range-parser" "*"
 
+"@types/express@*":
+  version "4.17.2"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@types/express/-/express-4.17.2.tgz#a0fb7a23d8855bac31bc01d5a58cadd9b2173e6c"
+  integrity sha1-oPt6I9iFW6wxvAHVpYyt2bIXPmw=
+  dependencies:
+    "@types/body-parser" "*"
+    "@types/express-serve-static-core" "*"
+    "@types/serve-static" "*"
+
 "@types/express@4.17.0":
   version "4.17.0"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@types/express/-/express-4.17.0.tgz#49eaedb209582a86f12ed9b725160f12d04ef287"
@@ -1480,6 +1968,22 @@
     "@types/express-serve-static-core" "*"
     "@types/serve-static" "*"
 
+"@types/express@4.17.1":
+  version "4.17.1"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@types/express/-/express-4.17.1.tgz#4cf7849ae3b47125a567dfee18bfca4254b88c5c"
+  integrity sha1-TPeEmuO0cSWlZ9/uGL/KQlS4jFw=
+  dependencies:
+    "@types/body-parser" "*"
+    "@types/express-serve-static-core" "*"
+    "@types/serve-static" "*"
+
+"@types/fs-capacitor@*":
+  version "2.0.0"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@types/fs-capacitor/-/fs-capacitor-2.0.0.tgz#17113e25817f584f58100fb7a08eed288b81956e"
+  integrity sha1-FxE+JYF/WE9YEA+3oI7tKIuBlW4=
+  dependencies:
+    "@types/node" "*"
+
 "@types/glob@^7.1.1":
   version "7.1.1"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@types/glob/-/glob-7.1.1.tgz#aa59a1c6e3fbc421e07ccd31a944c30eba521575"
@@ -1488,6 +1992,33 @@
     "@types/events" "*"
     "@types/minimatch" "*"
     "@types/node" "*"
+
+"@types/graphql-upload@^8.0.0":
+  version "8.0.3"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@types/graphql-upload/-/graphql-upload-8.0.3.tgz#b371edb5f305a2a1f7b7843a890a2a7adc55c3ec"
+  integrity sha1-s3HttfMFoqH3t4Q6iQoqetxVw+w=
+  dependencies:
+    "@types/express" "*"
+    "@types/fs-capacitor" "*"
+    "@types/koa" "*"
+    graphql "^14.5.3"
+
+"@types/graphql@^14.5.0":
+  version "14.5.0"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@types/graphql/-/graphql-14.5.0.tgz#a545fb3bc8013a3547cf2f07f5e13a33642b75d6"
+  integrity sha1-pUX7O8gBOjVHzy8H9eE6M2QrddY=
+  dependencies:
+    graphql "*"
+
+"@types/http-assert@*":
+  version "1.5.1"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@types/http-assert/-/http-assert-1.5.1.tgz#d775e93630c2469c2f980fc27e3143240335db3b"
+  integrity sha1-13XpNjDCRpwvmA/CfjFDJAM12zs=
+
+"@types/is-glob@4.0.1":
+  version "4.0.1"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@types/is-glob/-/is-glob-4.0.1.tgz#a93eec1714172c8eb3225a1cc5eb88c2477b7d00"
+  integrity sha1-qT7sFxQXLI6zIlocxeuIwkd7fQA=
 
 "@types/istanbul-lib-coverage@*", "@types/istanbul-lib-coverage@^2.0.0":
   version "2.0.1"
@@ -1533,6 +2064,35 @@
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@types/json5/-/json5-0.0.29.tgz#ee28707ae94e11d2b827bcbe5270bcea7f3e71ee"
   integrity sha1-7ihweulOEdK4J7y+UnC86n8+ce4=
 
+"@types/keygrip@*":
+  version "1.0.1"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@types/keygrip/-/keygrip-1.0.1.tgz#ff540462d2fb4d0a88441ceaf27d287b01c3d878"
+  integrity sha1-/1QEYtL7TQqIRBzq8n0oewHD2Hg=
+
+"@types/koa-compose@*":
+  version "3.2.5"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@types/koa-compose/-/koa-compose-3.2.5.tgz#85eb2e80ac50be95f37ccf8c407c09bbe3468e9d"
+  integrity sha1-hesugKxQvpXzfM+MQHwJu+NGjp0=
+  dependencies:
+    "@types/koa" "*"
+
+"@types/koa@*":
+  version "2.11.0"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@types/koa/-/koa-2.11.0.tgz#394a3e9ec94f796003a6c8374b4dbc2778746f20"
+  integrity sha1-OUo+nslPeWADpsg3S028J3h0byA=
+  dependencies:
+    "@types/accepts" "*"
+    "@types/cookies" "*"
+    "@types/http-assert" "*"
+    "@types/keygrip" "*"
+    "@types/koa-compose" "*"
+    "@types/node" "*"
+
+"@types/long@^4.0.0":
+  version "4.0.0"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@types/long/-/long-4.0.0.tgz#719551d2352d301ac8b81db732acb6bdc28dbdef"
+  integrity sha1-cZVR0jUtMBrIuB23Mqy2vcKNve8=
+
 "@types/mime@*":
   version "2.0.1"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@types/mime/-/mime-2.0.1.tgz#dc488842312a7f075149312905b5e3c0b054c79d"
@@ -1543,15 +2103,32 @@
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@types/minimatch/-/minimatch-3.0.3.tgz#3dca0e3f33b200fc7d1139c0cd96c1268cadfd9d"
   integrity sha1-PcoOPzOyAPx9ETnAzZbBJoyt/Z0=
 
-"@types/node@*", "@types/node@^12.7.2":
+"@types/mkdirp@0.5.2":
+  version "0.5.2"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@types/mkdirp/-/mkdirp-0.5.2.tgz#503aacfe5cc2703d5484326b1b27efa67a339c1f"
+  integrity sha1-UDqs/lzCcD1UhDJrGyfvpnoznB8=
+  dependencies:
+    "@types/node" "*"
+
+"@types/node@*", "@types/node@>=6", "@types/node@^12.7.2":
   version "12.12.14"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@types/node/-/node-12.12.14.tgz#1c1d6e3c75dba466e0326948d56e8bd72a1903d2"
   integrity sha1-HB1uPHXbpGbgMmlI1W6L1yoZA9I=
+
+"@types/node@^10.1.0":
+  version "10.17.6"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@types/node/-/node-10.17.6.tgz#1aaabd6f6470a6ac3824ab1e94d731ca1326d93d"
+  integrity sha1-Gqq9b2Rwpqw4JKselNcxyhMm2T0=
 
 "@types/node@~8.9.4":
   version "8.9.5"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@types/node/-/node-8.9.5.tgz#162b864bc70be077e6db212b322754917929e976"
   integrity sha1-FiuGS8cL4Hfm2yErMidUkXkp6XY=
+
+"@types/parse-json@^4.0.0":
+  version "4.0.0"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@types/parse-json/-/parse-json-4.0.0.tgz#2f8bb441434d163b35fb8ffdccd7138927ffb8c0"
+  integrity sha1-L4u0QUNNFjs1+4/9zNcTiSf/uMA=
 
 "@types/prop-types@*":
   version "15.7.3"
@@ -1636,6 +2213,11 @@
     "@types/react-dom" "*"
     "@types/testing-library__dom" "*"
 
+"@types/valid-url@1.0.2":
+  version "1.0.2"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@types/valid-url/-/valid-url-1.0.2.tgz#60fa435ce24bfd5ba107b8d2a80796aeaf3a8f45"
+  integrity sha1-YPpDXOJL/VuhB7jSqAeWrq86j0U=
+
 "@types/webpack-sources@^0.1.5":
   version "0.1.5"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@types/webpack-sources/-/webpack-sources-0.1.5.tgz#be47c10f783d3d6efe1471ff7f042611bd464a92"
@@ -1644,6 +2226,13 @@
     "@types/node" "*"
     "@types/source-list-map" "*"
     source-map "^0.6.1"
+
+"@types/ws@^6.0.0":
+  version "6.0.4"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@types/ws/-/ws-6.0.4.tgz#7797707c8acce8f76d8c34b370d4645b70421ff1"
+  integrity sha1-d5dwfIrM6PdtjDSzcNRkW3BCH/E=
+  dependencies:
+    "@types/node" "*"
 
 "@types/yargs-parser@*":
   version "13.1.0"
@@ -1656,6 +2245,11 @@
   integrity sha1-dkgq85gdRBLWU3GjGPmS0zRko4A=
   dependencies:
     "@types/yargs-parser" "*"
+
+"@types/zen-observable@^0.8.0":
+  version "0.8.0"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@types/zen-observable/-/zen-observable-0.8.0.tgz#8b63ab7f1aa5321248aad5ac890a485656dcea4d"
+  integrity sha1-i2OrfxqlMhJIqtWsiQpIVlbc6k0=
 
 "@typescript-eslint/eslint-plugin@2.3.2":
   version "2.3.2"
@@ -1865,6 +2459,21 @@
     "@webassemblyjs/wast-parser" "1.8.5"
     "@xtuc/long" "4.2.2"
 
+"@wry/context@^0.4.0":
+  version "0.4.4"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@wry/context/-/context-0.4.4.tgz#e50f5fa1d6cfaabf2977d1fda5ae91717f8815f8"
+  integrity sha1-5Q9fodbPqr8pd9H9pa6RcX+IFfg=
+  dependencies:
+    "@types/node" ">=6"
+    tslib "^1.9.3"
+
+"@wry/equality@^0.1.2", "@wry/equality@^0.1.9":
+  version "0.1.9"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@wry/equality/-/equality-0.1.9.tgz#b13e18b7a8053c6858aa6c85b54911fb31e3a909"
+  integrity sha1-sT4Yt6gFPGhYqmyFtUkR+zHjqQk=
+  dependencies:
+    tslib "^1.9.3"
+
 "@xtuc/ieee754@^1.2.0":
   version "1.2.0"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/@xtuc/ieee754/-/ieee754-1.2.0.tgz#eef014a3145ae477a1cbc00cd1e552336dceb790"
@@ -1885,7 +2494,7 @@ abbrev@1:
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/abbrev/-/abbrev-1.1.1.tgz#f8f2c887ad10bf67f634f005b6987fed3179aac8"
   integrity sha1-+PLIh60Qv2f2NPAFtph/7TF5qsg=
 
-accepts@~1.3.4, accepts@~1.3.5, accepts@~1.3.7:
+accepts@^1.3.5, accepts@~1.3.4, accepts@~1.3.5, accepts@~1.3.7:
   version "1.3.7"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/accepts/-/accepts-1.3.7.tgz#531bc726517a3b2b41f850021c6cc15eaab507cd"
   integrity sha1-UxvHJlF6OytB+FACHGzBXqq1B80=
@@ -1925,6 +2534,14 @@ acorn@^7.0.0, acorn@^7.1.0:
   version "7.1.0"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/acorn/-/acorn-7.1.0.tgz#949d36f2c292535da602283586c2477c57eb2d6c"
   integrity sha1-lJ028sKSU12mAig1hsJHfFfrLWw=
+
+aggregate-error@3.0.1:
+  version "3.0.1"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/aggregate-error/-/aggregate-error-3.0.1.tgz#db2fe7246e536f40d9b5442a39e117d7dd6a24e0"
+  integrity sha1-2y/nJG5Tb0DZtUQqOeEX191qJOA=
+  dependencies:
+    clean-stack "^2.0.0"
+    indent-string "^4.0.0"
 
 ajv-errors@^1.0.0:
   version "1.0.1"
@@ -1988,6 +2605,13 @@ ansi-escapes@^3.0.0, ansi-escapes@^3.2.0:
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/ansi-escapes/-/ansi-escapes-3.2.0.tgz#8780b98ff9dbf5638152d1f1fe5c1d7b4442976b"
   integrity sha1-h4C5j/nb9WOBUtHx/lwde0RCl2s=
 
+ansi-escapes@^4.2.1:
+  version "4.3.0"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/ansi-escapes/-/ansi-escapes-4.3.0.tgz#a4ce2b33d6b214b7950d8595c212f12ac9cc569d"
+  integrity sha1-pM4rM9ayFLeVDYWVwhLxKsnMVp0=
+  dependencies:
+    type-fest "^0.8.1"
+
 ansi-html@0.0.7:
   version "0.0.7"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/ansi-html/-/ansi-html-0.0.7.tgz#813584021962a9e9e6fd039f940d12f56ca7859e"
@@ -2025,6 +2649,19 @@ ansi-styles@^3.2.0, ansi-styles@^3.2.1:
   dependencies:
     color-convert "^1.9.0"
 
+ansi-styles@^4.1.0:
+  version "4.2.0"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/ansi-styles/-/ansi-styles-4.2.0.tgz#5681f0dcf7ae5880a7841d8831c4724ed9cc0172"
+  integrity sha1-VoHw3PeuWICnhB2IMcRyTtnMAXI=
+  dependencies:
+    "@types/color-name" "^1.1.1"
+    color-convert "^2.0.1"
+
+any-observable@^0.3.0:
+  version "0.3.0"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/any-observable/-/any-observable-0.3.0.tgz#af933475e5806a67d0d7df090dd5e8bef65d119b"
+  integrity sha1-r5M0deWAamfQ198JDdXovvZdEZs=
+
 anymatch@^2.0.0:
   version "2.0.0"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/anymatch/-/anymatch-2.0.0.tgz#bcb24b4f37934d9aa7ac17b4adaf89e7c76ef2eb"
@@ -2040,6 +2677,266 @@ anymatch@~3.1.1:
   dependencies:
     normalize-path "^3.0.0"
     picomatch "^2.0.4"
+
+apollo-boost@^0.4.4:
+  version "0.4.4"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/apollo-boost/-/apollo-boost-0.4.4.tgz#7c278dac6cb6fa3f2f710c56baddc6e3ae730651"
+  integrity sha1-fCeNrGy2+j8vcQxWut3G465zBlE=
+  dependencies:
+    apollo-cache "^1.3.2"
+    apollo-cache-inmemory "^1.6.3"
+    apollo-client "^2.6.4"
+    apollo-link "^1.0.6"
+    apollo-link-error "^1.0.3"
+    apollo-link-http "^1.3.1"
+    graphql-tag "^2.4.2"
+    ts-invariant "^0.4.0"
+    tslib "^1.9.3"
+
+apollo-cache-control@^0.8.8:
+  version "0.8.8"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/apollo-cache-control/-/apollo-cache-control-0.8.8.tgz#c6de9ef3a154560f6cf26ce7159e62438c1ac022"
+  integrity sha1-xt6e86FUVg9s8mznFZ5iQ4wawCI=
+  dependencies:
+    apollo-server-env "^2.4.3"
+    graphql-extensions "^0.10.7"
+
+apollo-cache-inmemory@^1.6.3:
+  version "1.6.3"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/apollo-cache-inmemory/-/apollo-cache-inmemory-1.6.3.tgz#826861d20baca4abc45f7ca7a874105905b8525d"
+  integrity sha1-gmhh0guspKvEX3ynqHQQWQW4Ul0=
+  dependencies:
+    apollo-cache "^1.3.2"
+    apollo-utilities "^1.3.2"
+    optimism "^0.10.0"
+    ts-invariant "^0.4.0"
+    tslib "^1.9.3"
+
+apollo-cache@1.3.2, apollo-cache@^1.3.2:
+  version "1.3.2"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/apollo-cache/-/apollo-cache-1.3.2.tgz#df4dce56240d6c95c613510d7e409f7214e6d26a"
+  integrity sha1-303OViQNbJXGE1ENfkCfchTm0mo=
+  dependencies:
+    apollo-utilities "^1.3.2"
+    tslib "^1.9.3"
+
+apollo-client@^2.6.4:
+  version "2.6.4"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/apollo-client/-/apollo-client-2.6.4.tgz#872c32927263a0d34655c5ef8a8949fbb20b6140"
+  integrity sha1-hywyknJjoNNGVcXviolJ+7ILYUA=
+  dependencies:
+    "@types/zen-observable" "^0.8.0"
+    apollo-cache "1.3.2"
+    apollo-link "^1.0.0"
+    apollo-utilities "1.3.2"
+    symbol-observable "^1.0.2"
+    ts-invariant "^0.4.0"
+    tslib "^1.9.3"
+    zen-observable "^0.8.0"
+
+apollo-datasource@^0.6.3:
+  version "0.6.3"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/apollo-datasource/-/apollo-datasource-0.6.3.tgz#b31e089e52adb92fabb536ab8501c502573ffe13"
+  integrity sha1-sx4InlKtuS+rtTarhQHFAlc//hM=
+  dependencies:
+    apollo-server-caching "^0.5.0"
+    apollo-server-env "^2.4.3"
+
+apollo-engine-reporting-protobuf@^0.4.4:
+  version "0.4.4"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/apollo-engine-reporting-protobuf/-/apollo-engine-reporting-protobuf-0.4.4.tgz#73a064f8c9f2d6605192d1673729c66ec47d9cb7"
+  integrity sha1-c6Bk+Mny1mBRktFnNynGbsR9nLc=
+  dependencies:
+    "@apollo/protobufjs" "^1.0.3"
+
+apollo-engine-reporting@^1.4.10:
+  version "1.4.10"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/apollo-engine-reporting/-/apollo-engine-reporting-1.4.10.tgz#cca245133906ed4ece125e48cb95dd959f3af2f6"
+  integrity sha1-zKJFEzkG7U7OEl5Iy5XdlZ868vY=
+  dependencies:
+    apollo-engine-reporting-protobuf "^0.4.4"
+    apollo-graphql "^0.3.4"
+    apollo-server-caching "^0.5.0"
+    apollo-server-env "^2.4.3"
+    apollo-server-types "^0.2.8"
+    async-retry "^1.2.1"
+    graphql-extensions "^0.10.7"
+
+apollo-env@^0.6.0:
+  version "0.6.0"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/apollo-env/-/apollo-env-0.6.0.tgz#124c2ab6bac0a9c6761aa7c1f036964fd282b3ac"
+  integrity sha1-EkwqtrrAqcZ2GqfB8DaWT9KCs6w=
+  dependencies:
+    core-js "^3.0.1"
+    node-fetch "^2.2.0"
+    sha.js "^2.4.11"
+
+apollo-graphql@^0.3.4:
+  version "0.3.5"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/apollo-graphql/-/apollo-graphql-0.3.5.tgz#9d6b30ba94958947e0ad5e67ac0a8a856f1a636d"
+  integrity sha1-nWswupSViUfgrV5nrAqKhW8aY20=
+  dependencies:
+    apollo-env "^0.6.0"
+    lodash.sortby "^4.7.0"
+
+apollo-link-error@^1.0.3:
+  version "1.1.12"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/apollo-link-error/-/apollo-link-error-1.1.12.tgz#e24487bb3c30af0654047611cda87038afbacbf9"
+  integrity sha1-4kSHuzwwrwZUBHYRzahwOK+6y/k=
+  dependencies:
+    apollo-link "^1.2.13"
+    apollo-link-http-common "^0.2.15"
+    tslib "^1.9.3"
+
+apollo-link-http-common@^0.2.15:
+  version "0.2.15"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/apollo-link-http-common/-/apollo-link-http-common-0.2.15.tgz#304e67705122bf69a9abaded4351b10bc5efd6d9"
+  integrity sha1-ME5ncFEiv2mpq63tQ1GxC8Xv1tk=
+  dependencies:
+    apollo-link "^1.2.13"
+    ts-invariant "^0.4.0"
+    tslib "^1.9.3"
+
+apollo-link-http@^1.3.1:
+  version "1.5.16"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/apollo-link-http/-/apollo-link-http-1.5.16.tgz#44fe760bcc2803b8a7f57fc9269173afb00f3814"
+  integrity sha1-RP52C8woA7in9X/JJpFzr7APOBQ=
+  dependencies:
+    apollo-link "^1.2.13"
+    apollo-link-http-common "^0.2.15"
+    tslib "^1.9.3"
+
+apollo-link-ws@^1.0.19:
+  version "1.0.19"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/apollo-link-ws/-/apollo-link-ws-1.0.19.tgz#dfa871d4df883a8777c9556c872fc892e103daa5"
+  integrity sha1-36hx1N+IOod3yVVshy/IkuED2qU=
+  dependencies:
+    apollo-link "^1.2.13"
+    tslib "^1.9.3"
+
+apollo-link@^1.0.0, apollo-link@^1.0.6, apollo-link@^1.2.13, apollo-link@^1.2.3:
+  version "1.2.13"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/apollo-link/-/apollo-link-1.2.13.tgz#dff00fbf19dfcd90fddbc14b6a3f9a771acac6c4"
+  integrity sha1-3/APvxnfzZD928FLaj+adxrKxsQ=
+  dependencies:
+    apollo-utilities "^1.3.0"
+    ts-invariant "^0.4.0"
+    tslib "^1.9.3"
+    zen-observable-ts "^0.8.20"
+
+apollo-server-caching@^0.5.0:
+  version "0.5.0"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/apollo-server-caching/-/apollo-server-caching-0.5.0.tgz#446a37ce2d4e24c81833e276638330a634f7bd46"
+  integrity sha1-RGo3zi1OJMgYM+J2Y4MwpjT3vUY=
+  dependencies:
+    lru-cache "^5.0.0"
+
+apollo-server-core@^2.9.12:
+  version "2.9.12"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/apollo-server-core/-/apollo-server-core-2.9.12.tgz#c8ed48540762913242eef5fce0da8b59b131a1e8"
+  integrity sha1-yO1IVAdikTJC7vX84NqLWbExoeg=
+  dependencies:
+    "@apollographql/apollo-tools" "^0.4.0"
+    "@apollographql/graphql-playground-html" "1.6.24"
+    "@types/graphql-upload" "^8.0.0"
+    "@types/ws" "^6.0.0"
+    apollo-cache-control "^0.8.8"
+    apollo-datasource "^0.6.3"
+    apollo-engine-reporting "^1.4.10"
+    apollo-server-caching "^0.5.0"
+    apollo-server-env "^2.4.3"
+    apollo-server-errors "^2.3.4"
+    apollo-server-plugin-base "^0.6.8"
+    apollo-server-types "^0.2.8"
+    apollo-tracing "^0.8.8"
+    fast-json-stable-stringify "^2.0.0"
+    graphql-extensions "^0.10.7"
+    graphql-tag "^2.9.2"
+    graphql-tools "^4.0.0"
+    graphql-upload "^8.0.2"
+    sha.js "^2.4.11"
+    subscriptions-transport-ws "^0.9.11"
+    ws "^6.0.0"
+
+apollo-server-env@^2.4.3:
+  version "2.4.3"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/apollo-server-env/-/apollo-server-env-2.4.3.tgz#9bceedaae07eafb96becdfd478f8d92617d825d2"
+  integrity sha1-m87tquB+r7lr7N/UePjZJhfYJdI=
+  dependencies:
+    node-fetch "^2.1.2"
+    util.promisify "^1.0.0"
+
+apollo-server-errors@^2.3.4:
+  version "2.3.4"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/apollo-server-errors/-/apollo-server-errors-2.3.4.tgz#b70ef01322f616cbcd876f3e0168a1a86b82db34"
+  integrity sha1-tw7wEyL2FsvNh28+AWihqGuC2zQ=
+
+apollo-server-express@^2.9.12:
+  version "2.9.12"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/apollo-server-express/-/apollo-server-express-2.9.12.tgz#e779ea2c107fcc63b0c9b888a4cbf0f65af6d505"
+  integrity sha1-53nqLBB/zGOwybiIpMvw9lr21QU=
+  dependencies:
+    "@apollographql/graphql-playground-html" "1.6.24"
+    "@types/accepts" "^1.3.5"
+    "@types/body-parser" "1.17.1"
+    "@types/cors" "^2.8.4"
+    "@types/express" "4.17.1"
+    accepts "^1.3.5"
+    apollo-server-core "^2.9.12"
+    apollo-server-types "^0.2.8"
+    body-parser "^1.18.3"
+    cors "^2.8.4"
+    express "^4.17.1"
+    graphql-subscriptions "^1.0.0"
+    graphql-tools "^4.0.0"
+    parseurl "^1.3.2"
+    subscriptions-transport-ws "^0.9.16"
+    type-is "^1.6.16"
+
+apollo-server-plugin-base@^0.6.8:
+  version "0.6.8"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/apollo-server-plugin-base/-/apollo-server-plugin-base-0.6.8.tgz#94cb9a6d806b7057d1d42202292d2adcf2cf0e7a"
+  integrity sha1-lMuabYBrcFfR1CICKS0q3PLPDno=
+  dependencies:
+    apollo-server-types "^0.2.8"
+
+apollo-server-types@^0.2.8:
+  version "0.2.8"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/apollo-server-types/-/apollo-server-types-0.2.8.tgz#729208a8dd72831af3aa4f1eb584022ada146e6b"
+  integrity sha1-cpIIqN1ygxrzqk8etYQCKtoUbms=
+  dependencies:
+    apollo-engine-reporting-protobuf "^0.4.4"
+    apollo-server-caching "^0.5.0"
+    apollo-server-env "^2.4.3"
+
+apollo-server@^2.9.0:
+  version "2.9.12"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/apollo-server/-/apollo-server-2.9.12.tgz#3fe28c361ee373d52ae38ca190869508b0c532c0"
+  integrity sha1-P+KMNh7jc9Uq44yhkIaVCLDFMsA=
+  dependencies:
+    apollo-server-core "^2.9.12"
+    apollo-server-express "^2.9.12"
+    express "^4.0.0"
+    graphql-subscriptions "^1.0.0"
+    graphql-tools "^4.0.0"
+
+apollo-tracing@^0.8.8:
+  version "0.8.8"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/apollo-tracing/-/apollo-tracing-0.8.8.tgz#bfaffd76dc12ed5cc1c1198b5411864affdb1b83"
+  integrity sha1-v6/9dtwS7VzBwRmLVBGGSv/bG4M=
+  dependencies:
+    apollo-server-env "^2.4.3"
+    graphql-extensions "^0.10.7"
+
+apollo-utilities@1.3.2, apollo-utilities@^1.0.1, apollo-utilities@^1.3.0, apollo-utilities@^1.3.2:
+  version "1.3.2"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/apollo-utilities/-/apollo-utilities-1.3.2.tgz#8cbdcf8b012f664cd6cb5767f6130f5aed9115c9"
+  integrity sha1-jL3PiwEvZkzWy1dn9hMPWu2RFck=
+  dependencies:
+    "@wry/equality" "^0.1.2"
+    fast-json-stable-stringify "^2.0.0"
+    ts-invariant "^0.4.0"
+    tslib "^1.9.3"
 
 aproba@^1.0.3, aproba@^1.1.1:
   version "1.2.0"
@@ -2119,6 +3016,11 @@ array-union@^1.0.1:
   dependencies:
     array-uniq "^1.0.1"
 
+array-union@^2.1.0:
+  version "2.1.0"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/array-union/-/array-union-2.1.0.tgz#b798420adbeb1de828d84acd8a2e23d3efe85e8d"
+  integrity sha1-t5hCCtvrHego2ErNii4j0+/oXo0=
+
 array-uniq@^1.0.1:
   version "1.0.3"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/array-uniq/-/array-uniq-1.0.3.tgz#af6ac877a25cc7f74e058894753858dfdb24fdb6"
@@ -2193,6 +3095,13 @@ async-limiter@~1.0.0:
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/async-limiter/-/async-limiter-1.0.1.tgz#dd379e94f0db8310b08291f9d64c3209766617fd"
   integrity sha1-3TeelPDbgxCwgpH51kwyCXZmF/0=
 
+async-retry@^1.2.1:
+  version "1.2.3"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/async-retry/-/async-retry-1.2.3.tgz#a6521f338358d322b1a0012b79030c6f411d1ce0"
+  integrity sha1-plIfM4NY0yKxoAEreQMMb0EdHOA=
+  dependencies:
+    retry "0.12.0"
+
 async@2.6.1:
   version "2.6.1"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/async/-/async-2.6.1.tgz#b245a23ca71930044ec53fa46aa00a3e87c6a610"
@@ -2216,6 +3125,11 @@ atob@^2.1.1:
   version "2.1.2"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/atob/-/atob-2.1.2.tgz#6d9517eb9e030d2436666651e86bd9f6f13533c9"
   integrity sha1-bZUX654DDSQ2ZmZR6GvZ9vE1M8k=
+
+auto-bind@3.0.0:
+  version "3.0.0"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/auto-bind/-/auto-bind-3.0.0.tgz#67773e64899b228f6d2a841709e7e086cfed31a3"
+  integrity sha1-Z3c+ZImbIo9tKoQXCefghs/tMaM=
 
 autoprefixer@9.6.1:
   version "9.6.1"
@@ -2334,10 +3248,48 @@ babel-plugin-macros@2.6.1:
     cosmiconfig "^5.2.0"
     resolve "^1.10.0"
 
+babel-plugin-syntax-trailing-function-commas@^7.0.0-beta.0:
+  version "7.0.0-beta.0"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/babel-plugin-syntax-trailing-function-commas/-/babel-plugin-syntax-trailing-function-commas-7.0.0-beta.0.tgz#aa213c1435e2bffeb6fca842287ef534ad05d5cf"
+  integrity sha1-qiE8FDXiv/62/KhCKH71NK0F1c8=
+
 babel-plugin-transform-async-to-promises@0.8.14:
   version "0.8.14"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/babel-plugin-transform-async-to-promises/-/babel-plugin-transform-async-to-promises-0.8.14.tgz#8c783aecb1139f39c608f8bb0f5bb69c343c878e"
   integrity sha1-jHg67LETnznGCPi7D1u2nDQ8h44=
+
+babel-preset-fbjs@^3.3.0:
+  version "3.3.0"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/babel-preset-fbjs/-/babel-preset-fbjs-3.3.0.tgz#a6024764ea86c8e06a22d794ca8b69534d263541"
+  integrity sha1-pgJHZOqGyOBqIteUyotpU00mNUE=
+  dependencies:
+    "@babel/plugin-proposal-class-properties" "^7.0.0"
+    "@babel/plugin-proposal-object-rest-spread" "^7.0.0"
+    "@babel/plugin-syntax-class-properties" "^7.0.0"
+    "@babel/plugin-syntax-flow" "^7.0.0"
+    "@babel/plugin-syntax-jsx" "^7.0.0"
+    "@babel/plugin-syntax-object-rest-spread" "^7.0.0"
+    "@babel/plugin-transform-arrow-functions" "^7.0.0"
+    "@babel/plugin-transform-block-scoped-functions" "^7.0.0"
+    "@babel/plugin-transform-block-scoping" "^7.0.0"
+    "@babel/plugin-transform-classes" "^7.0.0"
+    "@babel/plugin-transform-computed-properties" "^7.0.0"
+    "@babel/plugin-transform-destructuring" "^7.0.0"
+    "@babel/plugin-transform-flow-strip-types" "^7.0.0"
+    "@babel/plugin-transform-for-of" "^7.0.0"
+    "@babel/plugin-transform-function-name" "^7.0.0"
+    "@babel/plugin-transform-literals" "^7.0.0"
+    "@babel/plugin-transform-member-expression-literals" "^7.0.0"
+    "@babel/plugin-transform-modules-commonjs" "^7.0.0"
+    "@babel/plugin-transform-object-super" "^7.0.0"
+    "@babel/plugin-transform-parameters" "^7.0.0"
+    "@babel/plugin-transform-property-literals" "^7.0.0"
+    "@babel/plugin-transform-react-display-name" "^7.0.0"
+    "@babel/plugin-transform-react-jsx" "^7.0.0"
+    "@babel/plugin-transform-shorthand-properties" "^7.0.0"
+    "@babel/plugin-transform-spread" "^7.0.0"
+    "@babel/plugin-transform-template-literals" "^7.0.0"
+    babel-plugin-syntax-trailing-function-commas "^7.0.0-beta.0"
 
 babel-preset-jest@^24.9.0:
   version "24.9.0"
@@ -2381,6 +3333,15 @@ babel-traverse@^6.18.0, babel-traverse@^6.26.0:
     invariant "^2.2.2"
     lodash "^4.17.4"
 
+babel-types@7.0.0-beta.3:
+  version "7.0.0-beta.3"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/babel-types/-/babel-types-7.0.0-beta.3.tgz#cd927ca70e0ae8ab05f4aab83778cfb3e6eb20b4"
+  integrity sha1-zZJ8pw4K6KsF9Kq4N3jPs+brILQ=
+  dependencies:
+    esutils "^2.0.2"
+    lodash "^4.2.0"
+    to-fast-properties "^2.0.0"
+
 babel-types@^6.18.0, babel-types@^6.26.0:
   version "6.26.0"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/babel-types/-/babel-types-6.26.0.tgz#a3b073f94ab49eb6fa55cd65227a334380632497"
@@ -2395,6 +3356,11 @@ babylon@^6.18.0:
   version "6.18.0"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/babylon/-/babylon-6.18.0.tgz#af2f3b88fa6f5c1e4c634d1a0f8eac4f55b395e3"
   integrity sha1-ry87iPpvXB5MY00aD46sT1WzleM=
+
+backo2@^1.0.2:
+  version "1.0.2"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/backo2/-/backo2-1.0.2.tgz#31ab1ac8b129363463e35b3ebb69f4dfcfba7947"
+  integrity sha1-MasayLEpNjRj41s+u2n038+6eUc=
 
 balanced-match@^1.0.0:
   version "1.0.0"
@@ -2471,7 +3437,7 @@ bn.js@^4.0.0, bn.js@^4.1.0, bn.js@^4.1.1, bn.js@^4.4.0:
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/bn.js/-/bn.js-4.11.8.tgz#2cde09eb5ee341f484746bb0309b3253b1b1442f"
   integrity sha1-LN4J617jQfSEdGuwMJsyU7GxRC8=
 
-body-parser@1.19.0:
+body-parser@1.19.0, body-parser@^1.18.3, body-parser@^1.19.0:
   version "1.19.0"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/body-parser/-/body-parser-1.19.0.tgz#96b2709e57c9c4e09a6fd66a8fd979844f69f08a"
   integrity sha1-lrJwnlfJxOCab9Zqj9l5hE9p8Io=
@@ -2542,7 +3508,7 @@ braces@^2.3.1, braces@^2.3.2:
     split-string "^3.0.2"
     to-regex "^3.0.1"
 
-braces@~3.0.2:
+braces@^3.0.1, braces@~3.0.2:
   version "3.0.2"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/braces/-/braces-3.0.2.tgz#3454e1a462ee8d599e236df336cd9ea4f8afe107"
   integrity sha1-NFThpGLujVmeI23zNs2epPiv4Qc=
@@ -2708,6 +3674,13 @@ builtin-status-codes@^3.0.0:
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/builtin-status-codes/-/builtin-status-codes-3.0.0.tgz#85982878e21b98e1c66425e03d0174788f569ee8"
   integrity sha1-hZgoeOIbmOHGZCXgPQF0eI9Wnug=
 
+busboy@^0.3.1:
+  version "0.3.1"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/busboy/-/busboy-0.3.1.tgz#170899274c5bf38aae27d5c62b71268cd585fd1b"
+  integrity sha1-FwiZJ0xb84quJ9XGK3EmjNWF/Rs=
+  dependencies:
+    dicer "0.3.0"
+
 bytes@3.0.0:
   version "3.0.0"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/bytes/-/bytes-3.0.0.tgz#d32815404d689699f85a4ea4fa8755dd13a96048"
@@ -2802,6 +3775,11 @@ cachedir@1.3.0:
   dependencies:
     os-homedir "^1.0.1"
 
+call-me-maybe@^1.0.1:
+  version "1.0.1"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/call-me-maybe/-/call-me-maybe-1.0.1.tgz#26d208ea89e37b5cbde60250a15f031c16a4d66b"
+  integrity sha1-JtII6onje1y95gJQoV8DHBak1ms=
+
 caller-callsite@^2.0.0:
   version "2.0.0"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/caller-callsite/-/caller-callsite-2.0.0.tgz#847e0fce0a223750a9a027c54b33731ad3154134"
@@ -2825,6 +3803,14 @@ callsites@^3.0.0:
   version "3.1.0"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/callsites/-/callsites-3.1.0.tgz#b3630abd8943432f54b3f0519238e33cd7df2f73"
   integrity sha1-s2MKvYlDQy9Us/BRkjjjPNffL3M=
+
+camel-case@^3.0.0:
+  version "3.0.0"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/camel-case/-/camel-case-3.0.0.tgz#ca3c3688a4e9cf3a4cda777dc4dcbc713249cf73"
+  integrity sha1-yjw2iKTpzzpM2nd9xNy8cTJJz3M=
+  dependencies:
+    no-case "^2.2.0"
+    upper-case "^1.1.1"
 
 camelcase@^4.1.0:
   version "4.1.0"
@@ -2882,6 +3868,14 @@ chalk@2.4.2, chalk@^2.0.0, chalk@^2.0.1, chalk@^2.1.0, chalk@^2.3.0, chalk@^2.4.
     escape-string-regexp "^1.0.5"
     supports-color "^5.3.0"
 
+chalk@3.0.0:
+  version "3.0.0"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/chalk/-/chalk-3.0.0.tgz#3f73c2bf526591f574cc492c51e2456349f844e4"
+  integrity sha1-P3PCv1JlkfV0zEksUeJFY0n4ROQ=
+  dependencies:
+    ansi-styles "^4.1.0"
+    supports-color "^7.1.0"
+
 chalk@^1.0.0, chalk@^1.1.1, chalk@^1.1.3:
   version "1.1.3"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/chalk/-/chalk-1.1.3.tgz#a8115c55e4a702fe4d150abd3872822a7e09fc98"
@@ -2893,6 +3887,30 @@ chalk@^1.0.0, chalk@^1.1.1, chalk@^1.1.3:
     strip-ansi "^3.0.0"
     supports-color "^2.0.0"
 
+change-case@3.1.0:
+  version "3.1.0"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/change-case/-/change-case-3.1.0.tgz#0e611b7edc9952df2e8513b27b42de72647dd17e"
+  integrity sha1-DmEbftyZUt8uhROye0LecmR90X4=
+  dependencies:
+    camel-case "^3.0.0"
+    constant-case "^2.0.0"
+    dot-case "^2.1.0"
+    header-case "^1.0.0"
+    is-lower-case "^1.1.0"
+    is-upper-case "^1.1.0"
+    lower-case "^1.1.1"
+    lower-case-first "^1.0.0"
+    no-case "^2.3.2"
+    param-case "^2.1.0"
+    pascal-case "^2.0.0"
+    path-case "^2.1.0"
+    sentence-case "^2.1.0"
+    snake-case "^2.1.0"
+    swap-case "^1.1.0"
+    title-case "^2.1.0"
+    upper-case "^1.1.1"
+    upper-case-first "^1.1.0"
+
 chardet@^0.7.0:
   version "0.7.0"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/chardet/-/chardet-0.7.0.tgz#90094849f0937f2eedc2425d0d28a9e5f0cbad9e"
@@ -2903,7 +3921,7 @@ check-more-types@2.24.0:
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/check-more-types/-/check-more-types-2.24.0.tgz#1420ffb10fd444dcfc79b43891bbfffd32a84600"
   integrity sha1-FCD/sQ/URNz8ebQ4kbv//TKoRgA=
 
-"chokidar@>=2.0.0 <4.0.0":
+chokidar@3.3.0, "chokidar@>=2.0.0 <4.0.0":
   version "3.3.0"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/chokidar/-/chokidar-3.3.0.tgz#12c0714668c55800f659e262d4962a97faf554a6"
   integrity sha1-EsBxRmjFWAD2WeJi1JYql/r1VKY=
@@ -2989,6 +4007,11 @@ clean-css@4.2.1:
   dependencies:
     source-map "~0.6.0"
 
+clean-stack@^2.0.0:
+  version "2.2.0"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/clean-stack/-/clean-stack-2.2.0.tgz#ee8472dbb129e727b31e8a10a427dee9dfe4008b"
+  integrity sha1-7oRy27Ep5yezHooQpCfe6d/kAIs=
+
 cli-boxes@^2.2.0:
   version "2.2.0"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/cli-boxes/-/cli-boxes-2.2.0.tgz#538ecae8f9c6ca508e3c3c95b453fe93cb4c168d"
@@ -3001,12 +4024,19 @@ cli-cursor@^1.0.2:
   dependencies:
     restore-cursor "^1.0.1"
 
-cli-cursor@^2.1.0:
+cli-cursor@^2.0.0, cli-cursor@^2.1.0:
   version "2.1.0"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/cli-cursor/-/cli-cursor-2.1.0.tgz#b35dac376479facc3e94747d41d0d0f5238ffcb5"
   integrity sha1-s12sN2R5+sw+lHR9QdDQ9SOP/LU=
   dependencies:
     restore-cursor "^2.0.0"
+
+cli-cursor@^3.1.0:
+  version "3.1.0"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/cli-cursor/-/cli-cursor-3.1.0.tgz#264305a7ae490d1d03bf0c9ba7c925d1753af307"
+  integrity sha1-JkMFp65JDR0Dvwybp8kl0XU68wc=
+  dependencies:
+    restore-cursor "^3.1.0"
 
 cli-spinners@^0.1.2:
   version "0.1.2"
@@ -3025,6 +4055,15 @@ cli-width@^2.0.0:
   version "2.2.0"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/cli-width/-/cli-width-2.2.0.tgz#ff19ede8a9a5e579324147b0c11f0fbcbabed639"
   integrity sha1-/xnt6Kml5XkyQUewwR8PvLq+1jk=
+
+cliui@^3.2.0:
+  version "3.2.0"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/cliui/-/cliui-3.2.0.tgz#120601537a916d29940f934da3b48d585a39213d"
+  integrity sha1-EgYBU3qRbSmUD5NNo7SNWFo5IT0=
+  dependencies:
+    string-width "^1.0.1"
+    strip-ansi "^3.0.1"
+    wrap-ansi "^2.0.0"
 
 cliui@^4.0.0:
   version "4.1.0"
@@ -3092,12 +4131,19 @@ color-convert@^1.9.0, color-convert@^1.9.1:
   dependencies:
     color-name "1.1.3"
 
+color-convert@^2.0.1:
+  version "2.0.1"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/color-convert/-/color-convert-2.0.1.tgz#72d3a68d598c9bdb3af2ad1e84f21d896abd4de3"
+  integrity sha1-ctOmjVmMm9s68q0ehPIdiWq9TeM=
+  dependencies:
+    color-name "~1.1.4"
+
 color-name@1.1.3:
   version "1.1.3"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/color-name/-/color-name-1.1.3.tgz#a7d0558bd89c42f795dd42328f740831ca53bc25"
   integrity sha1-p9BVi9icQveV3UIyj3QIMcpTvCU=
 
-color-name@^1.0.0:
+color-name@^1.0.0, color-name@~1.1.4:
   version "1.1.4"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/color-name/-/color-name-1.1.4.tgz#c2a09a87acbde69543de6f63fa3995c826c536a2"
   integrity sha1-wqCah6y95pVD3m9j+jmVyCbFNqI=
@@ -3134,6 +4180,11 @@ commander@2.15.1:
   version "2.15.1"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/commander/-/commander-2.15.1.tgz#df46e867d0fc2aec66a34662b406a9ccafff5b0f"
   integrity sha1-30boZ9D8Kuxmo0ZitAapzK//Ww8=
+
+commander@4.0.1:
+  version "4.0.1"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/commander/-/commander-4.0.1.tgz#b67622721785993182e807f4883633e6401ba53c"
+  integrity sha1-tnYicheFmTGC6Af0iDYz5kAbpTw=
 
 commander@^2.11.0, commander@^2.12.1, commander@^2.20.0, commander@~2.20.3:
   version "2.20.3"
@@ -3216,6 +4267,14 @@ console-control-strings@^1.0.0, console-control-strings@~1.1.0:
   version "1.1.0"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/console-control-strings/-/console-control-strings-1.1.0.tgz#3d7cf4464db6446ea644bf4b39507f9851008e8e"
   integrity sha1-PXz0Rk22RG6mRL9LOVB/mFEAjo4=
+
+constant-case@^2.0.0:
+  version "2.0.0"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/constant-case/-/constant-case-2.0.0.tgz#4175764d389d3fa9c8ecd29186ed6005243b6a46"
+  integrity sha1-QXV2TTidP6nI7NKRhu1gBSQ7akY=
+  dependencies:
+    snake-case "^2.1.0"
+    upper-case "^1.1.1"
 
 constants-browserify@^1.0.0:
   version "1.0.0"
@@ -3304,12 +4363,12 @@ core-js-pure@^3.0.0:
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/core-js-pure/-/core-js-pure-3.4.7.tgz#c998e1892da9949200c7452cbd33c0df95be9f54"
   integrity sha1-yZjhiS2plJIAx0UsvTPA35W+n1Q=
 
-core-js@^2.4.0:
+core-js@^2.4.0, core-js@^2.4.1:
   version "2.6.10"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/core-js/-/core-js-2.6.10.tgz#8a5b8391f8cc7013da703411ce5b585706300d7f"
   integrity sha1-iluDkfjMcBPacDQRzltYVwYwDX8=
 
-core-js@^3.2.1:
+core-js@^3.0.1, core-js@^3.2.1:
   version "3.4.7"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/core-js/-/core-js-3.4.7.tgz#57c35937da80fe494fbc3adcf9cf3dc00eb86b34"
   integrity sha1-V8NZN9qA/klPvDrc+c89wA64azQ=
@@ -3318,6 +4377,14 @@ core-util-is@1.0.2, core-util-is@~1.0.0:
   version "1.0.2"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/core-util-is/-/core-util-is-1.0.2.tgz#b5fd54220aa2bc5ab57aab7140c940754503c1a7"
   integrity sha1-tf1UIgqivFq1eqtxQMlAdUUDwac=
+
+cors@^2.8.4:
+  version "2.8.5"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/cors/-/cors-2.8.5.tgz#eac11da51592dd86b9f06f6e7ac293b3df875d29"
+  integrity sha1-6sEdpRWS3Ya58G9uesKTs9+HXSk=
+  dependencies:
+    object-assign "^4"
+    vary "^1"
 
 cosmiconfig@4.0.0:
   version "4.0.0"
@@ -3329,7 +4396,7 @@ cosmiconfig@4.0.0:
     parse-json "^4.0.0"
     require-from-string "^2.0.1"
 
-cosmiconfig@^5.0.0, cosmiconfig@^5.2.0:
+cosmiconfig@5.2.1, cosmiconfig@^5.0.0, cosmiconfig@^5.2.0:
   version "5.2.1"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/cosmiconfig/-/cosmiconfig-5.2.1.tgz#040f726809c591e77a17c0a3626ca45b4f168b1a"
   integrity sha1-BA9yaAnFked6F8CjYmykW08Wixo=
@@ -3338,6 +4405,17 @@ cosmiconfig@^5.0.0, cosmiconfig@^5.2.0:
     is-directory "^0.3.1"
     js-yaml "^3.13.1"
     parse-json "^4.0.0"
+
+cosmiconfig@6.0.0:
+  version "6.0.0"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/cosmiconfig/-/cosmiconfig-6.0.0.tgz#da4fee853c52f6b1e6935f41c1a2fc50bd4a9982"
+  integrity sha1-2k/uhTxS9rHmk19BwaL8UL1KmYI=
+  dependencies:
+    "@types/parse-json" "^4.0.0"
+    import-fresh "^3.1.0"
+    parse-json "^5.0.0"
+    path-type "^4.0.0"
+    yaml "^1.7.2"
 
 create-ecdh@^4.0.0:
   version "4.0.3"
@@ -3369,6 +4447,23 @@ create-hmac@^1.1.0, create-hmac@^1.1.2, create-hmac@^1.1.4:
     ripemd160 "^2.0.0"
     safe-buffer "^5.0.1"
     sha.js "^2.4.8"
+
+cross-fetch@3.0.4:
+  version "3.0.4"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/cross-fetch/-/cross-fetch-3.0.4.tgz#7bef7020207e684a7638ef5f2f698e24d9eb283c"
+  integrity sha1-e+9wICB+aEp2OO9fL2mOJNnrKDw=
+  dependencies:
+    node-fetch "2.6.0"
+    whatwg-fetch "3.0.0"
+
+cross-spawn@^5.0.1:
+  version "5.1.0"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/cross-spawn/-/cross-spawn-5.1.0.tgz#e8bd0efee58fcff6f8f94510a0a554bbfa235449"
+  integrity sha1-6L0O/uWPz/b4+UUQoKVUu/ojVEk=
+  dependencies:
+    lru-cache "^4.0.1"
+    shebang-command "^1.2.0"
+    which "^1.2.9"
 
 cross-spawn@^6.0.0, cross-spawn@^6.0.5:
   version "6.0.5"
@@ -3641,6 +4736,11 @@ date-fns@^1.27.2:
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/date-fns/-/date-fns-1.30.1.tgz#2e71bf0b119153dbb4cc4e88d9ea5acfb50dc05c"
   integrity sha1-LnG/CxGRU9u0zE6I2epaz7UNwFw=
 
+debounce@1.2.0:
+  version "1.2.0"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/debounce/-/debounce-1.2.0.tgz#44a540abc0ea9943018dc0eaa95cce87f65cd131"
+  integrity sha1-RKVAq8DqmUMBjcDqqVzOh/Zc0TE=
+
 debug@*, debug@4.1.1, debug@^4.0.1, debug@^4.1.0, debug@^4.1.1:
   version "4.1.1"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/debug/-/debug-4.1.1.tgz#3b72260255109c6b589cee050f1d516139664791"
@@ -3700,6 +4800,16 @@ deep-is@~0.1.3:
   version "0.1.3"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/deep-is/-/deep-is-0.1.3.tgz#b369d6fb5dbc13eecf524f91b070feedc357cf34"
   integrity sha1-s2nW+128E+7PUk+RsHD+7cNXzzQ=
+
+deepmerge@4.2.0:
+  version "4.2.0"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/deepmerge/-/deepmerge-4.2.0.tgz#77a97af6746882cd1ed85d4b925be8cd4120b630"
+  integrity sha1-d6l69nRogs0e2F1LklvozUEgtjA=
+
+deepmerge@4.2.2:
+  version "4.2.2"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/deepmerge/-/deepmerge-4.2.2.tgz#44d2ea3679b8f4d4ffba33f03d865fc1e7bf4955"
+  integrity sha1-RNLqNnm49NT/ujPwPYZfwee/SVU=
 
 default-gateway@^4.2.0:
   version "4.2.0"
@@ -3766,10 +4876,20 @@ depd@~1.1.2:
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/depd/-/depd-1.1.2.tgz#9bcd52e14c097763e749b274c4346ed2e560b5a9"
   integrity sha1-m81S4UwJd2PnSbJ0xDRu0uVgtak=
 
+dependency-graph@0.8.0:
+  version "0.8.0"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/dependency-graph/-/dependency-graph-0.8.0.tgz#2da2d35ed852ecc24a5d6c17788ba57c3708755b"
+  integrity sha1-LaLTXthS7MJKXWwXeIulfDcIdVs=
+
 dependency-graph@^0.7.2:
   version "0.7.2"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/dependency-graph/-/dependency-graph-0.7.2.tgz#91db9de6eb72699209d88aea4c1fd5221cac1c49"
   integrity sha1-kdud5utyaZIJ2IrqTB/VIhysHEk=
+
+deprecated-decorator@^0.1.6:
+  version "0.1.6"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/deprecated-decorator/-/deprecated-decorator-0.1.6.tgz#00966317b7a12fe92f3cc831f7583af329b86c37"
+  integrity sha1-AJZjF7ehL+kvPMgx91g68ym4bDc=
 
 des.js@^1.0.0:
   version "1.0.1"
@@ -3783,6 +4903,11 @@ destroy@~1.0.4:
   version "1.0.4"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/destroy/-/destroy-1.0.4.tgz#978857442c44749e4206613e37946205826abd80"
   integrity sha1-l4hXRCxEdJ5CBmE+N5RiBYJqvYA=
+
+detect-indent@6.0.0:
+  version "6.0.0"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/detect-indent/-/detect-indent-6.0.0.tgz#0abd0f549f69fc6659a254fe96786186b6f528fd"
+  integrity sha1-Cr0PVJ9p/GZZolT+lnhhhrb1KP0=
 
 detect-indent@^4.0.0:
   version "4.0.0"
@@ -3805,6 +4930,13 @@ detect-node@^2.0.4:
   version "2.0.4"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/detect-node/-/detect-node-2.0.4.tgz#014ee8f8f669c5c58023da64b8179c083a28c46c"
   integrity sha1-AU7o+PZpxcWAI9pkuBecCDooxGw=
+
+dicer@0.3.0:
+  version "0.3.0"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/dicer/-/dicer-0.3.0.tgz#eacd98b3bfbf92e8ab5c2fdb71aaac44bb06b872"
+  integrity sha1-6s2Ys7+/kuirXC/bcaqsRLsGuHI=
+  dependencies:
+    streamsearch "0.1.2"
 
 diff-sequences@^24.9.0:
   version "24.9.0"
@@ -3831,6 +4963,13 @@ dir-glob@^2.0.0:
   integrity sha1-+gnwaUFTyJGLGLoN6vrpR2n8UMQ=
   dependencies:
     path-type "^3.0.0"
+
+dir-glob@^3.0.1:
+  version "3.0.1"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/dir-glob/-/dir-glob-3.0.1.tgz#56dbf73d992a4a93ba1584f4534063fd2e41717f"
+  integrity sha1-Vtv3PZkqSpO6FYT0U0Bj/S5BcX8=
+  dependencies:
+    path-type "^4.0.0"
 
 dns-equal@^1.0.0:
   version "1.0.0"
@@ -3919,6 +5058,13 @@ domutils@^1.7.0:
     dom-serializer "0"
     domelementtype "1"
 
+dot-case@^2.1.0:
+  version "2.1.1"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/dot-case/-/dot-case-2.1.1.tgz#34dcf37f50a8e93c2b3bca8bb7fb9155c7da3bee"
+  integrity sha1-NNzzf1Co6TwrO8qLt/uRVcfaO+4=
+  dependencies:
+    no-case "^2.2.0"
+
 dot-prop@^4.1.1:
   version "4.2.0"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/dot-prop/-/dot-prop-4.2.0.tgz#1f19e0c2e1aa0e32797c49799f2837ac6af69c57"
@@ -4001,6 +5147,13 @@ encodeurl@~1.0.2:
   version "1.0.2"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/encodeurl/-/encodeurl-1.0.2.tgz#ad3ff4c86ec2d029322f5a02c3a9a606c95b3f59"
   integrity sha1-rT/0yG7C0CkyL1oCw6mmBslbP1k=
+
+encoding@^0.1.11:
+  version "0.1.12"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/encoding/-/encoding-0.1.12.tgz#538b66f3ee62cd1ab51ec323829d1f9480c74beb"
+  integrity sha1-U4tm8+5izRq1HsMjgp0flIDHS+s=
+  dependencies:
+    iconv-lite "~0.4.13"
 
 end-of-stream@^1.0.0, end-of-stream@^1.1.0:
   version "1.4.4"
@@ -4313,6 +5466,11 @@ etag@~1.8.1:
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/etag/-/etag-1.8.1.tgz#41ae2eeb65efa62268aebfea83ac7d79299b0887"
   integrity sha1-Qa4u62XvpiJorr/qg6x9eSmbCIc=
 
+eventemitter3@^3.1.0:
+  version "3.1.2"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/eventemitter3/-/eventemitter3-3.1.2.tgz#2d3d48f9c346698fce83a85d7d664e98535df6e7"
+  integrity sha1-LT1I+cNGaY/Og6hdfWZOmFNd9uc=
+
 eventemitter3@^4.0.0:
   version "4.0.0"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/eventemitter3/-/eventemitter3-4.0.0.tgz#d65176163887ee59f386d64c82610b696a4a74eb"
@@ -4349,6 +5507,19 @@ execa@0.10.0:
   integrity sha1-/0Vqj1P5D47MxxqW0Rvfx/CCy1A=
   dependencies:
     cross-spawn "^6.0.0"
+    get-stream "^3.0.0"
+    is-stream "^1.1.0"
+    npm-run-path "^2.0.0"
+    p-finally "^1.0.0"
+    signal-exit "^3.0.0"
+    strip-eof "^1.0.0"
+
+execa@^0.7.0:
+  version "0.7.0"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/execa/-/execa-0.7.0.tgz#944becd34cc41ee32a63a9faf27ad5a65fc59777"
+  integrity sha1-lEvs00zEHuMqY6n68nrVpl/Fl3c=
+  dependencies:
+    cross-spawn "^5.0.1"
     get-stream "^3.0.0"
     is-stream "^1.1.0"
     npm-run-path "^2.0.0"
@@ -4411,7 +5582,7 @@ expect@^24.9.0:
     jest-message-util "^24.9.0"
     jest-regex-util "^24.9.0"
 
-express@4.17.1, express@^4.17.1:
+express@^4.0.0, express@^4.17.1:
   version "4.17.1"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/express/-/express-4.17.1.tgz#4491fc38605cf51f8629d39c2b5d026f98a4c134"
   integrity sha1-RJH8OGBc9R+GKdOcK10Cb5ikwTQ=
@@ -4520,6 +5691,29 @@ fast-deep-equal@^2.0.1:
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/fast-deep-equal/-/fast-deep-equal-2.0.1.tgz#7b05218ddf9667bf7f370bf7fdb2cb15fdd0aa49"
   integrity sha1-ewUhjd+WZ79/Nwv3/bLLFf3Qqkk=
 
+fast-glob@^2.2.2:
+  version "2.2.7"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/fast-glob/-/fast-glob-2.2.7.tgz#6953857c3afa475fff92ee6015d52da70a4cd39d"
+  integrity sha1-aVOFfDr6R1//ku5gFdUtpwpM050=
+  dependencies:
+    "@mrmlnc/readdir-enhanced" "^2.2.1"
+    "@nodelib/fs.stat" "^1.1.2"
+    glob-parent "^3.1.0"
+    is-glob "^4.0.0"
+    merge2 "^1.2.3"
+    micromatch "^3.1.10"
+
+fast-glob@^3.0.3:
+  version "3.1.1"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/fast-glob/-/fast-glob-3.1.1.tgz#87ee30e9e9f3eb40d6f254a7997655da753d7c82"
+  integrity sha1-h+4w6enz60DW8lSnmXZV2nU9fII=
+  dependencies:
+    "@nodelib/fs.stat" "^2.0.2"
+    "@nodelib/fs.walk" "^1.2.3"
+    glob-parent "^5.1.0"
+    merge2 "^1.3.0"
+    micromatch "^4.0.2"
+
 fast-json-stable-stringify@2.0.0, fast-json-stable-stringify@2.x, fast-json-stable-stringify@^2.0.0:
   version "2.0.0"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/fast-json-stable-stringify/-/fast-json-stable-stringify-2.0.0.tgz#d5142c0caee6b1189f87d3a76111064f86c8bbf2"
@@ -4534,6 +5728,13 @@ fastparse@^1.1.1:
   version "1.1.2"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/fastparse/-/fastparse-1.1.2.tgz#91728c5a5942eced8531283c79441ee4122c35a9"
   integrity sha1-kXKMWllC7O2FMSg8eUQe5BIsNak=
+
+fastq@^1.6.0:
+  version "1.6.0"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/fastq/-/fastq-1.6.0.tgz#4ec8a38f4ac25f21492673adb7eae9cfef47d1c2"
+  integrity sha1-Tsijj0rCXyFJJnOtt+rpz+9H0cI=
+  dependencies:
+    reusify "^1.0.0"
 
 faye-websocket@^0.10.0:
   version "0.10.0"
@@ -4555,6 +5756,25 @@ fb-watchman@^2.0.0:
   integrity sha1-VOmr99+i8mzZsWNsWIwa/AXeXVg=
   dependencies:
     bser "^2.0.0"
+
+fbjs-css-vars@^1.0.0:
+  version "1.0.2"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/fbjs-css-vars/-/fbjs-css-vars-1.0.2.tgz#216551136ae02fe255932c3ec8775f18e2c078b8"
+  integrity sha1-IWVRE2rgL+JVkyw+yHdfGOLAeLg=
+
+fbjs@^1.0.0:
+  version "1.0.0"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/fbjs/-/fbjs-1.0.0.tgz#52c215e0883a3c86af2a7a776ed51525ae8e0a5a"
+  integrity sha1-UsIV4Ig6PIavKnp3btUVJa6OClo=
+  dependencies:
+    core-js "^2.4.1"
+    fbjs-css-vars "^1.0.0"
+    isomorphic-fetch "^2.1.1"
+    loose-envify "^1.0.0"
+    object-assign "^4.1.0"
+    promise "^7.1.1"
+    setimmediate "^1.0.5"
+    ua-parser-js "^0.7.18"
 
 fd-slicer@~1.0.1:
   version "1.0.1"
@@ -4587,6 +5807,13 @@ figures@^2.0.0:
   version "2.0.0"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/figures/-/figures-2.0.0.tgz#3ab1a2d2a62c8bfb431a0c94cb797a2fce27c962"
   integrity sha1-OrGi0qYsi/tDGgyUy3l6L84nyWI=
+  dependencies:
+    escape-string-regexp "^1.0.5"
+
+figures@^3.0.0:
+  version "3.1.0"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/figures/-/figures-3.1.0.tgz#4b198dd07d8d71530642864af2d45dd9e459c4ec"
+  integrity sha1-SxmN0H2NcVMGQoZK8tRd2eRZxOw=
   dependencies:
     escape-string-regexp "^1.0.5"
 
@@ -4776,6 +6003,11 @@ from2@^2.1.0:
     inherits "^2.0.1"
     readable-stream "^2.0.0"
 
+fs-capacitor@^2.0.4:
+  version "2.0.4"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/fs-capacitor/-/fs-capacitor-2.0.4.tgz#5a22e72d40ae5078b4fe64fe4d08c0d3fc88ad3c"
+  integrity sha1-WiLnLUCuUHi0/mT+TQjA0/yIrTw=
+
 fs-extra@5.0.0:
   version "5.0.0"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/fs-extra/-/fs-extra-5.0.0.tgz#414d0110cdd06705734d055652c5411260c31abd"
@@ -4923,12 +6155,17 @@ glob-parent@^3.1.0:
     is-glob "^3.1.0"
     path-dirname "^1.0.0"
 
-glob-parent@^5.0.0, glob-parent@~5.1.0:
+glob-parent@^5.0.0, glob-parent@^5.1.0, glob-parent@~5.1.0:
   version "5.1.0"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/glob-parent/-/glob-parent-5.1.0.tgz#5f4c1d1e748d30cd73ad2944b3577a81b081e8c2"
   integrity sha1-X0wdHnSNMM1zrSlEs1d6gbCB6MI=
   dependencies:
     is-glob "^4.0.1"
+
+glob-to-regexp@^0.3.0:
+  version "0.3.0"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/glob-to-regexp/-/glob-to-regexp-0.3.0.tgz#8c5a1494d2066c570cc3bfe4496175acc4d502ab"
+  integrity sha1-jFoUlNIGbFcMw7/kSWF1rMTVAqs=
 
 glob@7.0.x:
   version "7.0.6"
@@ -4954,7 +6191,7 @@ glob@7.1.4:
     once "^1.3.0"
     path-is-absolute "^1.0.0"
 
-glob@^7.0.3, glob@^7.1.1, glob@^7.1.2, glob@^7.1.3, glob@^7.1.4, glob@^7.1.6:
+glob@7.1.6, glob@^7.0.3, glob@^7.1.1, glob@^7.1.2, glob@^7.1.3, glob@^7.1.4, glob@^7.1.6:
   version "7.1.6"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/glob/-/glob-7.1.6.tgz#141f33b81a7c2492e125594307480c46679278a6"
   integrity sha1-FB8zuBp8JJLhJVlDB0gMRmeSeKY=
@@ -4983,6 +6220,20 @@ globals@^9.18.0:
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/globals/-/globals-9.18.0.tgz#aa3896b3e69b487f17e31ed2143d69a8e30c2d8a"
   integrity sha1-qjiWs+abSH8X4x7SFD1pqOMMLYo=
 
+globby@10.0.1:
+  version "10.0.1"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/globby/-/globby-10.0.1.tgz#4782c34cb75dd683351335c5829cc3420e606b22"
+  integrity sha1-R4LDTLdd1oM1EzXFgpzDQg5gayI=
+  dependencies:
+    "@types/glob" "^7.1.1"
+    array-union "^2.1.0"
+    dir-glob "^3.0.1"
+    fast-glob "^3.0.3"
+    glob "^7.1.3"
+    ignore "^5.1.1"
+    merge2 "^1.2.3"
+    slash "^3.0.0"
+
 globby@^6.1.0:
   version "6.1.0"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/globby/-/globby-6.1.0.tgz#f5a6d70e8395e21c858fb0489d64df02424d506c"
@@ -5010,6 +6261,86 @@ graceful-fs@^4.1.11, graceful-fs@^4.1.15, graceful-fs@^4.1.2, graceful-fs@^4.1.6
   version "4.2.3"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/graceful-fs/-/graceful-fs-4.2.3.tgz#4a12ff1b60376ef09862c2093edd908328be8423"
   integrity sha1-ShL/G2A3bvCYYsIJPt2Qgyi+hCM=
+
+graphql-config@3.0.0-alpha.14:
+  version "3.0.0-alpha.14"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/graphql-config/-/graphql-config-3.0.0-alpha.14.tgz#42e1616c6974797c370a53025f99cf2a5a3c4110"
+  integrity sha1-QuFhbGl0eXw3ClMCX5nPKlo8QRA=
+  dependencies:
+    "@graphql-toolkit/common" "0.6.2"
+    "@graphql-toolkit/graphql-file-loader" "0.6.2"
+    "@graphql-toolkit/json-file-loader" "0.6.2"
+    "@graphql-toolkit/schema-merging" "0.6.2"
+    "@graphql-toolkit/url-loader" "0.6.2"
+    cosmiconfig "5.2.1"
+    minimatch "3.0.4"
+
+graphql-extensions@^0.10.7:
+  version "0.10.7"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/graphql-extensions/-/graphql-extensions-0.10.7.tgz#ca9f8ec3cb0af1739b48ca42280ec9162ad116d1"
+  integrity sha1-yp+Ow8sK8XObSMpCKA7JFirRFtE=
+  dependencies:
+    "@apollographql/apollo-tools" "^0.4.0"
+    apollo-server-env "^2.4.3"
+    apollo-server-types "^0.2.8"
+
+graphql-import@0.7.1, graphql-import@^0.7.1:
+  version "0.7.1"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/graphql-import/-/graphql-import-0.7.1.tgz#4add8d91a5f752d764b0a4a7a461fcd93136f223"
+  integrity sha1-St2NkaX3UtdksKSnpGH82TE28iM=
+  dependencies:
+    lodash "^4.17.4"
+    resolve-from "^4.0.0"
+
+graphql-subscriptions@^1.0.0, graphql-subscriptions@^1.1.0:
+  version "1.1.0"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/graphql-subscriptions/-/graphql-subscriptions-1.1.0.tgz#5f2fa4233eda44cf7570526adfcf3c16937aef11"
+  integrity sha1-Xy+kIz7aRM91cFJq3888FpN67xE=
+  dependencies:
+    iterall "^1.2.1"
+
+graphql-tag-pluck@0.8.7:
+  version "0.8.7"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/graphql-tag-pluck/-/graphql-tag-pluck-0.8.7.tgz#8f57cff0c15d21440de53abc38c90b2ee1e456dd"
+  integrity sha1-j1fP8MFdIUQN5Tq8OMkLLuHkVt0=
+  dependencies:
+    "@babel/parser" "^7.4.4"
+    "@babel/traverse" "^7.4.4"
+    "@babel/types" "^7.4.4"
+    source-map-support "^0.5.12"
+
+graphql-tag@2.10.1, graphql-tag@^2.4.2, graphql-tag@^2.9.2:
+  version "2.10.1"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/graphql-tag/-/graphql-tag-2.10.1.tgz#10aa41f1cd8fae5373eaf11f1f67260a3cad5e02"
+  integrity sha1-EKpB8c2PrlNz6vEfH2cmCjytXgI=
+
+graphql-tools@4.0.6, graphql-tools@^4.0.0, graphql-tools@^4.0.6:
+  version "4.0.6"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/graphql-tools/-/graphql-tools-4.0.6.tgz#0e729e73db05ade3df10a2f92511be544972a844"
+  integrity sha1-DnKec9sFrePfEKL5JRG+VElyqEQ=
+  dependencies:
+    apollo-link "^1.2.3"
+    apollo-utilities "^1.0.1"
+    deprecated-decorator "^0.1.6"
+    iterall "^1.1.3"
+    uuid "^3.1.0"
+
+graphql-upload@^8.0.2:
+  version "8.1.0"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/graphql-upload/-/graphql-upload-8.1.0.tgz#6d0ab662db5677a68bfb1f2c870ab2544c14939a"
+  integrity sha1-bQq2YttWd6aL+x8shwqyVEwUk5o=
+  dependencies:
+    busboy "^0.3.1"
+    fs-capacitor "^2.0.4"
+    http-errors "^1.7.3"
+    object-path "^0.11.4"
+
+graphql@*, graphql@^14.5.3, graphql@^14.5.8:
+  version "14.5.8"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/graphql/-/graphql-14.5.8.tgz#504f3d3114cb9a0a3f359bbbcf38d9e5bf6a6b3c"
+  integrity sha1-UE89MRTLmgo/NZu7zzjZ5b9qazw=
+  dependencies:
+    iterall "^1.2.2"
 
 growly@^1.3.0:
   version "1.3.0"
@@ -5075,6 +6406,11 @@ has-flag@^3.0.0:
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/has-flag/-/has-flag-3.0.0.tgz#b5d454dc2199ae225699f3467e5a07f3b955bafd"
   integrity sha1-tdRU3CGZriJWmfNGfloH87lVuv0=
 
+has-flag@^4.0.0:
+  version "4.0.0"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/has-flag/-/has-flag-4.0.0.tgz#944771fd9c81c81265c4d6941860da06bb59479b"
+  integrity sha1-lEdx/ZyByBJlxNaUGGDaBrtZR5s=
+
 has-symbols@^1.0.0, has-symbols@^1.0.1:
   version "1.0.1"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/has-symbols/-/has-symbols-1.0.1.tgz#9f5214758a44196c406d9bd76cebf81ec2dd31e8"
@@ -5138,6 +6474,14 @@ hash.js@^1.0.0, hash.js@^1.0.3:
   dependencies:
     inherits "^2.0.3"
     minimalistic-assert "^1.0.1"
+
+header-case@^1.0.0:
+  version "1.0.1"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/header-case/-/header-case-1.0.1.tgz#9535973197c144b09613cd65d317ef19963bd02d"
+  integrity sha1-lTWXMZfBRLCWE81l0xfvGZY70C0=
+  dependencies:
+    no-case "^2.2.0"
+    upper-case "^1.1.3"
 
 hex-color-regex@^1.1.0:
   version "1.1.0"
@@ -5211,17 +6555,7 @@ http-errors@1.7.2:
     statuses ">= 1.5.0 < 2"
     toidentifier "1.0.0"
 
-http-errors@~1.6.2:
-  version "1.6.3"
-  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/http-errors/-/http-errors-1.6.3.tgz#8b55680bb4be283a0b5bf4ea2e38580be1d9320d"
-  integrity sha1-i1VoC7S+KDoLW/TqLjhYC+HZMg0=
-  dependencies:
-    depd "~1.1.2"
-    inherits "2.0.3"
-    setprototypeof "1.1.0"
-    statuses ">= 1.4.0 < 2"
-
-http-errors@~1.7.2:
+http-errors@^1.7.3, http-errors@~1.7.2:
   version "1.7.3"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/http-errors/-/http-errors-1.7.3.tgz#6c619e4f9c60308c38519498c14fbb10aacebb06"
   integrity sha1-bGGeT5xgMIw4UZSYwU+7EKrOuwY=
@@ -5231,6 +6565,16 @@ http-errors@~1.7.2:
     setprototypeof "1.1.1"
     statuses ">= 1.5.0 < 2"
     toidentifier "1.0.0"
+
+http-errors@~1.6.2:
+  version "1.6.3"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/http-errors/-/http-errors-1.6.3.tgz#8b55680bb4be283a0b5bf4ea2e38580be1d9320d"
+  integrity sha1-i1VoC7S+KDoLW/TqLjhYC+HZMg0=
+  dependencies:
+    depd "~1.1.2"
+    inherits "2.0.3"
+    setprototypeof "1.1.0"
+    statuses ">= 1.4.0 < 2"
 
 "http-parser-js@>=0.4.0 <0.4.11":
   version "0.4.10"
@@ -5265,12 +6609,17 @@ http-signature@~1.2.0:
     jsprim "^1.2.2"
     sshpk "^1.7.0"
 
+http@^0.0.0:
+  version "0.0.0"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/http/-/http-0.0.0.tgz#86e6326d29c5d039de9fac584a45689f929f4f72"
+  integrity sha1-huYybSnF0Dnen6xYSkVon5KfT3I=
+
 https-browserify@^1.0.0:
   version "1.0.0"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/https-browserify/-/https-browserify-1.0.0.tgz#ec06c10e0a34c0f2faf199f7fd7fc78fffd03c73"
   integrity sha1-7AbBDgo0wPL68Zn3/X/Hj//QPHM=
 
-iconv-lite@0.4.24, iconv-lite@^0.4.24, iconv-lite@^0.4.4:
+iconv-lite@0.4.24, iconv-lite@^0.4.24, iconv-lite@^0.4.4, iconv-lite@~0.4.13:
   version "0.4.24"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/iconv-lite/-/iconv-lite-0.4.24.tgz#2022b4b25fbddc21d2f524974a474aafe733908b"
   integrity sha1-ICK0sl+93CHS9SSXSkdKr+czkIs=
@@ -5321,10 +6670,20 @@ ignore@^4.0.6:
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/ignore/-/ignore-4.0.6.tgz#750e3db5862087b4737ebac8207ffd1ef27b25fc"
   integrity sha1-dQ49tYYgh7RzfrrIIH/9HvJ7Jfw=
 
+ignore@^5.1.1:
+  version "5.1.4"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/ignore/-/ignore-5.1.4.tgz#84b7b3dbe64552b6ef0eca99f6743dbec6d97adf"
+  integrity sha1-hLez2+ZFUrbvDsqZ9nQ9vsbZet8=
+
 image-size@~0.5.0:
   version "0.5.5"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/image-size/-/image-size-0.5.5.tgz#09dfd4ab9d20e29eb1c3e80b8990378df9e3cb9c"
   integrity sha1-Cd/Uq50g4p6xw+gLiZA3jfnjy5w=
+
+immutable@~3.7.6:
+  version "3.7.6"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/immutable/-/immutable-3.7.6.tgz#13b4d3cb12befa15482a26fe1b2ebae640071e4b"
+  integrity sha1-E7TTyxK++hVIKib+Gy665kAHHks=
 
 import-cwd@^2.0.0, import-cwd@^2.1.0:
   version "2.1.0"
@@ -5341,13 +6700,20 @@ import-fresh@^2.0.0:
     caller-path "^2.0.0"
     resolve-from "^3.0.0"
 
-import-fresh@^3.0.0:
+import-fresh@^3.0.0, import-fresh@^3.1.0:
   version "3.2.1"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/import-fresh/-/import-fresh-3.2.1.tgz#633ff618506e793af5ac91bf48b72677e15cbe66"
   integrity sha1-Yz/2GFBueTr1rJG/SLcmd+FcvmY=
   dependencies:
     parent-module "^1.0.0"
     resolve-from "^4.0.0"
+
+import-from@3.0.0:
+  version "3.0.0"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/import-from/-/import-from-3.0.0.tgz#055cfec38cd5a27d8057ca51376d7d3bf0891966"
+  integrity sha1-BVz+w4zVon2AV8pRN219O/CJGWY=
+  dependencies:
+    resolve-from "^5.0.0"
 
 import-from@^2.1.0:
   version "2.1.0"
@@ -5368,6 +6734,11 @@ imurmurhash@^0.1.4:
   version "0.1.4"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/imurmurhash/-/imurmurhash-0.1.4.tgz#9218b9b2b928a238b13dc4fb6b6d576f231453ea"
   integrity sha1-khi5srkoojixPcT7a21XbyMUU+o=
+
+indent-string@4.0.0, indent-string@^4.0.0:
+  version "4.0.0"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/indent-string/-/indent-string-4.0.0.tgz#624f8f4497d619b2d9768531d58f4122854d7251"
+  integrity sha1-Yk+PRJfWGbLZdoUx1Y9BIoVNclE=
 
 indent-string@^2.1.0:
   version "2.1.0"
@@ -5419,6 +6790,25 @@ ini@^1.3.4, ini@~1.3.0:
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/ini/-/ini-1.3.5.tgz#eee25f56db1c9ec6085e0c22778083f596abf927"
   integrity sha1-7uJfVtscnsYIXgwid4CD9Zar+Sc=
 
+inquirer@7.0.0:
+  version "7.0.0"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/inquirer/-/inquirer-7.0.0.tgz#9e2b032dde77da1db5db804758b8fea3a970519a"
+  integrity sha1-nisDLd532h2124BHWLj+o6lwUZo=
+  dependencies:
+    ansi-escapes "^4.2.1"
+    chalk "^2.4.2"
+    cli-cursor "^3.1.0"
+    cli-width "^2.0.0"
+    external-editor "^3.0.3"
+    figures "^3.0.0"
+    lodash "^4.17.15"
+    mute-stream "0.0.8"
+    run-async "^2.2.0"
+    rxjs "^6.4.0"
+    string-width "^4.1.0"
+    strip-ansi "^5.1.0"
+    through "^2.3.6"
+
 inquirer@^6.3.1, inquirer@^6.4.1:
   version "6.5.2"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/inquirer/-/inquirer-6.5.2.tgz#ad50942375d036d327ff528c08bd5fab089928ca"
@@ -5452,6 +6842,11 @@ invariant@^2.2.2, invariant@^2.2.4:
   integrity sha1-YQ88ksk1nOHbYW5TgAjSP/NRWOY=
   dependencies:
     loose-envify "^1.0.0"
+
+invert-kv@^1.0.0:
+  version "1.0.0"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/invert-kv/-/invert-kv-1.0.0.tgz#104a8e4aaca6d3d8cd157a8ef8bfab2d7a3ffdb6"
+  integrity sha1-EEqOSqym09jNFXqO+L+rLXo//bY=
 
 invert-kv@^2.0.0:
   version "2.0.0"
@@ -5621,6 +7016,11 @@ is-extendable@^1.0.1:
   dependencies:
     is-plain-object "^2.0.4"
 
+is-extglob@^1.0.0:
+  version "1.0.0"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/is-extglob/-/is-extglob-1.0.0.tgz#ac468177c4943405a092fc8f29760c6ffc6206c0"
+  integrity sha1-rEaBd8SUNAWgkvyPKXYMb/xiBsA=
+
 is-extglob@^2.1.0, is-extglob@^2.1.1:
   version "2.1.1"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/is-extglob/-/is-extglob-2.1.1.tgz#a88c02535791f02ed37c76a1b9ea9773c833f8c2"
@@ -5655,19 +7055,26 @@ is-generator-fn@^2.0.0:
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/is-generator-fn/-/is-generator-fn-2.1.0.tgz#7d140adc389aaf3011a8f2a2a4cfa6faadffb118"
   integrity sha1-fRQK3DiarzARqPKipM+m+q3/sRg=
 
+is-glob@4.0.1, is-glob@^4.0.0, is-glob@^4.0.1, is-glob@~4.0.1:
+  version "4.0.1"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/is-glob/-/is-glob-4.0.1.tgz#7567dbe9f2f5e2467bc77ab83c4a29482407a5dc"
+  integrity sha1-dWfb6fL14kZ7x3q4PEopSCQHpdw=
+  dependencies:
+    is-extglob "^2.1.1"
+
+is-glob@^2.0.0:
+  version "2.0.1"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/is-glob/-/is-glob-2.0.1.tgz#d096f926a3ded5600f3fdfd91198cb0888c2d863"
+  integrity sha1-0Jb5JqPe1WAPP9/ZEZjLCIjC2GM=
+  dependencies:
+    is-extglob "^1.0.0"
+
 is-glob@^3.1.0:
   version "3.1.0"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/is-glob/-/is-glob-3.1.0.tgz#7ba5ae24217804ac70707b96922567486cc3e84a"
   integrity sha1-e6WuJCF4BKxwcHuWkiVnSGzD6Eo=
   dependencies:
     is-extglob "^2.1.0"
-
-is-glob@^4.0.0, is-glob@^4.0.1, is-glob@~4.0.1:
-  version "4.0.1"
-  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/is-glob/-/is-glob-4.0.1.tgz#7567dbe9f2f5e2467bc77ab83c4a29482407a5dc"
-  integrity sha1-dWfb6fL14kZ7x3q4PEopSCQHpdw=
-  dependencies:
-    is-extglob "^2.1.1"
 
 is-installed-globally@0.1.0:
   version "0.1.0"
@@ -5676,6 +7083,20 @@ is-installed-globally@0.1.0:
   dependencies:
     global-dirs "^0.1.0"
     is-path-inside "^1.0.0"
+
+is-invalid-path@^0.1.0:
+  version "0.1.0"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/is-invalid-path/-/is-invalid-path-0.1.0.tgz#307a855b3cf1a938b44ea70d2c61106053714f34"
+  integrity sha1-MHqFWzzxqTi0TqcNLGEQYFNxTzQ=
+  dependencies:
+    is-glob "^2.0.0"
+
+is-lower-case@^1.1.0:
+  version "1.1.3"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/is-lower-case/-/is-lower-case-1.1.3.tgz#7e147be4768dc466db3bfb21cc60b31e6ad69393"
+  integrity sha1-fhR75HaNxGbbO/shzGCzHmrWk5M=
+  dependencies:
+    lower-case "^1.1.0"
 
 is-module@^1.0.0:
   version "1.0.0"
@@ -5698,6 +7119,13 @@ is-obj@^1.0.0:
   version "1.0.1"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/is-obj/-/is-obj-1.0.1.tgz#3e4729ac1f5fde025cd7d83a896dab9f4f67db0f"
   integrity sha1-PkcprB9f3gJc19g6iW2rn09n2w8=
+
+is-observable@^1.1.0:
+  version "1.1.0"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/is-observable/-/is-observable-1.1.0.tgz#b3e986c8f44de950867cab5403f5a3465005975e"
+  integrity sha1-s+mGyPRN6VCGfKtUA/WjRlAFl14=
+  dependencies:
+    symbol-observable "^1.1.0"
 
 is-path-cwd@^2.0.0:
   version "2.2.0"
@@ -5761,7 +7189,7 @@ is-resolvable@^1.0.0:
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/is-resolvable/-/is-resolvable-1.1.0.tgz#fb18f87ce1feb925169c9a407c19318a3206ed88"
   integrity sha1-+xj4fOH+uSUWnJpAfBkxijIG7Yg=
 
-is-stream@^1.1.0:
+is-stream@^1.0.1, is-stream@^1.1.0:
   version "1.1.0"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/is-stream/-/is-stream-1.1.0.tgz#12d4a3dd4e68e0b79ceb8dbc84173ae80d91ca44"
   integrity sha1-EtSj3U5o4Lec6428hBc66A2RykQ=
@@ -5784,6 +7212,20 @@ is-typedarray@~1.0.0:
   version "1.0.0"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/is-typedarray/-/is-typedarray-1.0.0.tgz#e479c80858df0c1b11ddda6940f96011fcda4a9a"
   integrity sha1-5HnICFjfDBsR3dppQPlgEfzaSpo=
+
+is-upper-case@^1.1.0:
+  version "1.1.2"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/is-upper-case/-/is-upper-case-1.1.2.tgz#8d0b1fa7e7933a1e58483600ec7d9661cbaf756f"
+  integrity sha1-jQsfp+eTOh5YSDYA7H2WYcuvdW8=
+  dependencies:
+    upper-case "^1.1.0"
+
+is-valid-path@0.1.1:
+  version "0.1.1"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/is-valid-path/-/is-valid-path-0.1.1.tgz#110f9ff74c37f663e1ec7915eb451f2db93ac9df"
+  integrity sha1-EQ+f90w39mPh7HkV60UfLbk6yd8=
+  dependencies:
+    is-invalid-path "^0.1.0"
 
 is-windows@^1.0.2:
   version "1.0.2"
@@ -5816,6 +7258,14 @@ isobject@^3.0.0, isobject@^3.0.1:
   version "3.0.1"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/isobject/-/isobject-3.0.1.tgz#4e431e92b11a9731636aa1f9c8d1ccbcfdab78df"
   integrity sha1-TkMekrEalzFjaqH5yNHMvP2reN8=
+
+isomorphic-fetch@^2.1.1:
+  version "2.2.1"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/isomorphic-fetch/-/isomorphic-fetch-2.2.1.tgz#611ae1acf14f5e81f729507472819fe9733558a9"
+  integrity sha1-YRrhrPFPXoH3KVB0coGf6XM1WKk=
+  dependencies:
+    node-fetch "^1.0.1"
+    whatwg-fetch ">=0.10.0"
 
 isstream@~0.1.2:
   version "0.1.2"
@@ -5894,6 +7344,11 @@ istanbul-reports@^2.2.6:
   integrity sha1-e08mYNgrKTA6j+YJH4ykvwWNoa8=
   dependencies:
     handlebars "^4.1.2"
+
+iterall@^1.1.3, iterall@^1.2.1, iterall@^1.2.2:
+  version "1.2.2"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/iterall/-/iterall-1.2.2.tgz#92d70deb8028e0c39ff3164fdbf4d8b088130cd7"
+  integrity sha1-ktcN64Ao4MOf8xZP2/TYsIgTDNc=
 
 jest-changed-files@^24.9.0:
   version "24.9.0"
@@ -6354,6 +7809,14 @@ json-stringify-safe@~5.0.1:
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/json-stringify-safe/-/json-stringify-safe-5.0.1.tgz#1296a2d58fd45f19a0f6ce01d65701e2c735b6eb"
   integrity sha1-Epai1Y/UXxmg9s4B1lcB4sc1tus=
 
+json-to-pretty-yaml@1.2.2:
+  version "1.2.2"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/json-to-pretty-yaml/-/json-to-pretty-yaml-1.2.2.tgz#f4cd0bd0a5e8fe1df25aaf5ba118b099fd992d5b"
+  integrity sha1-9M0L0KXo/h3yWq9boRiwmf2ZLVs=
+  dependencies:
+    remedial "^1.0.7"
+    remove-trailing-spaces "^1.0.6"
+
 json3@^3.3.2:
   version "3.3.3"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/json3/-/json3-3.3.3.tgz#7fc10e375fc5ae42c4705a5cc0aa6f62be305b81"
@@ -6449,6 +7912,13 @@ lazy-ass@1.6.0:
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/lazy-ass/-/lazy-ass-1.6.0.tgz#7999655e8646c17f089fdd187d150d3324d54513"
   integrity sha1-eZllXoZGwX8In90YfRUNMyTVRRM=
 
+lcid@^1.0.0:
+  version "1.0.0"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/lcid/-/lcid-1.0.0.tgz#308accafa0bc483a3867b4b6f2b9506251d1b835"
+  integrity sha1-MIrMr6C8SDo4Z7S28rlQYlHRuDU=
+  dependencies:
+    invert-kv "^1.0.0"
+
 lcid@^2.0.0:
   version "2.0.0"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/lcid/-/lcid-2.0.0.tgz#6ef5d2df60e52f82eb228a4c373e8d1f397253cf"
@@ -6512,10 +7982,29 @@ lightercollective@^0.1.0:
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/lightercollective/-/lightercollective-0.1.0.tgz#70df102c530dcb8d0ccabfe6175a8d00d5f61300"
   integrity sha1-cN8QLFMNy40Myr/mF1qNANX2EwA=
 
+lines-and-columns@^1.1.6:
+  version "1.1.6"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/lines-and-columns/-/lines-and-columns-1.1.6.tgz#1c00c743b433cd0a4e80758f7b64a57440d9ff00"
+  integrity sha1-HADHQ7QzzQpOgHWPe2SldEDZ/wA=
+
 listr-silent-renderer@^1.1.1:
   version "1.1.1"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/listr-silent-renderer/-/listr-silent-renderer-1.1.1.tgz#924b5a3757153770bf1a8e3fbf74b8bbf3f9242e"
   integrity sha1-kktaN1cVN3C/Go4/v3S4u/P5JC4=
+
+listr-update-renderer@0.5.0, listr-update-renderer@^0.5.0:
+  version "0.5.0"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/listr-update-renderer/-/listr-update-renderer-0.5.0.tgz#4ea8368548a7b8aecb7e06d8c95cb45ae2ede6a2"
+  integrity sha1-Tqg2hUinuK7LfgbYyVy0WuLt5qI=
+  dependencies:
+    chalk "^1.1.3"
+    cli-truncate "^0.2.1"
+    elegant-spinner "^1.0.1"
+    figures "^1.7.0"
+    indent-string "^3.0.0"
+    log-symbols "^1.0.2"
+    log-update "^2.3.0"
+    strip-ansi "^3.0.1"
 
 listr-update-renderer@^0.2.0:
   version "0.2.0"
@@ -6541,6 +8030,16 @@ listr-verbose-renderer@^0.4.0:
     date-fns "^1.27.2"
     figures "^1.7.0"
 
+listr-verbose-renderer@^0.5.0:
+  version "0.5.0"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/listr-verbose-renderer/-/listr-verbose-renderer-0.5.0.tgz#f1132167535ea4c1261102b9f28dac7cba1e03db"
+  integrity sha1-8RMhZ1NepMEmEQK58o2sfLoeA9s=
+  dependencies:
+    chalk "^2.4.1"
+    cli-cursor "^2.1.0"
+    date-fns "^1.27.2"
+    figures "^2.0.0"
+
 listr@0.12.0:
   version "0.12.0"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/listr/-/listr-0.12.0.tgz#6bce2c0f5603fa49580ea17cd6a00cc0e5fa451a"
@@ -6562,6 +8061,21 @@ listr@0.12.0:
     rxjs "^5.0.0-beta.11"
     stream-to-observable "^0.1.0"
     strip-ansi "^3.0.1"
+
+listr@0.14.3:
+  version "0.14.3"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/listr/-/listr-0.14.3.tgz#2fea909604e434be464c50bddba0d496928fa586"
+  integrity sha1-L+qQlgTkNL5GTFC926DUlpKPpYY=
+  dependencies:
+    "@samverschueren/stream-to-observable" "^0.3.0"
+    is-observable "^1.1.0"
+    is-promise "^2.1.0"
+    is-stream "^1.1.0"
+    listr-silent-renderer "^1.1.1"
+    listr-update-renderer "^0.5.0"
+    listr-verbose-renderer "^0.5.0"
+    p-map "^2.0.0"
+    rxjs "^6.3.3"
 
 load-json-file@^2.0.0:
   version "2.0.0"
@@ -6665,7 +8179,7 @@ lodash.uniq@^4.5.0:
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/lodash.uniq/-/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
   integrity sha1-0CJTc662Uq3BvILklFM5qEJ1R3M=
 
-lodash@4.17.15, lodash@^4.17.10, lodash@^4.17.11, lodash@^4.17.12, lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.4, lodash@^4.17.5:
+lodash@4.17.15, lodash@^4.17.10, lodash@^4.17.11, lodash@^4.17.12, lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.4, lodash@^4.17.5, lodash@^4.2.0:
   version "4.17.15"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
   integrity sha1-tEf2ZwoEVbv+7dETku/zMOoJdUg=
@@ -6677,12 +8191,28 @@ log-symbols@2.2.0:
   dependencies:
     chalk "^2.0.1"
 
+log-symbols@3.0.0:
+  version "3.0.0"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/log-symbols/-/log-symbols-3.0.0.tgz#f3a08516a5dea893336a7dee14d18a1cfdab77c4"
+  integrity sha1-86CFFqXeqJMzan3uFNGKHP2rd8Q=
+  dependencies:
+    chalk "^2.4.2"
+
 log-symbols@^1.0.2:
   version "1.0.2"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/log-symbols/-/log-symbols-1.0.2.tgz#376ff7b58ea3086a0f09facc74617eca501e1a18"
   integrity sha1-N2/3tY6jCGoPCfrMdGF+ylAeGhg=
   dependencies:
     chalk "^1.0.0"
+
+log-update@3.3.0:
+  version "3.3.0"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/log-update/-/log-update-3.3.0.tgz#3b0501815123f66cb33f300e3dac2a2b6ad3fdf5"
+  integrity sha1-OwUBgVEj9myzPzAOPawqK2rT/fU=
+  dependencies:
+    ansi-escapes "^3.2.0"
+    cli-cursor "^2.1.0"
+    wrap-ansi "^5.0.0"
 
 log-update@^1.0.2:
   version "1.0.2"
@@ -6692,10 +8222,24 @@ log-update@^1.0.2:
     ansi-escapes "^1.0.0"
     cli-cursor "^1.0.2"
 
+log-update@^2.3.0:
+  version "2.3.0"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/log-update/-/log-update-2.3.0.tgz#88328fd7d1ce7938b29283746f0b1bc126b24708"
+  integrity sha1-iDKP19HOeTiykoN0bwsbwSayRwg=
+  dependencies:
+    ansi-escapes "^3.0.0"
+    cli-cursor "^2.0.0"
+    wrap-ansi "^3.0.1"
+
 loglevel@^1.6.4:
   version "1.6.6"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/loglevel/-/loglevel-1.6.6.tgz#0ee6300cc058db6b3551fa1c4bf73b83bb771312"
   integrity sha1-DuYwDMBY22s1UfocS/c7g7t3ExI=
+
+long@^4.0.0:
+  version "4.0.0"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/long/-/long-4.0.0.tgz#9a7b71cfb7d361a194ea555241c92f7468d5bf28"
+  integrity sha1-mntxz7fTYaGU6lVSQckvdGjVvyg=
 
 loose-envify@^1.0.0, loose-envify@^1.1.0, loose-envify@^1.4.0:
   version "1.4.0"
@@ -6704,7 +8248,27 @@ loose-envify@^1.0.0, loose-envify@^1.1.0, loose-envify@^1.4.0:
   dependencies:
     js-tokens "^3.0.0 || ^4.0.0"
 
-lru-cache@^5.1.1:
+lower-case-first@^1.0.0:
+  version "1.0.2"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/lower-case-first/-/lower-case-first-1.0.2.tgz#e5da7c26f29a7073be02d52bac9980e5922adfa1"
+  integrity sha1-5dp8JvKacHO+AtUrrJmA5ZIq36E=
+  dependencies:
+    lower-case "^1.1.2"
+
+lower-case@^1.1.0, lower-case@^1.1.1, lower-case@^1.1.2:
+  version "1.1.4"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/lower-case/-/lower-case-1.1.4.tgz#9a2cabd1b9e8e0ae993a4bf7d5875c39c42e8eac"
+  integrity sha1-miyr0bno4K6ZOkv31YdcOcQujqw=
+
+lru-cache@^4.0.1:
+  version "4.1.5"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/lru-cache/-/lru-cache-4.1.5.tgz#8bbe50ea85bed59bc9e33dcab8235ee9bcf443cd"
+  integrity sha1-i75Q6oW+1ZvJ4z3KuCNe6bz0Q80=
+  dependencies:
+    pseudomap "^1.0.2"
+    yallist "^2.1.2"
+
+lru-cache@^5.0.0, lru-cache@^5.1.1:
   version "5.1.1"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/lru-cache/-/lru-cache-5.1.1.tgz#1da27e6710271947695daf6848e847f01d84b920"
   integrity sha1-HaJ+ZxAnGUdpXa9oSOhH8B2EuSA=
@@ -6795,6 +8359,13 @@ media-typer@0.3.0:
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/media-typer/-/media-typer-0.3.0.tgz#8710d7af0aa626f8fffa1ce00168545263255748"
   integrity sha1-hxDXrwqmJvj/+hzgAWhUUmMlV0g=
 
+mem@^1.1.0:
+  version "1.1.0"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/mem/-/mem-1.1.0.tgz#5edd52b485ca1d900fe64895505399a0dfa45f76"
+  integrity sha1-Xt1StIXKHZAP5kiVUFOZoN+kX3Y=
+  dependencies:
+    mimic-fn "^1.0.0"
+
 mem@^4.0.0:
   version "4.3.0"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/mem/-/mem-4.3.0.tgz#461af497bc4ae09608cdb2e60eefb69bff744178"
@@ -6835,6 +8406,11 @@ merge-stream@^2.0.0:
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/merge-stream/-/merge-stream-2.0.0.tgz#52823629a14dd00c9770fb6ad47dc6310f2c1f60"
   integrity sha1-UoI2KaFN0AyXcPtq1H3GMQ8sH2A=
 
+merge2@^1.2.3, merge2@^1.3.0:
+  version "1.3.0"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/merge2/-/merge2-1.3.0.tgz#5b366ee83b2f1582c48f87e47cf1a9352103ca81"
+  integrity sha1-WzZu6DsvFYLEj4fkfPGpNSEDyoE=
+
 methods@~1.1.2:
   version "1.1.2"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/methods/-/methods-1.1.2.tgz#5529a4d67654134edcc5266656835b0f851afcee"
@@ -6858,6 +8434,14 @@ micromatch@^3.1.10, micromatch@^3.1.4:
     regex-not "^1.0.0"
     snapdragon "^0.8.1"
     to-regex "^3.0.2"
+
+micromatch@^4.0.2:
+  version "4.0.2"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/micromatch/-/micromatch-4.0.2.tgz#4fcb0999bf9fbc2fcbdd212f6d629b9a56c39259"
+  integrity sha1-T8sJmb+fvC/L3SEvbWKbmlbDklk=
+  dependencies:
+    braces "^3.0.1"
+    picomatch "^2.0.5"
 
 miller-rabin@^4.0.0:
   version "4.0.1"
@@ -6894,7 +8478,7 @@ mimic-fn@^1.0.0:
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/mimic-fn/-/mimic-fn-1.2.0.tgz#820c86a39334640e99516928bd03fca88057d022"
   integrity sha1-ggyGo5M0ZA6ZUWkovQP8qIBX0CI=
 
-mimic-fn@^2.0.0:
+mimic-fn@^2.0.0, mimic-fn@^2.1.0:
   version "2.1.0"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/mimic-fn/-/mimic-fn-2.1.0.tgz#7ed2c2ccccaf84d3ffcb7a69b57711fc2083401b"
   integrity sha1-ftLCzMyvhNP/y3pptXcR/CCDQBs=
@@ -7037,6 +8621,11 @@ mute-stream@0.0.7:
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/mute-stream/-/mute-stream-0.0.7.tgz#3075ce93bc21b8fab43e1bc4da7e8115ed1e7bab"
   integrity sha1-MHXOk7whuPq0PhvE2n6BFe0ee6s=
 
+mute-stream@0.0.8:
+  version "0.0.8"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/mute-stream/-/mute-stream-0.0.8.tgz#1630c42b2251ff81e2a283de96a5497ea92e5e0d"
+  integrity sha1-FjDEKyJR/4HiooPelqVJfqkuXg0=
+
 nan@^2.12.1:
   version "2.14.0"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/nan/-/nan-2.14.0.tgz#7818f722027b2459a86f0295d434d1fc2336c52c"
@@ -7087,6 +8676,26 @@ nice-try@^1.0.4:
   version "1.0.5"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/nice-try/-/nice-try-1.0.5.tgz#a3378a7696ce7d223e88fc9b764bd7ef1089e366"
   integrity sha1-ozeKdpbOfSI+iPybdkvX7xCJ42Y=
+
+no-case@^2.2.0, no-case@^2.3.2:
+  version "2.3.2"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/no-case/-/no-case-2.3.2.tgz#60b813396be39b3f1288a4c1ed5d1e7d28b464ac"
+  integrity sha1-YLgTOWvjmz8SiKTB7V0efSi0ZKw=
+  dependencies:
+    lower-case "^1.1.1"
+
+node-fetch@2.6.0, node-fetch@^2.1.2, node-fetch@^2.2.0:
+  version "2.6.0"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/node-fetch/-/node-fetch-2.6.0.tgz#e633456386d4aa55863f676a7ab0daa8fdecb0fd"
+  integrity sha1-5jNFY4bUqlWGP2dqerDaqP3ssP0=
+
+node-fetch@^1.0.1:
+  version "1.7.3"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/node-fetch/-/node-fetch-1.7.3.tgz#980f6f72d85211a5347c6b2bc18c5b84c3eb47ef"
+  integrity sha1-mA9vcthSEaU0fGsrwYxbhMPrR+8=
+  dependencies:
+    encoding "^0.1.11"
+    is-stream "^1.0.1"
 
 node-forge@0.9.0:
   version "0.9.0"
@@ -7268,6 +8877,11 @@ nth-check@^1.0.2:
   dependencies:
     boolbase "~1.0.0"
 
+nullthrows@^1.1.1:
+  version "1.1.1"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/nullthrows/-/nullthrows-1.1.1.tgz#7818258843856ae971eae4208ad7d7eb19a431b1"
+  integrity sha1-eBgliEOFaulx6uQgitfX6xmkMbE=
+
 num2fraction@^1.2.2:
   version "1.2.2"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/num2fraction/-/num2fraction-1.2.2.tgz#6f682b6a027a4e9ddfa4564cd2589d1d4e669ede"
@@ -7288,7 +8902,7 @@ oauth-sign@~0.9.0:
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/oauth-sign/-/oauth-sign-0.9.0.tgz#47a7b016baa68b5fa0ecf3dee08a85c679ac6455"
   integrity sha1-R6ewFrqmi1+g7PPe4IqFxnmsZFU=
 
-object-assign@^4.0.1, object-assign@^4.1.0, object-assign@^4.1.1:
+object-assign@^4, object-assign@^4.0.1, object-assign@^4.1.0, object-assign@^4.1.1:
   version "4.1.1"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/object-assign/-/object-assign-4.1.1.tgz#2109adc7965887cfc05cbbd442cac8bfbb360863"
   integrity sha1-IQmtx5ZYh8/AXLvUQsrIv7s2CGM=
@@ -7316,6 +8930,11 @@ object-keys@^1.0.11, object-keys@^1.0.12, object-keys@^1.1.1:
   version "1.1.1"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/object-keys/-/object-keys-1.1.1.tgz#1c47f272df277f3b1daf061677d9c82e2322c60e"
   integrity sha1-HEfyct8nfzsdrwYWd9nILiMixg4=
+
+object-path@^0.11.4:
+  version "0.11.4"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/object-path/-/object-path-0.11.4.tgz#370ae752fbf37de3ea70a861c23bba8915691949"
+  integrity sha1-NwrnUvvzfePqcKhhwju6iRVpGUk=
 
 object-visit@^1.0.0:
   version "1.0.1"
@@ -7415,6 +9034,13 @@ onetime@^2.0.0:
   dependencies:
     mimic-fn "^1.0.0"
 
+onetime@^5.1.0:
+  version "5.1.0"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/onetime/-/onetime-5.1.0.tgz#fff0f3c91617fe62bb50189636e99ac8a6df7be5"
+  integrity sha1-//DzyRYX/mK7UBiWNumayKbfe+U=
+  dependencies:
+    mimic-fn "^2.1.0"
+
 open@6.4.0:
   version "6.4.0"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/open/-/open-6.4.0.tgz#5c13e96d0dc894686164f18965ecfe889ecfc8a9"
@@ -7428,6 +9054,13 @@ opn@^5.3.0, opn@^5.5.0:
   integrity sha1-/HFk+rVtI1kExRw7J9pnWMo7m/w=
   dependencies:
     is-wsl "^1.1.0"
+
+optimism@^0.10.0:
+  version "0.10.3"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/optimism/-/optimism-0.10.3.tgz#163268fdc741dea2fb50f300bedda80356445fd7"
+  integrity sha1-FjJo/cdB3qL7UPMAvt2oA1ZEX9c=
+  dependencies:
+    "@wry/context" "^0.4.0"
 
 optimist@^0.6.1:
   version "0.6.1"
@@ -7475,6 +9108,15 @@ os-homedir@^1.0.0, os-homedir@^1.0.1:
   version "1.0.2"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/os-homedir/-/os-homedir-1.0.2.tgz#ffbc4988336e0e833de0c168c7ef152121aa7fb3"
   integrity sha1-/7xJiDNuDoM94MFox+8VISGqf7M=
+
+os-locale@^2.0.0:
+  version "2.1.0"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/os-locale/-/os-locale-2.1.0.tgz#42bc2900a6b5b8bd17376c8e882b65afccf24bf2"
+  integrity sha1-QrwpAKa1uL0XN2yOiCtlr8zyS/I=
+  dependencies:
+    execa "^0.7.0"
+    lcid "^1.0.0"
+    mem "^1.1.0"
 
 os-locale@^3.0.0, os-locale@^3.1.0:
   version "3.1.0"
@@ -7606,6 +9248,13 @@ parallel-transform@^1.1.0:
     inherits "^2.0.3"
     readable-stream "^2.1.5"
 
+param-case@^2.1.0:
+  version "2.1.1"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/param-case/-/param-case-2.1.1.tgz#df94fd8cf6531ecf75e6bef9a0858fbc72be2247"
+  integrity sha1-35T9jPZTHs915r75oIWPvHK+Ikc=
+  dependencies:
+    no-case "^2.2.0"
+
 parent-module@^1.0.0:
   version "1.0.1"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/parent-module/-/parent-module-1.0.1.tgz#691d2709e78c79fae3a156622452d00762caaaa2"
@@ -7640,15 +9289,33 @@ parse-json@^4.0.0:
     error-ex "^1.3.1"
     json-parse-better-errors "^1.0.1"
 
+parse-json@^5.0.0:
+  version "5.0.0"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/parse-json/-/parse-json-5.0.0.tgz#73e5114c986d143efa3712d4ea24db9a4266f60f"
+  integrity sha1-c+URTJhtFD76NxLU6iTbmkJm9g8=
+  dependencies:
+    "@babel/code-frame" "^7.0.0"
+    error-ex "^1.3.1"
+    json-parse-better-errors "^1.0.1"
+    lines-and-columns "^1.1.6"
+
 parse5@4.0.0:
   version "4.0.0"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/parse5/-/parse5-4.0.0.tgz#6d78656e3da8d78b4ec0b906f7c08ef1dfe3f608"
   integrity sha1-bXhlbj2o14tOwLkG98CO8d/j9gg=
 
-parseurl@~1.3.2, parseurl@~1.3.3:
+parseurl@^1.3.2, parseurl@~1.3.2, parseurl@~1.3.3:
   version "1.3.3"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/parseurl/-/parseurl-1.3.3.tgz#9da19e7bee8d12dff0513ed5b76957793bc2e8d4"
   integrity sha1-naGee+6NEt/wUT7Vt2lXeTvC6NQ=
+
+pascal-case@^2.0.0:
+  version "2.0.1"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/pascal-case/-/pascal-case-2.0.1.tgz#2d578d3455f660da65eca18ef95b4e0de912761e"
+  integrity sha1-LVeNNFX2YNpl7KGO+VtODekSdh4=
+  dependencies:
+    camel-case "^3.0.0"
+    upper-case-first "^1.1.0"
 
 pascalcase@^0.1.1:
   version "0.1.1"
@@ -7659,6 +9326,13 @@ path-browserify@0.0.1:
   version "0.0.1"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/path-browserify/-/path-browserify-0.0.1.tgz#e6c4ddd7ed3aa27c68a20cc4e50e1a4ee83bbc4a"
   integrity sha1-5sTd1+06onxoogzE5Q4aTug7vEo=
+
+path-case@^2.1.0:
+  version "2.1.1"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/path-case/-/path-case-2.1.1.tgz#94b8037c372d3fe2906e465bb45e25d226e8eea5"
+  integrity sha1-lLgDfDctP+KQbkZbtF4l0ibo7qU=
+  dependencies:
+    no-case "^2.2.0"
 
 path-dirname@^1.0.0:
   version "1.0.2"
@@ -7714,6 +9388,11 @@ path-type@^3.0.0:
   dependencies:
     pify "^3.0.0"
 
+path-type@^4.0.0:
+  version "4.0.0"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/path-type/-/path-type-4.0.0.tgz#84ed01c0a7ba380afe09d90a8c180dcd9d03043b"
+  integrity sha1-hO0BwKe6OAr+CdkKjBgNzZ0DBDs=
+
 pbkdf2@^3.0.3:
   version "3.0.17"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/pbkdf2/-/pbkdf2-3.0.17.tgz#976c206530617b14ebb32114239f7b09336e93a6"
@@ -7735,7 +9414,7 @@ performance-now@^2.1.0:
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/performance-now/-/performance-now-2.1.0.tgz#6309f4e0e5fa913ec1c69307ae364b4b377c9e7b"
   integrity sha1-Ywn04OX6kT7BxpMHrjZLSzd8nns=
 
-picomatch@^2.0.4:
+picomatch@^2.0.4, picomatch@^2.0.5:
   version "2.1.1"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/picomatch/-/picomatch-2.1.1.tgz#ecdfbea7704adb5fe6fb47f9866c4c0e15e905c5"
   integrity sha1-7N++p3BK21/m+0f5hmxMDhXpBcU=
@@ -8216,6 +9895,11 @@ prettier@1.18.2:
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/prettier/-/prettier-1.18.2.tgz#6823e7c5900017b4bd3acf46fe9ac4b4d7bda9ea"
   integrity sha1-aCPnxZAAF7S9Os9G/prEtNe9qeo=
 
+prettier@1.19.1:
+  version "1.19.1"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/prettier/-/prettier-1.19.1.tgz#f7d7f5ff8a9cd872a7be4ca142095956a60797cb"
+  integrity sha1-99f1/4qc2HKnvkyhQglZVqYHl8s=
+
 pretty-format@^24.3.0, pretty-format@^24.9.0:
   version "24.9.0"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/pretty-format/-/pretty-format-24.9.0.tgz#12fac31b37019a4eea3c11aa9a959eb7628aa7c9"
@@ -8292,6 +9976,11 @@ prr@~1.0.1:
   version "1.0.1"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/prr/-/prr-1.0.1.tgz#d3fc114ba06995a45ec6893f484ceb1d78f5f476"
   integrity sha1-0/wRS6BplaRexok/SEzrHXj19HY=
+
+pseudomap@^1.0.2:
+  version "1.0.2"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/pseudomap/-/pseudomap-1.0.2.tgz#f052a28da70e618917ef0a8ac34c1ae5a68286b3"
+  integrity sha1-8FKijacOYYkX7wqKw0wa5aaChrM=
 
 psl@^1.1.24, psl@^1.1.28:
   version "1.5.0"
@@ -8650,10 +10339,50 @@ regjsparser@^0.6.0:
   dependencies:
     jsesc "~0.5.0"
 
+relay-compiler@7.1.0:
+  version "7.1.0"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/relay-compiler/-/relay-compiler-7.1.0.tgz#cd8657c98e4d36f59bc9301ca1dc174e7f373c1a"
+  integrity sha1-zYZXyY5NNvWbyTAcodwXTn83PBo=
+  dependencies:
+    "@babel/core" "^7.0.0"
+    "@babel/generator" "^7.0.0"
+    "@babel/parser" "^7.0.0"
+    "@babel/runtime" "^7.0.0"
+    "@babel/traverse" "^7.0.0"
+    "@babel/types" "^7.0.0"
+    babel-preset-fbjs "^3.3.0"
+    chalk "^2.4.1"
+    fast-glob "^2.2.2"
+    fb-watchman "^2.0.0"
+    fbjs "^1.0.0"
+    immutable "~3.7.6"
+    nullthrows "^1.1.1"
+    relay-runtime "7.1.0"
+    signedsource "^1.0.0"
+    yargs "^9.0.0"
+
+relay-runtime@7.1.0:
+  version "7.1.0"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/relay-runtime/-/relay-runtime-7.1.0.tgz#3a1b38cb55fae7ab2fbb404f7db7a5b900ef963f"
+  integrity sha1-Ohs4y1X656svu0BPfbeluQDvlj8=
+  dependencies:
+    "@babel/runtime" "^7.0.0"
+    fbjs "^1.0.0"
+
+remedial@^1.0.7:
+  version "1.0.8"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/remedial/-/remedial-1.0.8.tgz#a5e4fd52a0e4956adbaf62da63a5a46a78c578a0"
+  integrity sha1-peT9UqDklWrbr2LaY6WkanjFeKA=
+
 remove-trailing-separator@^1.0.1:
   version "1.1.0"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/remove-trailing-separator/-/remove-trailing-separator-1.1.0.tgz#c24bce2a283adad5bc3f58e0d48249b92379d8ef"
   integrity sha1-wkvOKig62tW8P1jg1IJJuSN52O8=
+
+remove-trailing-spaces@^1.0.6:
+  version "1.0.7"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/remove-trailing-spaces/-/remove-trailing-spaces-1.0.7.tgz#491f04e11d98880714d12429b0d0938cbe030ae6"
+  integrity sha1-SR8E4R2YiAcU0SQpsNCTjL4DCuY=
 
 repeat-element@^1.1.2:
   version "1.1.3"
@@ -8768,6 +10497,11 @@ resolve-from@^4.0.0:
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/resolve-from/-/resolve-from-4.0.0.tgz#4abcd852ad32dd7baabfe9b40e00a36db5f392e6"
   integrity sha1-SrzYUq0y3Xuqv+m0DgCjbbXzkuY=
 
+resolve-from@^5.0.0:
+  version "5.0.0"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/resolve-from/-/resolve-from-5.0.0.tgz#c35225843df8f776df21c57557bc087e9dfdfc69"
+  integrity sha1-w1IlhD3493bfIcV1V7wIfp39/Gk=
+
 resolve-url@^0.2.1:
   version "0.2.1"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/resolve-url/-/resolve-url-0.2.1.tgz#2c637fe77c893afd2a663fe21aa9080068e2052a"
@@ -8808,15 +10542,28 @@ restore-cursor@^2.0.0:
     onetime "^2.0.0"
     signal-exit "^3.0.2"
 
+restore-cursor@^3.1.0:
+  version "3.1.0"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/restore-cursor/-/restore-cursor-3.1.0.tgz#39f67c54b3a7a58cea5236d95cf0034239631f7e"
+  integrity sha1-OfZ8VLOnpYzqUjbZXPADQjljH34=
+  dependencies:
+    onetime "^5.1.0"
+    signal-exit "^3.0.2"
+
 ret@~0.1.10:
   version "0.1.15"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/ret/-/ret-0.1.15.tgz#b8a4825d5bdb1fc3f6f53c2bc33f81388681c7bc"
   integrity sha1-uKSCXVvbH8P29Twrwz+BOIaBx7w=
 
-retry@^0.12.0:
+retry@0.12.0, retry@^0.12.0:
   version "0.12.0"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/retry/-/retry-0.12.0.tgz#1b42a6266a21f07421d1b0b54b7dc167b01c013b"
   integrity sha1-G0KmJmoh8HQh0bC1S33BZ7AcATs=
+
+reusify@^1.0.0:
+  version "1.0.4"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/reusify/-/reusify-1.0.4.tgz#90da382b1e126efc02146e90845a88db12925d76"
+  integrity sha1-kNo4Kx4SbvwCFG6QhFqI2xKSXXY=
 
 rgb-regex@^1.0.1:
   version "1.0.1"
@@ -8969,6 +10716,11 @@ run-async@^2.2.0:
   dependencies:
     is-promise "^2.1.0"
 
+run-parallel@^1.1.9:
+  version "1.1.9"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/run-parallel/-/run-parallel-1.1.9.tgz#c9dd3a7cf9f4b2c4b6244e173a6ed866e61dd679"
+  integrity sha1-yd06fPn0ssS2JE4XOm7YZuYd1nk=
+
 run-queue@^1.0.0, run-queue@^1.0.3:
   version "1.0.3"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/run-queue/-/run-queue-1.0.3.tgz#e848396f057d223f24386924618e25694161ec47"
@@ -8990,7 +10742,7 @@ rxjs@^5.0.0-beta.11:
   dependencies:
     symbol-observable "1.0.1"
 
-rxjs@^6.4.0:
+rxjs@^6.3.3, rxjs@^6.4.0:
   version "6.5.3"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/rxjs/-/rxjs-6.5.3.tgz#510e26317f4db91a7eb1de77d9dd9ba0a4899a3a"
   integrity sha1-UQ4mMX9NuRp+sd532d2boKSJmjo=
@@ -9140,6 +10892,14 @@ send@0.17.1:
     range-parser "~1.2.1"
     statuses "~1.5.0"
 
+sentence-case@^2.1.0:
+  version "2.1.1"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/sentence-case/-/sentence-case-2.1.1.tgz#1f6e2dda39c168bf92d13f86d4a918933f667ed4"
+  integrity sha1-H24t2jnBaL+S0T+G1KkYkz9mftQ=
+  dependencies:
+    no-case "^2.2.0"
+    upper-case-first "^1.1.2"
+
 serialize-javascript@^1.7.0:
   version "1.9.1"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/serialize-javascript/-/serialize-javascript-1.9.1.tgz#cfc200aef77b600c47da9bb8149c943e798c2fdb"
@@ -9183,7 +10943,7 @@ set-value@^2.0.0, set-value@^2.0.1:
     is-plain-object "^2.0.3"
     split-string "^3.0.1"
 
-setimmediate@^1.0.4:
+setimmediate@^1.0.4, setimmediate@^1.0.5:
   version "1.0.5"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/setimmediate/-/setimmediate-1.0.5.tgz#290cbb232e306942d7d7ea9b83732ab7856f8285"
   integrity sha1-KQy7Iy4waULX1+qbg3Mqt4VvgoU=
@@ -9198,7 +10958,7 @@ setprototypeof@1.1.1:
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/setprototypeof/-/setprototypeof-1.1.1.tgz#7e95acb24aa92f5885e0abef5ba131330d4ae683"
   integrity sha1-fpWsskqpL1iF4KvvW6ExMw1K5oM=
 
-sha.js@^2.4.0, sha.js@^2.4.8:
+sha.js@^2.4.0, sha.js@^2.4.11, sha.js@^2.4.8:
   version "2.4.11"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/sha.js/-/sha.js-2.4.11.tgz#37a5cf0b81ecbc6943de109ba2960d1b26584ae7"
   integrity sha1-N6XPC4HsvGlD3hCbopYNGyZYSuc=
@@ -9240,6 +11000,18 @@ signal-exit@^3.0.0, signal-exit@^3.0.2:
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/signal-exit/-/signal-exit-3.0.2.tgz#b5fdc08f1287ea1178628e415e25132b73646c6d"
   integrity sha1-tf3AjxKH6hF4Yo5BXiUTK3NkbG0=
 
+signedsource@^1.0.0:
+  version "1.0.0"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/signedsource/-/signedsource-1.0.0.tgz#1ddace4981798f93bd833973803d80d52e93ad6a"
+  integrity sha1-HdrOSYF5j5O9gzlzgD2A1S6TrWo=
+
+simple-git@1.126.0:
+  version "1.126.0"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/simple-git/-/simple-git-1.126.0.tgz#0c345372275139c8433b8277f4b3e155092aa434"
+  integrity sha1-DDRTcidROchDO4J39LPhVQkqpDQ=
+  dependencies:
+    debug "^4.0.1"
+
 simple-swizzle@^0.2.2:
   version "0.2.2"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/simple-swizzle/-/simple-swizzle-0.2.2.tgz#a4da6b635ffcccca33f70d17cb92592de95e557a"
@@ -9262,6 +11034,11 @@ slash@^2.0.0:
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/slash/-/slash-2.0.0.tgz#de552851a1759df3a8f206535442f5ec4ddeab44"
   integrity sha1-3lUoUaF1nfOo8gZTVEL17E3eq0Q=
 
+slash@^3.0.0:
+  version "3.0.0"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/slash/-/slash-3.0.0.tgz#6539be870c165adbd5240220dbe361f1bc4d4634"
+  integrity sha1-ZTm+hwwWWtvVJAIg2+Nh8bxNRjQ=
+
 slice-ansi@0.0.4:
   version "0.0.4"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/slice-ansi/-/slice-ansi-0.0.4.tgz#edbf8903f66f7ce2f8eafd6ceed65e264c831b35"
@@ -9275,6 +11052,13 @@ slice-ansi@^2.1.0:
     ansi-styles "^3.2.0"
     astral-regex "^1.0.0"
     is-fullwidth-code-point "^2.0.0"
+
+snake-case@^2.1.0:
+  version "2.1.0"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/snake-case/-/snake-case-2.1.0.tgz#41bdb1b73f30ec66a04d4e2cad1b76387d4d6d9f"
+  integrity sha1-Qb2xtz8w7GagTU4srRt2OH1NbZ8=
+  dependencies:
+    no-case "^2.2.0"
 
 snapdragon-node@^2.0.1:
   version "2.1.1"
@@ -9378,7 +11162,7 @@ source-map-support@0.5.13:
     buffer-from "^1.0.0"
     source-map "^0.6.0"
 
-source-map-support@^0.5.5, source-map-support@^0.5.6, source-map-support@~0.5.12:
+source-map-support@^0.5.12, source-map-support@^0.5.5, source-map-support@^0.5.6, source-map-support@~0.5.12:
   version "0.5.16"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/source-map-support/-/source-map-support-0.5.16.tgz#0ae069e7fe3ba7538c64c98515e35339eac5a042"
   integrity sha1-CuBp5/47p1OMZMmFFeNTOerFoEI=
@@ -9580,6 +11364,11 @@ stream-to-observable@^0.1.0:
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/stream-to-observable/-/stream-to-observable-0.1.0.tgz#45bf1d9f2d7dc09bed81f1c307c430e68b84cffe"
   integrity sha1-Rb8dny19wJvtgfHDB8Qw5ouEz/4=
 
+streamsearch@0.1.2:
+  version "0.1.2"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/streamsearch/-/streamsearch-0.1.2.tgz#808b9d0e56fc273d809ba57338e929919a1a9f1a"
+  integrity sha1-gIudDlb8Jz2Am6VzOOkpkZoanxo=
+
 strict-uri-encode@^1.0.0:
   version "1.1.0"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/strict-uri-encode/-/strict-uri-encode-1.1.0.tgz#279b225df1d582b1f54e65addd4352e18faa0713"
@@ -9763,6 +11552,17 @@ stylus@0.54.5:
     sax "0.5.x"
     source-map "0.1.x"
 
+subscriptions-transport-ws@^0.9.11, subscriptions-transport-ws@^0.9.16:
+  version "0.9.16"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/subscriptions-transport-ws/-/subscriptions-transport-ws-0.9.16.tgz#90a422f0771d9c32069294c08608af2d47f596ec"
+  integrity sha1-kKQi8HcdnDIGkpTAhgivLUf1luw=
+  dependencies:
+    backo2 "^1.0.2"
+    eventemitter3 "^3.1.0"
+    iterall "^1.2.1"
+    symbol-observable "^1.0.4"
+    ws "^5.2.0"
+
 supports-color@5.5.0, supports-color@^5.3.0, supports-color@^5.4.0:
   version "5.5.0"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/supports-color/-/supports-color-5.5.0.tgz#e2e69a44ac8772f78a1ec0b35b689df6530efc8f"
@@ -9789,6 +11589,13 @@ supports-color@^6.1.0:
   dependencies:
     has-flag "^3.0.0"
 
+supports-color@^7.1.0:
+  version "7.1.0"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/supports-color/-/supports-color-7.1.0.tgz#68e32591df73e25ad1c4b49108a2ec507962bfd1"
+  integrity sha1-aOMlkd9z4lrRxLSRCKLsUHliv9E=
+  dependencies:
+    has-flag "^4.0.0"
+
 svgo@^1.0.0:
   version "1.3.2"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/svgo/-/svgo-1.3.2.tgz#b6dc511c063346c9e415b81e43401145b96d4167"
@@ -9808,10 +11615,23 @@ svgo@^1.0.0:
     unquote "~1.1.1"
     util.promisify "~1.0.0"
 
+swap-case@^1.1.0:
+  version "1.1.2"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/swap-case/-/swap-case-1.1.2.tgz#c39203a4587385fad3c850a0bd1bcafa081974e3"
+  integrity sha1-w5IDpFhzhfrTyFCgvRvK+ggZdOM=
+  dependencies:
+    lower-case "^1.1.1"
+    upper-case "^1.1.1"
+
 symbol-observable@1.0.1:
   version "1.0.1"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/symbol-observable/-/symbol-observable-1.0.1.tgz#8340fc4702c3122df5d22288f88283f513d3fdd4"
   integrity sha1-g0D8RwLDEi310iKI+IKD9RPT/dQ=
+
+symbol-observable@^1.0.2, symbol-observable@^1.0.4, symbol-observable@^1.1.0:
+  version "1.2.0"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/symbol-observable/-/symbol-observable-1.2.0.tgz#c22688aed4eab3cdc2dfeacbb561660560a00804"
+  integrity sha1-wiaIrtTqs83C3+rLtWFmBWCgCAQ=
 
 symbol-tree@^3.2.2:
   version "3.2.4"
@@ -9939,6 +11759,14 @@ timsort@^0.3.0:
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/timsort/-/timsort-0.3.0.tgz#405411a8e7e6339fe64db9a234de11dc31e02bd4"
   integrity sha1-QFQRqOfmM5/mTbmiNN4R3DHgK9Q=
 
+title-case@^2.1.0:
+  version "2.1.1"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/title-case/-/title-case-2.1.1.tgz#3e127216da58d2bc5becf137ab91dae3a7cd8faa"
+  integrity sha1-PhJyFtpY0rxb7PE3q5Ha46fNj6o=
+  dependencies:
+    no-case "^2.2.0"
+    upper-case "^1.0.3"
+
 tmp@0.0.33, tmp@^0.0.33:
   version "0.0.33"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/tmp/-/tmp-0.0.33.tgz#6d34335889768d21b2bcda0aa277ced3b1bfadf9"
@@ -10043,6 +11871,13 @@ trim-right@^1.0.1:
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/trim-right/-/trim-right-1.0.1.tgz#cb2e1203067e0c8de1f614094b9fe45704ea6003"
   integrity sha1-yy4SAwZ+DI3h9hQJS5/kVwTqYAM=
 
+ts-invariant@^0.4.0, ts-invariant@^0.4.4:
+  version "0.4.4"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/ts-invariant/-/ts-invariant-0.4.4.tgz#97a523518688f93aafad01b0e80eb803eb2abd86"
+  integrity sha1-l6UjUYaI+TqvrQGw6A64A+sqvYY=
+  dependencies:
+    tslib "^1.9.3"
+
 ts-jest@24.0.0:
   version "24.0.0"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/ts-jest/-/ts-jest-24.0.0.tgz#3f26bf2ec1fa584863a5a9c29bd8717d549efbf6"
@@ -10080,6 +11915,11 @@ ts-loader@5.4.5:
     micromatch "^3.1.4"
     semver "^5.0.1"
 
+ts-log@2.1.4:
+  version "2.1.4"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/ts-log/-/ts-log-2.1.4.tgz#063c5ad1cbab5d49d258d18015963489fb6fb59a"
+  integrity sha1-Bjxa0curXUnSWNGAFZY0iftvtZo=
+
 ts-node@~7.0.0:
   version "7.0.1"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/ts-node/-/ts-node-7.0.1.tgz#9562dc2d1e6d248d24bc55f773e3f614337d9baf"
@@ -10113,7 +11953,7 @@ tsconfig-paths@^3.4.0:
     minimist "^1.2.0"
     strip-bom "^3.0.0"
 
-tslib@1.10.0, tslib@^1.8.0, tslib@^1.8.1, tslib@^1.9.0:
+tslib@1.10.0, tslib@^1.10.0, tslib@^1.8.0, tslib@^1.8.1, tslib@^1.9.0, tslib@^1.9.3:
   version "1.10.0"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/tslib/-/tslib-1.10.0.tgz#c3c19f95973fb0a62973fb09d90d961ee43e5c8a"
   integrity sha1-w8GflZc/sKYpc/sJ2Q2WHuQ+XIo=
@@ -10179,7 +12019,12 @@ type-fest@^0.5.2:
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/type-fest/-/type-fest-0.5.2.tgz#d6ef42a0356c6cd45f49485c3b6281fc148e48a2"
   integrity sha1-1u9CoDVsbNRfSUhcO2KB/BSOSKI=
 
-type-is@~1.6.17, type-is@~1.6.18:
+type-fest@^0.8.1:
+  version "0.8.1"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/type-fest/-/type-fest-0.8.1.tgz#09e249ebde851d3b1e48d27c105444667f17b83d"
+  integrity sha1-CeJJ696FHTseSNJ8EFREZn8XuD0=
+
+type-is@^1.6.16, type-is@~1.6.17, type-is@~1.6.18:
   version "1.6.18"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/type-is/-/type-is-1.6.18.tgz#4e552cd05df09467dcbc4ef739de89f2cf37c131"
   integrity sha1-TlUs0F3wlGfcvE73Od6J8s83wTE=
@@ -10196,6 +12041,11 @@ typescript@3.5.3, typescript@~3.5.3:
   version "3.5.3"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/typescript/-/typescript-3.5.3.tgz#c830f657f93f1ea846819e929092f5fe5983e977"
   integrity sha1-yDD2V/k/HqhGgZ6SkJL1/lmD6Xc=
+
+ua-parser-js@^0.7.18:
+  version "0.7.20"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/ua-parser-js/-/ua-parser-js-0.7.20.tgz#7527178b82f6a62a0f243d1f94fd30e3e3c21098"
+  integrity sha1-dScXi4L2pioPJD0flP0w4+PCEJg=
 
 uglify-js@^3.1.4:
   version "3.7.1"
@@ -10295,6 +12145,18 @@ upath@^1.1.1:
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/upath/-/upath-1.2.0.tgz#8f66dbcd55a883acdae4408af8b035a5044c1894"
   integrity sha1-j2bbzVWog6za5ECK+LA1pQRMGJQ=
 
+upper-case-first@^1.1.0, upper-case-first@^1.1.2:
+  version "1.1.2"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/upper-case-first/-/upper-case-first-1.1.2.tgz#5d79bedcff14419518fd2edb0a0507c9b6859115"
+  integrity sha1-XXm+3P8UQZUY/S7bCgUHybaFkRU=
+  dependencies:
+    upper-case "^1.1.1"
+
+upper-case@^1.0.3, upper-case@^1.1.0, upper-case@^1.1.1, upper-case@^1.1.3:
+  version "1.1.3"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/upper-case/-/upper-case-1.1.3.tgz#f6b4501c2ec4cdd26ba78be7222961de77621598"
+  integrity sha1-9rRQHC7EzdJrp4vnIilh3ndiFZg=
+
 uri-js@^4.2.2:
   version "4.2.2"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/uri-js/-/uri-js-4.2.2.tgz#94c540e1ff772956e2299507c010aea6c8838eb0"
@@ -10360,7 +12222,7 @@ utils-merge@1.0.1:
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/utils-merge/-/utils-merge-1.0.1.tgz#9f95710f50a267947b2ccc124741c1028427e713"
   integrity sha1-n5VxD1CiZ5R7LMwSR0HBAoQn5xM=
 
-uuid@^3.0.1, uuid@^3.3.2:
+uuid@^3.0.1, uuid@^3.1.0, uuid@^3.3.2:
   version "3.3.3"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/uuid/-/uuid-3.3.3.tgz#4568f0216e78760ee1dbf3a4d2cf53e224112866"
   integrity sha1-RWjwIW54dg7h2/Ok0s9T4iQRKGY=
@@ -10370,6 +12232,11 @@ v8-compile-cache@^2.0.3:
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/v8-compile-cache/-/v8-compile-cache-2.1.0.tgz#e14de37b31a6d194f5690d67efc4e7f6fc6ab30e"
   integrity sha1-4U3jezGm0ZT1aQ1n78Tn9vxqsw4=
 
+valid-url@1.0.9:
+  version "1.0.9"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/valid-url/-/valid-url-1.0.9.tgz#1c14479b40f1397a75782f115e4086447433a200"
+  integrity sha1-HBRHm0DxOXp1eC8RXkCGRHQzogA=
+
 validate-npm-package-license@^3.0.1:
   version "3.0.4"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/validate-npm-package-license/-/validate-npm-package-license-3.0.4.tgz#fc91f6b9c7ba15c857f4cb2c5defeec39d4f410a"
@@ -10378,7 +12245,7 @@ validate-npm-package-license@^3.0.1:
     spdx-correct "^3.0.0"
     spdx-expression-parse "^3.0.0"
 
-vary@~1.1.2:
+vary@^1, vary@~1.1.2:
   version "1.1.2"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
   integrity sha1-IpnwLG3tMNSllhsLn3RSShj2NPw=
@@ -10595,6 +12462,11 @@ whatwg-encoding@^1.0.1, whatwg-encoding@^1.0.3:
   dependencies:
     iconv-lite "0.4.24"
 
+whatwg-fetch@3.0.0, whatwg-fetch@>=0.10.0:
+  version "3.0.0"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/whatwg-fetch/-/whatwg-fetch-3.0.0.tgz#fc804e458cc460009b1a2b966bc8817d2578aefb"
+  integrity sha1-/IBORYzEYACbGiuWa8iBfSV4rvs=
+
 whatwg-mimetype@^2.1.0, whatwg-mimetype@^2.2.0:
   version "2.3.0"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/whatwg-mimetype/-/whatwg-mimetype-2.3.0.tgz#3d4b1e0312d2079879f826aff18dbeeca5960fbf"
@@ -10681,7 +12553,15 @@ wrap-ansi@^2.0.0:
     string-width "^1.0.1"
     strip-ansi "^3.0.1"
 
-wrap-ansi@^5.1.0:
+wrap-ansi@^3.0.1:
+  version "3.0.1"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/wrap-ansi/-/wrap-ansi-3.0.1.tgz#288a04d87eda5c286e060dfe8f135ce8d007f8ba"
+  integrity sha1-KIoE2H7aXChuBg3+jxNc6NAH+Lo=
+  dependencies:
+    string-width "^2.1.1"
+    strip-ansi "^4.0.0"
+
+wrap-ansi@^5.0.0, wrap-ansi@^5.1.0:
   version "5.1.0"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/wrap-ansi/-/wrap-ansi-5.1.0.tgz#1fd1f67235d5b6d0fee781056001bfb694c03b09"
   integrity sha1-H9H2cjXVttD+54EFYAG/tpTAOwk=
@@ -10718,7 +12598,7 @@ ws@^5.2.0:
   dependencies:
     async-limiter "~1.0.0"
 
-ws@^6.2.1:
+ws@^6.0.0, ws@^6.2.1:
   version "6.2.1"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/ws/-/ws-6.2.1.tgz#442fdf0a47ed64f59b6a5d8ff130f4748ed524fb"
   integrity sha1-RC/fCkftZPWbal2P8TD0dI7VJPs=
@@ -10745,10 +12625,22 @@ y18n@^3.2.1:
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/y18n/-/y18n-4.0.0.tgz#95ef94f85ecc81d007c264e190a120f0a3c8566b"
   integrity sha1-le+U+F7MgdAHwmThkKEg8KPIVms=
 
+yallist@^2.1.2:
+  version "2.1.2"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/yallist/-/yallist-2.1.2.tgz#1c11f9218f076089a47dd512f93c6699a6a81d52"
+  integrity sha1-HBH5IY8HYImkfdUS+TxmmaaoHVI=
+
 yallist@^3.0.0, yallist@^3.0.2, yallist@^3.0.3:
   version "3.1.1"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/yallist/-/yallist-3.1.1.tgz#dbb7daf9bfd8bac9ab45ebf602b8cbad0d5d08fd"
   integrity sha1-27fa+b/YusmrRev2ArjLrQ1dCP0=
+
+yaml@^1.7.2:
+  version "1.7.2"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/yaml/-/yaml-1.7.2.tgz#f26aabf738590ab61efaca502358e48dc9f348b2"
+  integrity sha1-8mqr9zhZCrYe+spQI1jkjcnzSLI=
+  dependencies:
+    "@babel/runtime" "^7.6.3"
 
 yargs-parser@10.0.0:
   version "10.0.0"
@@ -10779,6 +12671,13 @@ yargs-parser@^13.0.0, yargs-parser@^13.1.1:
   dependencies:
     camelcase "^5.0.0"
     decamelize "^1.2.0"
+
+yargs-parser@^7.0.0:
+  version "7.0.0"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/yargs-parser/-/yargs-parser-7.0.0.tgz#8d0ac42f16ea55debd332caf4c4038b3e3f5dfd9"
+  integrity sha1-jQrELxbqVd69MyyvTEA4s+P139k=
+  dependencies:
+    camelcase "^4.1.0"
 
 yargs-parser@^9.0.2:
   version "9.0.2"
@@ -10856,6 +12755,25 @@ yargs@^13.3.0:
     y18n "^4.0.0"
     yargs-parser "^13.1.1"
 
+yargs@^9.0.0:
+  version "9.0.1"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/yargs/-/yargs-9.0.1.tgz#52acc23feecac34042078ee78c0c007f5085db4c"
+  integrity sha1-UqzCP+7Kw0BCB47njAwAf1CF20w=
+  dependencies:
+    camelcase "^4.1.0"
+    cliui "^3.2.0"
+    decamelize "^1.1.1"
+    get-caller-file "^1.0.1"
+    os-locale "^2.0.0"
+    read-pkg-up "^2.0.0"
+    require-directory "^2.1.1"
+    require-main-filename "^1.0.1"
+    set-blocking "^2.0.0"
+    string-width "^2.0.0"
+    which-module "^2.0.0"
+    y18n "^3.2.1"
+    yargs-parser "^7.0.0"
+
 yauzl@2.10.0:
   version "2.10.0"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/yauzl/-/yauzl-2.10.0.tgz#c7eb17c93e112cb1086fa6d8e51fb0667b79a5f9"
@@ -10875,3 +12793,16 @@ yn@^2.0.0:
   version "2.0.0"
   resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/yn/-/yn-2.0.0.tgz#e5adabc8acf408f6385fc76495684c88e6af689a"
   integrity sha1-5a2ryKz0CPY4X8dklWhMiOavaJo=
+
+zen-observable-ts@^0.8.20:
+  version "0.8.20"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/zen-observable-ts/-/zen-observable-ts-0.8.20.tgz#44091e335d3fcbc97f6497e63e7f57d5b516b163"
+  integrity sha1-RAkeM10/y8l/ZJfmPn9X1bUWsWM=
+  dependencies:
+    tslib "^1.9.3"
+    zen-observable "^0.8.0"
+
+zen-observable@^0.8.0:
+  version "0.8.15"
+  resolved "https://esisoj70.emea.nsn-net.net:443/artifactory/api/npm/npmjs-remote/zen-observable/-/zen-observable-0.8.15.tgz#96415c512d8e3ffd920afd3889604e30b9eaac15"
+  integrity sha1-lkFcUS2OP/2SCv04iWBOMLnqrBU=

@@ -1,24 +1,16 @@
-import React, { useEffect, useState } from 'react';
+import React, {} from 'react';
+import { GetBooks } from 'apps/tutorial-react/src/app/components/get-books-query';
+import { BorrowBooks } from 'apps/tutorial-react/src/app/components/borrow-book-mutation';
+import { BorrowBocksSubscription } from 'apps/tutorial-react/src/app/components/borrow-books-channel-subscribtion';
+import { GetBooksCache } from 'apps/tutorial-react/src/app/components/get-books-cache-query';
+import { ReadCacheComponent } from 'apps/tutorial-react/src/app/components/read-cache-query';
 
 export const App = () => {
-  // const [m, setMessage] = useState<Message>({ message: '' });
-  //
-  // useEffect(() => {
-  //   fetch('/api')
-  //     .then(r => r.json())
-  //     .then(setMessage);
-  // }, []);
-
   return (
     <>
       <div style={{ textAlign: 'center' }}>
-        <h1>Welcome to tutorial-react!</h1>
-        <img
-          width="450"
-          src="https://raw.githubusercontent.com/nrwl/nx/master/nx-logo.png"
-        />
+        <GetBooks/>
       </div>
-
     </>
   );
 };
