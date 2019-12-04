@@ -29,6 +29,7 @@
     "@apollo/react-components": "^3.1.3",
     "@apollo/react-hooks": "^3.1.3",
     "@graphql-modules/core": "^0.7.13",
+    "@reduxjs/toolkit": "^1.1.0",
     "apollo-boost": "^0.4.4",
     "apollo-link-ws": "^1.0.19",
     "apollo-server": "^2.9.0",
@@ -42,9 +43,15 @@
     "http": "^0.0.0",
     "react": "16.12.0",
     "react-dom": "16.12.0",
-    "subscriptions-transport-ws": "^0.9.16"
+    "react-redux": "^7.1.3",
+    "redux": "^4.0.4",
+    "redux-ngrx-entity": "^7.0.1",
+    "redux-observable": "^1.2.0",
+    "subscriptions-transport-ws": "^0.9.16",
+    "reselect": "^4.0.0"
   },
   "devDependencies": {
+    "@types/react-redux": "^7.1.5",
     "@babel/preset-react": "7.7.4",
     "@graphql-codegen/cli": "^1.9.1",
     "@graphql-codegen/typescript": "^1.9.1",

@@ -2,5 +2,6 @@ query getBooks {
   books {
     author
     title
+    id
   }
 }
