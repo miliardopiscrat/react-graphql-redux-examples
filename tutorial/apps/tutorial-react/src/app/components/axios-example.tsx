@@ -13,7 +13,6 @@ type Books = {
 
 const output = axios.get<Books>('https://www.googleapis.com/books/v1/volumes?q=harry+potter');
 
-
 export const AxiosExample: FC = () => {
   const [books, setBooks] = useState({} as Books);
 

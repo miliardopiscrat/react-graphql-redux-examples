@@ -11,7 +11,7 @@ export const GetBooks = () => {
     if (data) {
       dispatch(loadBooksAction(data.books as Book[]));
     }
-  }, [data]);
+  }, [data, dispatch]);
 
   return (<div style={{ 'display': 'grid', 'gridAutoFlow': 'row' }}>
     {data && data.books.map((book, index) => <div key={index}>{book.title}</div>)}

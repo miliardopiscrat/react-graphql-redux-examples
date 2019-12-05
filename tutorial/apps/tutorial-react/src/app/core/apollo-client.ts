@@ -6,6 +6,7 @@ import { getMainDefinition } from 'apollo-utilities';
 import ApolloClient from 'apollo-client';
 import { InMemoryCache, NormalizedCacheObject } from 'apollo-cache-inmemory';
 import { schema } from '@tutorial/api-interfaces';
+import { environment } from 'apps/tutorial-react/src/environments/environment';
 
 export const createClient = (): ApolloClient<NormalizedCacheObject> => {
   const wsLink = new WebSocketLink(new SubscriptionClient(`ws://${window.location.hostname}:3333/graphql`, {
@@ -28,7 +29,7 @@ export const createClient = (): ApolloClient<NormalizedCacheObject> => {
     cache: new InMemoryCache(),
     resolvers: {
     },
-    connectToDevTools: true,
+    connectToDevTools: !environment.production,
     typeDefs: schema
   });
 };

@@ -5,8 +5,8 @@ import { borrowBookAction } from 'apps/tutorial-react/src/app/core/books-reducer
 
 export const BorrowBooks = () => {
   const [borrowId, setBorrowId] = useState('0');
-  const [mutationFunction, { data, error, loading, client }] = useBorrowBookMutation({});
   const [result, setResult] = useState(false);
+  const [mutationFunction, { data, error, loading, client }] = useBorrowBookMutation({});
   const dispatch = useDispatch();
 
   useEffect(() => {
@@ -14,7 +14,7 @@ export const BorrowBooks = () => {
       setResult(data.borrowBook);
       client.writeData({ data: { lastBorrowBookSuccess: data.borrowBook } });
     }
-  }, [data]);
+  }, [data, client]);
 
   return (<>
     <input type="text" value={`${borrowId}`}
