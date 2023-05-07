@@ -57,7 +57,7 @@
   "devDependencies": {
     "@types/react-redux": "^7.1.5",
     "@babel/preset-react": "7.7.4",
-    "@graphql-codegen/cli": "^1.9.1",
+    "@graphql-codegen/cli": "^1.21.8",
     "@graphql-codegen/typescript": "^1.9.1",
     "@graphql-codegen/typescript-operations": "^1.9.1",
     "@graphql-codegen/typescript-react-apollo": "^1.9.1",
@@ -78,7 +78,7 @@
     "@types/react-dom": "16.9.4",
     "@typescript-eslint/eslint-plugin": "2.3.2",
     "@typescript-eslint/parser": "2.3.2",
-    "cypress": "3.6.1",
+    "cypress": "12.11.0",
     "dotenv": "6.2.0",
     "eslint": "6.1.0",
     "eslint-config-prettier": "6.0.0",
